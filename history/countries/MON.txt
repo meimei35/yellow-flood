@@ -15,6 +15,10 @@ set_popularities = {
 	social_liberal = 0
 }
 
+
+puppet = KRO 
+
+
 create_country_leader = {
 	name = "Prince Demchugdongrub"
 	desc = ""

@@ -1,6 +1,6 @@
 capital = 608
 set_politics = {
-	ruling_party = social_conservative
+	ruling_party = authoritarian_democrat 
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = yes
@@ -9,10 +9,10 @@ set_politics = {
 
 set_popularities = {
 	social_democrat = 6
-	social_liberal = 0
-	social_conservative = 54
+	social_liberal = 54
+	social_conservative = 20
 	authoritarian_democrat = 20
-	despotism = 20
+	despotism = 0
 }
 
 
@@ -23,6 +23,10 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = social_conservative_subtype
 }
+
+puppet = UQI
+puppet = SIO 
+
 
 add_ideas = {
 	SIR_military_poltics
