@@ -3,7 +3,7 @@ set_politics = {
 	ruling_party = authoritarian_democrat 
 	last_election = "1935.3.5"
 	election_frequency = 48
-	elections_allowed = yes
+	elections_allowed = no
 }
 
 
@@ -21,8 +21,9 @@ create_country_leader = {
 	desc = ""
 	picture = "puyi.tga"
 	expire = "1999.1.1"
-	ideology = social_conservative_subtype
+	ideology = authoritarian_democrat_subtype
 }
+
 
 puppet = UQI
 puppet = SIO 
