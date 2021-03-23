@@ -1,0 +1,25 @@
+
+state={
+	id=827
+	name="STATE_827"
+
+	history={
+		owner = SIR
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 5
+			air_base = 3
+
+		}
+		add_core_of = SMO
+
+	}
+
+	provinces={
+		4528 5154 5189 5203 10415 10442 
+	}
+	manpower=914550
+	buildings_max_level_factor=1.000
+	state_category=city
+}

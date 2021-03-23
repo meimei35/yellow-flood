@@ -1,0 +1,29 @@
+
+state={
+	id=903
+	name="STATE_903"
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			10309 10 
+		}
+		victory_points = {
+			10137 25 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1248 4255 4363 4379 7229 10137 10180 10309 13240 
+	}
+	manpower=1456824
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

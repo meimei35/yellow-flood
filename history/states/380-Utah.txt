@@ -1,0 +1,29 @@
+
+state={
+	id=380
+	name="STATE_380"
+	resources={
+		tungsten=76.000
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			4865 1 
+		}
+
+	}
+
+	provinces={
+		850 1740 1756 4668 4742 4865 6887 7688 7888 9695 10535 10582 10662 12535 12561 12633 13153 
+	}
+	manpower=507846
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

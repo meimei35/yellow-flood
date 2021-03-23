@@ -1,0 +1,22 @@
+
+state={
+	id=728
+	name="STATE_728"
+
+	history={
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1625 4085 4134 4628 10039 10431 10459 12436 
+	}
+	manpower=1484738
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

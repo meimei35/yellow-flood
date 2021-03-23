@@ -1,0 +1,26 @@
+
+state={
+	id=571
+	name="STATE_571"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+
+		}
+		victory_points = {
+			10696 3 
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		1709 1800 4700 4780 7800 10568 10600 12652 
+	}
+	manpower=1317157
+	buildings_max_level_factor=1.000
+	state_category=town
+}

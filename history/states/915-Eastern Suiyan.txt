@@ -1,0 +1,22 @@
+
+state={
+	id=915
+	name="STATE_915"
+
+	history={
+		owner = RME
+		add_core_of = RME
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1723 4655 7048 7158 7631 10424 12331 12403 
+	}
+	manpower=778563
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

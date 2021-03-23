@@ -1,0 +1,24 @@
+state={
+	id=875
+	name="STATE_875"
+	history={
+		owner = MUS
+		victory_points = {
+			12333 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+		add_core_of = MUS
+		add_claim_by = PER
+
+	}
+	provinces={
+		1521 2000 5029 7491 10351 10510 12333 12359 
+	}
+	manpower=892018
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

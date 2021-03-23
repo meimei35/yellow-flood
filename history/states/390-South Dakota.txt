@@ -1,0 +1,26 @@
+
+state={
+	id=390
+	name="STATE_390"
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			1747 1 
+		}
+
+	}
+
+	provinces={
+		1836 4772 4880 7862 10569 10595 10685 12620 12667 
+	}
+	manpower=692849
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

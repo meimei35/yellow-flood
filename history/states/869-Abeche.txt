@@ -1,0 +1,23 @@
+
+state={
+	id=869
+	name="STATE_869"
+
+	history={
+		owner = HOJ
+		add_core_of = HOJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1883 3181 7919 
+	}
+	manpower=867181
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

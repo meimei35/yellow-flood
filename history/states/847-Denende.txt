@@ -1,0 +1,19 @@
+state={
+	id=847
+	name="STATE_847"
+	history={
+		owner = KAI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KAI
+
+	}
+	provinces={
+		1671 2976 3498 3800 4272 4695 6779 7901 8653 10527 12682 13075 13167 13168 13183 13185 13187 13189 
+	}
+	manpower=31415
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,20 @@
+state={
+	id=920
+	name="STATE_920"
+	history={
+		owner = MNG
+		add_core_of = MNG
+
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	provinces={
+		4375 10841 12141 
+	}
+	manpower=920491
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

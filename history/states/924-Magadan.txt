@@ -1,0 +1,22 @@
+
+state={
+	id=924
+	name="STATE_924"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = JAP
+
+	}
+
+	provinces={
+		1865 10540 12683 13273 13277 
+	}
+	manpower=30298
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

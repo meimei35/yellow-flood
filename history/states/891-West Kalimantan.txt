@@ -1,0 +1,15 @@
+state={
+	id=891
+	name="STATE_891"
+	history={
+		owner = RIN
+		add_core_of = RIN
+
+	}
+	provinces={
+		1316 2170 4335 4409 7227 8221 10282 10310 12280 12955 
+	}
+	manpower=458410
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

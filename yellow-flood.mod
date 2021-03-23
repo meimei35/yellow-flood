@@ -2,6 +2,12 @@ version="1"
 tags={
 	"Alternative History"
 }
+replace_path="events"
+replace_path="common/ideologies"
+replace_path="history/states"
+replace_path="common/ideologies"
+replace_path="common/countries"
+replace_path="history/countries"
 name="East Asian Empire mod"
 supported_version="1.10.4"
-path="/home/reimu/.local/share/Paradox Interactive/Hearts of Iron IV/mod/yellow-flood"
+path="mod/yellow-flood"

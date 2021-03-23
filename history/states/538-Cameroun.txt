@@ -1,0 +1,25 @@
+
+state={
+	id=538
+	name="STATE_538"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = NGD
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+
+	}
+
+	provinces={
+		1950 2073 8048 10951 11934 12808 
+	}
+	manpower=1693974
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,19 @@
+state={
+	id=832
+	name="STATE_832"
+	history={
+		owner = BOU
+		buildings = {
+			infrastructure = 2
+			arms_factory = 0
+
+		}
+
+	}
+	provinces={
+		1992 4889 4952 7978 8021 8034 10831 12900 
+	}
+	manpower=9110104
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,93 @@
+bookmarks = {
+	bookmark = {
+		name = "The Rising Sun"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "JAP"
+
+		"JAP"={
+			history = ""
+			ideas = {
+            }
+            focuses = {
+                
+            }
+			ideology = social_liberal
+		}
+
+		"UPK"={
+			history = ""
+			ideas = {
+            }
+            focuses = {
+                
+            }
+			ideology = social_democrat
+		}
+
+				
+		"KOR"= {
+			history = ""
+			ideas = {
+            }
+            focuses = {
+            }
+			ideology = social_liberal
+
+		}
+
+		"VIN"={
+			history = ""
+            ideas = {
+            }
+            focuses = {
+            }
+			ideology = social_conservative
+
+		}
+				
+		"SIR"= {
+			history = ""
+			ideas = {
+            }
+            focuses = {
+            }
+			ideology = social_conservative
+
+		}
+				
+		"MUS"= {
+			history = ""
+			ideas = {
+            }
+            focuses = {
+            }
+			ideology = despotism
+
+		}
+
+		"ENG"= {
+			history = ""
+			ideas = {
+            }
+            focuses = {
+            }
+			ideology = social_conservative
+
+		}
+
+		"RMR"= {
+			history = ""
+			ideas = {
+            }
+            focuses = {
+            }
+			ideology = despotism
+
+		}
+
+		effect = {
+			randomize_weather = 12345 
+		}
+	}
+}

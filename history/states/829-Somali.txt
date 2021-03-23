@@ -1,0 +1,19 @@
+state={
+	id=829
+	name="STATE_829"
+	history={
+		owner = AMA
+		add_core_of = AMA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1905 4995 12757 12812 
+	}
+	manpower=618194
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

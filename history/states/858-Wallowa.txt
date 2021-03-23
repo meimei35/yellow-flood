@@ -1,0 +1,20 @@
+state={
+	id=858
+	name="STATE_858"
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = UPK
+
+	}
+	provinces={
+		1862 4826 7721 7865 10305 10625 10687 12134 12553 12607 
+	}
+	manpower=353785
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

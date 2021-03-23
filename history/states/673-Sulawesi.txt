@@ -1,0 +1,32 @@
+
+state={
+	id=673
+	name="STATE_673"
+	resources={
+		rubber=30.000
+	}
+
+	history={
+		owner = RIN
+		add_core_of = RIN
+		victory_points = {
+			10263 3 
+		}
+		buildings = {
+			infrastructure = 3
+			10263 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1589 4349 4537 4564 7336 7598 10222 10263 10450 10464 12330 12444 
+	}
+	manpower=2132000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

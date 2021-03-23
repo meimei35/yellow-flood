@@ -1,0 +1,25 @@
+capital = 282
+
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democrat = 26
+	social_liberal = 0
+	social_conservative = 62
+	authoritarian_democrat = 0 
+	despotism = 4
+	market_liberal = 8
+}
+#LEADERS
+create_country_leader = {
+	name = "Bao Dai"
+	desc = ""
+	picture = "baodai.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=605
+	name="STATE_605"
+	resources={
+		steel=14.000
+	}
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 5
+			arms_factory = 3
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		victory_points = {
+			4925 5 
+		}
+		victory_points = {
+			6999 20 
+		}
+
+	}
+
+	provinces={
+		1367 1395 2045 4925 6999 7240 8026 10132 12705 12767 
+	}
+	manpower=32963300
+	buildings_max_level_factor=1.000
+	state_category=city
+}

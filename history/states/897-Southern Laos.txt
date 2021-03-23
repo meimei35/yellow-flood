@@ -1,0 +1,23 @@
+state={
+	id=897
+	name="STATE_897"
+	history={
+		owner = VIN
+		add_core_of = VIN
+		victory_points = {
+			1374 5
+		}
+		victory_points = {
+			1520 5
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces={
+		1374 1390 1520 1563 4260 4539 10195 10238 10453 12210 
+	}
+	manpower=340512
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

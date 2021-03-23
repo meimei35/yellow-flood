@@ -1,0 +1,25 @@
+
+state={
+	id=808
+	name="STATE_808"
+
+	history={
+		owner = PNI
+		victory_points = {
+			11610 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 3
+		}
+		add_core_of = PNI
+
+	}
+
+	provinces={
+		682 3670 3680 6685 6703 9608 9624 9643 11610 13125 
+	}
+	manpower=1139419
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

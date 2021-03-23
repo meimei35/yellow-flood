@@ -1,0 +1,32 @@
+
+state={
+	id=267
+	name="STATE_267"
+	resources={
+		tungsten=3.000
+	}
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12248 1 
+		}
+		victory_points = {
+			4893 1 
+		}
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		4893 7448 7584 7916 7984 10476 10852 10896 12248 12877 
+	}
+	manpower=1637140
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

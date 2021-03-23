@@ -1,0 +1,21 @@
+state={
+	id=819
+	name="STATE_819"
+	history={
+		owner = NGD
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			2096 1 
+		}
+
+	}
+	provinces={
+		1953 2096 7996 10764 10859 10877 10908 12800 12887 
+	}
+	manpower=413415
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

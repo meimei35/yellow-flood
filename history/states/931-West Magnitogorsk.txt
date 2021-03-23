@@ -1,0 +1,22 @@
+state={
+	id=931
+	name="STATE_931"
+	resources={
+		steel=12.000
+	}
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = MUS
+
+	}
+	provinces={
+		1334 1406 4261 4265 4311 4383 7300 7373 10136 10142 10185 10329 11223 12117 12200 
+	}
+	manpower=491828
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

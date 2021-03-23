@@ -1,0 +1,28 @@
+
+state={
+	id=94
+	name="STATE_94"
+
+	history={
+		owner = PLS
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			3392 1 
+		}
+		victory_points = {
+			560 1 
+		}
+		add_core_of = PLS
+
+	}
+
+	provinces={
+		560 3256 3392 3556 6280 6306 6415 6546 11285 11528 
+	}
+	manpower=732200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

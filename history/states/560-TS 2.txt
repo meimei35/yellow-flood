@@ -1,0 +1,25 @@
+
+state={
+	id=560
+	name="STATE_560"
+	resources={
+		steel=18.000
+	}
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		3664 4290 4844 7748 9659 10571 12559 12638 
+	}
+	manpower=37663
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=392
+	name="STATE_392"
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			1770 3 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1523 1586 1678 1770 1831 1867 4664 4691 4807 7306 7449 7458 7536 7539 7607 9892 9910 10333 10391 10478 10516 10666 11788 11971 12418 12577 12646 
+	}
+	manpower=2470938
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=939
+	name="STATE_939"
+	resources={
+		tungsten=36.000
+	}
+
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SCU
+
+	}
+
+	provinces={
+		61 201 6168 6170 6208 9147 11208 
+	}
+	manpower=91414
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

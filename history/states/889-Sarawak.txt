@@ -1,0 +1,29 @@
+state={
+	id=889
+	name="STATE_889"
+	resources={
+		rubber=16.000
+	}
+	history={
+		owner = SIR
+		victory_points = {
+			1208 1 
+		}
+		buildings = {
+			infrastructure = 3
+			1208 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SIR
+
+	}
+	provinces={
+		1208 1230 1304 2117 2222 4216 4279 4396 7443 8091 10285 12129 12283 12905 
+	}
+	manpower=401389
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+state={
+	id=893
+	name="STATE_893"
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10438 5 
+		}
+		victory_points = {
+			12417 5
+		}
+		add_core_of = VIN
+
+	}
+	provinces={
+		1244 1592 7601 10293 10438 12264 12417 12431 
+	}
+	manpower=1039848
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

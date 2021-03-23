@@ -1,0 +1,22 @@
+
+state={
+	id=575
+	name="STATE_575"
+
+	history={
+		owner = GUK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GUK
+
+	}
+
+	provinces={
+		6085 7726 9224 10557 12531 12608 12668 13059 
+	}
+	manpower=146494
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

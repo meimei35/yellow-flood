@@ -1,0 +1,29 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = ASS
+		victory_points = {
+			12883 1 
+		}
+		buildings = {
+			infrastructure = 3
+			12883 = {
+				naval_base = 5
+
+			}
+		}
+		add_core_of = HEJ
+		add_core_of = ASS
+
+	}
+
+	provinces={
+		1033 2027 2033 2095 4981 5037 7934 8092 10835 11976 12101 12883 
+	}
+	manpower=911000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

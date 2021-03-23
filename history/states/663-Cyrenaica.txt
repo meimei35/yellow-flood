@@ -1,0 +1,22 @@
+
+state={
+	id=663
+	name="STATE_663"
+
+	history={
+		owner = PRO
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		1062 4063 7139 10049 12025 
+	}
+	manpower=11816
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

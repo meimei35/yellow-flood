@@ -1,0 +1,25 @@
+
+state={
+	id=567
+	name="STATE_567"
+	resources={
+		aluminium=26.000
+	}
+
+	history={
+		owner = GUK
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = GUK
+
+	}
+
+	provinces={
+		1735 1803 4750 4808 7769 7802 7828 7876 7902 10549 10664 10699 
+	}
+	manpower=410183
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = DAL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = DAL
+
+	}
+
+	provinces={
+		606 6799 9588 9591 11572 11574 11741 11899 
+	}
+	manpower=22892
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

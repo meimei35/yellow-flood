@@ -1,0 +1,23 @@
+
+state={
+	id=527
+	name="STATE_527"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		898 959 3803 3860 6822 6922 6944 11878 
+	}
+	manpower=1693550
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

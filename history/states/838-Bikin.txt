@@ -1,0 +1,24 @@
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 4
+			dockyard = 1
+			air_base = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = KOR
+
+	}
+
+	provinces={
+		664 681 725 753 1504 3695 3723 3739 3753 6686 6715 9639 9641 11624 11629 11643 
+	}
+	manpower=34515
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

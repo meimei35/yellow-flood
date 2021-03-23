@@ -1,0 +1,24 @@
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+set_popularities = {
+	social_democrat = 6
+	social_liberal = 20
+	social_conservative = 54
+	authoritarian_democrat = 20
+	despotism = 0
+}
+
+
+create_country_leader = {
+	name = "J. Mayhew Wainwright"
+	desc = ""
+	picture = "Wainwright.dds"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}

@@ -1,0 +1,29 @@
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democrat = 24
+	social_liberal = 26
+	social_conservative = 25
+	despotism = 25
+}
+create_country_leader = {
+	name = "Lavr Kornilov"
+	desc = ""
+	picture = "lavr.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Boris Pasternak"
+	desc = ""
+	picture = "boris.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}

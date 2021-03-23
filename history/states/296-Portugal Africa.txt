@@ -1,0 +1,32 @@
+
+state={
+	id=296
+	name="STATE_296"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = SIO
+		victory_points = {
+			12891 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12891 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SIO
+
+	}
+
+	provinces={
+		1909 12858 
+	}
+	manpower=364900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

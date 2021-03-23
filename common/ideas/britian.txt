@@ -1,0 +1,72 @@
+ideas = {
+
+	country = {
+		ENG_royal_republic= {
+			picture = royal_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				stability_factor = 0.2
+			}
+		}
+		ENG_legacy_1912= {
+			picture = 1912_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				social_conservative_drift = 0.2
+				social_liberal_drift = 0.2
+				social_democrat_drift = 0.1
+				stability_factor = 0.2
+			}
+		}
+		ENG_rising_sun_of_west = {
+			picture = rising_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_speed_buildings_factor = 0.2
+				research_speed_factor = 0.05
+			}
+		}
+		
+		ENG_totalist_threat = {
+			picture = moslet_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.5
+				communist_drift = 0.05
+			}
+		}
+	}
+}

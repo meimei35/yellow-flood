@@ -1,0 +1,28 @@
+
+state={
+	id=780
+	name="STATE_780"
+
+	history={
+		owner = SIO
+		victory_points = {
+			1909 1 
+		}
+		buildings = {
+			infrastructure = 3
+			1909 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2094 4957 5039 8008 
+	}
+	manpower=195041
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

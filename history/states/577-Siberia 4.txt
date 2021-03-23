@@ -1,0 +1,25 @@
+
+state={
+	id=577
+	name="STATE_577"
+	resources={
+		oil=13.000
+	}
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		1726 1784 1856 4771 7781 7837 7882 10529 10533 10663 12542 12639 12672 
+	}
+	manpower=29299
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

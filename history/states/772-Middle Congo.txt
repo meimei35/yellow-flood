@@ -1,0 +1,28 @@
+
+state={
+	id=772
+	name="STATE_772"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = NGD
+		buildings = {
+			infrastructure = 3
+			12824 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		988 7931 10071 10883 12741 12824 
+	}
+	manpower=746415
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

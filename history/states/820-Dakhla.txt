@@ -1,0 +1,21 @@
+
+state={
+	id=820
+	name="STATE_820"
+
+	history={
+		owner = BOU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5012 10875 13251 13256 13259 13261 
+	}
+	manpower=51014
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

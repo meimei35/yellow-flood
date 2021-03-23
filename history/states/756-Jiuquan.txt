@@ -1,0 +1,22 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = RME
+		add_core_of = RME
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1778 1781 2028 4783 4786 4843 7727 7803 7864 7971 8102 10560 10770 10899 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

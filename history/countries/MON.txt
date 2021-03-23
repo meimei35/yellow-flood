@@ -1,0 +1,24 @@
+
+
+set_politics = {
+	ruling_party = despotism
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democrat = 0
+	social_liberal = 0
+	social_conservative = 0
+	despotism = 100
+	social_liberal = 0
+}
+
+create_country_leader = {
+	name = "Prince Demchugdongrub"
+	desc = ""
+	picture = "grub.tga"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}

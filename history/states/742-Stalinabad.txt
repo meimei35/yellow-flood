@@ -1,0 +1,25 @@
+
+state={
+	id=742
+	name="STATE_742"
+
+	history={
+		owner = MUS
+		victory_points = {
+			1384 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		1483 2058 4467 4542 4923 5062 7224 8027 10417 12250 12370 12430 12581 12805 
+	}
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

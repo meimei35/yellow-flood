@@ -1,0 +1,25 @@
+
+state={
+	id=748
+	name="STATE_748"
+
+	history={
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1010 3 
+		}
+
+	}
+
+	provinces={
+		1010 4141 4325 4431 5072 9939 10763 10819 11972 12841 
+	}
+	manpower=1393926
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

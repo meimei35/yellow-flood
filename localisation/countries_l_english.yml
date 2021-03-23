@@ -1,0 +1,144 @@
+﻿l_english:
+ #################
+ # North America #
+ #################
+ 
+ UPK:0 "United Provinces of Freedonia"
+
+ HUH_social_conservative:0 "Republic of Hunhenuo"
+ HUH_social_conservative_ADJ:0 "Chinese"
+ HUH_social_conservative_DEF:0 "the Republic of Hunhenuo"
+ 
+ HUH_social_liberal:0 "Republic of Hunhenuo"
+ HUH_social_liberal_ADJ:0 "Chinese"
+ HUH_social_liberal_DEF:0 "the Republic of Hunhenuo"
+ 
+ HUH_social_democrat:0 "Republic of Hunhenuo"
+ HUH_social_democrat_ADJ:0 "Chinese"
+ HUH_social_democrat_DEF:0 "the Republic of Hunhenuo"
+ 
+ KAI:0 "Kaisando"
+
+  
+ CHU:0 "Republik Neudeutschland"
+ YAS:0 "Yashimori"
+ HNN:0 "California"
+ KOU:0 "Kouchiuko"
+ KUB:0 "Kouba"
+ LOK:0 "Lok Federation"
+ TIA:0 "Tiaplim"
+ 
+ #################
+ # South America #
+ #################
+ TAW:0 "Tawantinsuyu"
+ HAE:0 "Haemaji"
+ TON:0 "Tonggan Republic"
+ CHK:0 "Chhakho"
+ TEN:0 "Tengkongna"
+ LAU:0 "Laufong"
+ TSU:0 "Shin-Nagoya"
+ HGT:0 "Hangtiong Federation"
+ LEN:0 "Lengchiu"
+ 
+ 
+ #######################
+ #      East Asia      #
+ #######################
+ JAP:0 "Nihon Empire"
+ KOR:0 "Samhan Empire" 
+ RME:0 "Chinese Worker's Army"
+ MIN:0 "Jyut Hon Republic"
+ SIR:0 "Zhili Empire"
+ MNG:0 "Su Han"
+ YUN:0 "Yunnan"
+ VIN:0 "Dai Hung Empire"
+ TIB:0 "Poltaka"
+ MON:0 "Mongolguk"
+ SIK:0 "Xinjiang Black Army"
+ KRO:0 "Dzungaria"
+ RIN:0 "Manlapgia Territory"
+ VXI:0 "Rungdai Territory"
+ BRM:0 "Taungoo Kingdom"
+ LUS:0 "Luzon Republic"
+ ###############
+ # Middle East #
+ ###############
+ TUR:0 "Eastern Rome"
+ AEG:0 "Kingdom of Egypt"
+ PER:0 "Persian Empire"
+ ASS:0 "Arabia"
+ ##########
+ # Europe #
+ ##########
+ ENG:0 "Commonwealth of Britain"
+ HOL:0 "Holland"
+ SCU:0 "Kingdom of Scandinavia"
+ IRE:0 "Ireland"
+ BER:0 "Berlin Commune"
+ PRS:0 "Commonwealth of France"
+ POL:0 "Polish Regency"
+ SLO:0 "Slovakia"
+ CKR:0 "Carpathian Ruthenia"
+ DAL:0 "Illyrian Protectorate"
+ THR:0 "Tsardom of Bulgaria"
+ AUS:0 "Austrian State"
+ BAY:0 "South German Union"
+ CZE:0 "Bohemia"
+ HUN:0 "Hungary"
+ PNI:0 "Hungarian Revolt"
+ TRA:0 "Banat Republic"
+ SLO:0 "Slovakia"
+ MUS:0 "Russian State"
+ RMR:0 "Roman Empire"
+ PRE:0 "Prussian State"
+ SPR:0 "Iberian State"
+ GUK:0 "Gukbuk"
+ OCC:0 "Free France"
+ RHI:0 "Rhenish Commune"
+ FFT:0 "Frankfurt"
+ HAM:0 "Dutchy of Hannover"
+ WEI:0 "Saxon Republic"
+ LIT:0 "Lithuania"
+ LAT:0 "Livonian Dutchy"
+ DEN:0 "Denmark"
+ ####################
+ #    South Asia    #
+ ####################
+ ORI:0 "Bon-Tenjiku Protectorate"
+ RAJ:0 "Indian Federation"
+ NEP:0 "Nepal"
+ PTK:0 "Poltaka"
+ ##########
+ # Africa #
+ ##########
+ ETH:0 "Ethiopian Empire"
+ 
+ GON:0 "Nanjing Regency"
+ 
+ AMA:0 "Aman Colony"
+ 
+ BOU:0 "Boubou Colony"
+ 
+ HOJ:0 "Toubou Colony"
+ 
+ BOQ:0 "South African Commonwealth"
+ 
+ PRO:0 "Roman North Africa"
+ 
+ MRT:0 "Roman Algeria"
+ 
+ BON:0 "Bonhoku Colony"
+ 
+ BBA:0 "Chunika Colony"
+ 
+ SHI:0 "Shishiyama Colony"
+ 
+ NGD:0 "Ngandelai Colony"
+ 
+ SIO:0 "Siongpang Colony"
+ 
+ UQI:0 "Uqin Colony" 
+ 
+ SMO:0 "South Mokukotsu"
+ ##########

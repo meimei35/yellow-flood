@@ -1,0 +1,25 @@
+
+state={
+	id=237
+	name="STATE_237"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MUS
+		victory_points = {
+			11724 1 
+		}
+
+	}
+
+	provinces={
+		481 745 759 3413 3439 3461 3475 3487 3746 3774 6463 6486 9426 9440 9455 9594 9705 9739 11566 11693 11724 
+	}
+	manpower=169620
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

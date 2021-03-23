@@ -1,0 +1,22 @@
+state={
+	id=882
+	name="STATE_882"
+	history={
+		owner = ASS
+		victory_points = {
+			12758 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ASS
+
+	}
+	provinces={
+		2057 2090 4968 5027 5099 10748 10892 12758 
+	}
+	manpower=193941
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

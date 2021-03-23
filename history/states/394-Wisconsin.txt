@@ -1,0 +1,29 @@
+
+state={
+	id=394
+	name="STATE_394"
+	resources={
+		steel=53.000
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			12357 5 
+		}
+
+	}
+
+	provinces={
+		703 709 751 926 1760 1849 3699 4029 4166 4738 4834 4854 5205 7776 7829 9678 10341 10526 10599 13159 
+	}
+	manpower=2939004
+	buildings_max_level_factor=1.000
+	state_category=city
+}

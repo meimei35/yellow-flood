@@ -1,0 +1,23 @@
+
+state={
+	id=621
+	name="STATE_621"
+
+	history={
+		owner = RME
+		add_core_of = RME
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1853 2087 4525 8055 10629 10724 12609 12880 
+	}
+	manpower=783700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

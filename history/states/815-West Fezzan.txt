@@ -1,0 +1,22 @@
+
+state={
+	id=815
+	name="STATE_815"
+
+	history={
+		owner = PRO
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		5004 10884 12022 12082 
+	}
+	manpower=24618
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

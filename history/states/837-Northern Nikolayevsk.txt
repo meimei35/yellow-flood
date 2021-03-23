@@ -1,0 +1,21 @@
+state={
+	id=837
+	name="STATE_837"
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 2
+			10577 = {
+				naval_base = 1
+
+			}
+		}
+		add_core_of = KOR
+	}
+	provinces={
+		1724 1772 1807 1842 7871 10577 10590 12569 
+	}
+	manpower=131412
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

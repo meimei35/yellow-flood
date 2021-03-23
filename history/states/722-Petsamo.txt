@@ -1,0 +1,33 @@
+
+state={
+	id=722
+	name="STATE_722"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 3
+			9140 = {
+				naval_base = 1
+
+			}
+			9116 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			9116 1 
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		74 142 178 6012 6117 6157 6183 9039 9116 9140 9203 11031 11128 11142 11183 
+	}
+	manpower=22371
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

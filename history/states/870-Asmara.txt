@@ -1,0 +1,25 @@
+state={
+	id=870
+	name="STATE_870"
+	history={
+		owner = ETH
+		add_core_of = ETH
+		victory_points = {
+			12766 1 
+		}
+		buildings = {
+			infrastructure = 2
+			12766 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+	provinces={
+		5047 5091 8043 12766 
+	}
+	manpower=429132
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

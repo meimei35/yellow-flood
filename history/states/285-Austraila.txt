@@ -1,0 +1,34 @@
+
+state={
+	id=285
+	name="STATE_285"
+
+	history={
+		owner = VXI
+		buildings = {
+			infrastructure = 3
+			12406 = {
+				naval_base = 3
+			}
+
+		}
+		victory_points = {
+			7859 3
+		}
+		victory_points = {
+			12406 10
+		}
+		victory_points = {
+			7520 1 
+		}
+		add_core_of = VXI
+
+	}
+
+	provinces={
+		1537 1667 1861 2114 2116 2146 2163 4453 4478 4500 4673 4763 4836 4864 5134 5161 7520 7533 7859 8234 8249 10388 10427 10455 10682 10941 10977 11019 12377 12406 12435 12532 12560 12934 12968 
+	}
+	manpower=2563100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

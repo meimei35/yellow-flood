@@ -1,0 +1,22 @@
+
+state={
+	id=917
+	name="STATE_917"
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		814 972 1508 3828 3881 3978 4514 6937 6988 7575 7633 9873 10331 10426 10429 11801 11855 12478 
+	}
+	manpower=390178
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

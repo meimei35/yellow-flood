@@ -1,0 +1,25 @@
+
+state={
+	id=96
+	name="STATE_96"
+
+	history={
+		victory_points = {
+			406 1 
+		}
+		owner = MUS
+		buildings = {
+			infrastructure = 4
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		233 277 358 406 6340 9236 9341 11391 
+	}
+	manpower=726000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

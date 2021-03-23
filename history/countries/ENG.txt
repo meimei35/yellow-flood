@@ -1,0 +1,31 @@
+set_politics = {
+	ruling_party = social_conservative
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+
+set_popularities = {
+	social_democrat = 20
+	social_liberal = 20
+	social_conservative = 54
+	authoritarian_democrat = 0
+	communist = 6
+}
+
+
+create_country_leader = {
+	name = "Anthony Eden"
+	desc = ""
+	picture = "fewfewefw.tga"
+	expire = "1999.1.1"
+	ideology = social_conservative_subtype
+}
+
+add_ideas = {
+	ENG_legacy_1912
+	ENG_royal_republic
+	ENG_rising_sun_of_west
+	ENG_totalist_threat
+}

@@ -1,0 +1,23 @@
+state={
+	id=843
+	name="STATE_843"
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = KOR
+
+	}
+	resources={
+		tungsten=32.000
+	}
+	provinces={
+		906 912 3912 6963 9795 9899 9918 11775 11828 11835 11896 
+	}
+	manpower=1693550
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

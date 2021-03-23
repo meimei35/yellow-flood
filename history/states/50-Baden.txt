@@ -1,0 +1,35 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		aluminium=6.000
+	}
+
+	history={
+		owner = BAY
+		victory_points = {
+			9517 20 
+		}
+		victory_points = {
+			11499 3 
+		}
+		buildings = {
+			infrastructure = 8
+			arms_factory = 5
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = BAY
+
+
+	}
+
+	provinces={
+		519 589 694 3530 3574 3679 3692 6542 6555 6568 6712 6934 9517 11486 11499 11640 13126 
+	}
+	manpower=5086854
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

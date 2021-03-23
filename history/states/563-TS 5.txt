@@ -1,0 +1,23 @@
+
+state={
+	id=563
+	name="STATE_563"
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+
+		}
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1826 10574 10643 12556 12641 
+	}
+	manpower=524310
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

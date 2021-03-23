@@ -1,0 +1,36 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+		aluminium=14.000
+	}
+
+	history={
+		owner = DAL
+		victory_points = {
+			11899 5 
+		}
+		victory_points = {
+			6983 3 
+		}
+		victory_points = {
+			9894 3 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = DAL
+
+	}
+
+	provinces={
+		953 3985 6614 6619 6942 6957 6983 9586 9894 9922 11845 11872 
+	}
+	manpower=2510200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

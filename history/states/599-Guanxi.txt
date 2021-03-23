@@ -1,0 +1,30 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+		tungsten=15.000
+		steel=15.000
+		chromium=3.000
+	}
+
+	history={
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		1469 1597 4028 4077 4656 7095 7137 7650 10050 
+	}
+	manpower=5685200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

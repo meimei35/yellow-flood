@@ -1,0 +1,38 @@
+
+state={
+	id=365
+	name="STATE_365"
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 3
+			air_base = 2
+			11975 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			12384 10 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		638 5090 7118 7612 9949 9967 10394 10437 10465 10492 11975 12384 
+	}
+	manpower=2908504
+	buildings_max_level_factor=1.000
+	state_category=city
+}

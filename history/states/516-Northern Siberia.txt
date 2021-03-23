@@ -1,0 +1,22 @@
+
+state={
+	id=516
+	name="STATE_516"
+
+	history={
+		owner = GUK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GUK
+
+	}
+
+	provinces={
+		2900 2923 2972 3184 3336 4692 4859 10607 11122 11261 11328 13060 13064 13297 13298 
+	}
+	manpower=43948
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

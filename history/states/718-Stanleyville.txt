@@ -1,0 +1,24 @@
+
+state={
+	id=718
+	name="STATE_718"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = NGD
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1181 2034 2154 4201 6027 7133 12783 12847 13176 
+	}
+	manpower=2366783
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

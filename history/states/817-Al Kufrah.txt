@@ -1,0 +1,22 @@
+
+state={
+	id=817
+	name="STATE_817"
+
+	history={
+		owner = PRO
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = PRO
+
+	}
+
+	provinces={
+		1057 1060 1140 4191 7076 10104 10785 13257 
+	}
+	manpower=2239
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

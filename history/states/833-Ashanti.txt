@@ -1,0 +1,25 @@
+state={
+	id=833
+	name="STATE_833"
+	history={
+		owner = SIO
+		victory_points = {
+			10862 1 
+		}
+		buildings = {
+			infrastructure = 2
+			10862 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+	provinces={
+		10862 12742 12787 13136 
+	}
+	manpower=2352651
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

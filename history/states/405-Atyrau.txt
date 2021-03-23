@@ -1,0 +1,23 @@
+
+state={
+	id=405
+	name="STATE_405"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		756 1216 1384 1919 10205 11687 12218 12239 12722 
+	}
+	manpower=2275820
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

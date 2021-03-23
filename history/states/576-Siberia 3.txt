@@ -1,0 +1,22 @@
+
+state={
+	id=576
+	name="STATE_576"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = MUS
+
+	}
+
+	provinces={
+		1679 1780 1828 1837 4681 4687 4730 4785 4842 7701 7707 7750 7849 10544 10576 10613 10617 10673 10686 10705 12514 12555 12595 12599 12655 12666 
+	}
+	manpower=117195
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

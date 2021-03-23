@@ -1,0 +1,22 @@
+
+state={
+	id=610
+	name="STATE_610"
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 4
+
+		}
+
+	}
+
+	provinces={
+		934 3814 3830 3900 3934 6837 6852 6898 9905 9927 11836 11886 
+	}
+	manpower=1075377
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

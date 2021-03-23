@@ -1,0 +1,26 @@
+
+state={
+	id=574
+	name="STATE_574"
+
+	history={
+		owner = GUK
+		victory_points = {
+			10641 1 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+		add_core_of = GUK
+
+	}
+
+	provinces={
+		1795 1852 1878 4726 4798 4821 7746 7765 7817 10589 10641 10701 10714 12611 
+	}
+	manpower=407866
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

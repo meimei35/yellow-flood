@@ -1,0 +1,35 @@
+
+state={
+	id=373
+	name="STATE_373"
+	resources={
+		aluminium=12.000
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 5
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			4569 10 
+		}
+		victory_points = {
+			10717 10 
+		}
+		victory_points = {
+			10370 1 
+		}
+
+	}
+
+	provinces={
+		1441 1534 1564 1621 1646 4444 4449 4540 4567 4569 4597 4625 7586 10370 10477 10717 12346 12361 12463 
+	}
+	manpower=3629365
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

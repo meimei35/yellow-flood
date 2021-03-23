@@ -1,0 +1,51 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		texturefile = "gfx/interface/ideologies/libsoc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_communist_group"
+		texturefile = "gfx/interface/ideologies/authsoc.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_market_liberal_group"
+		texturefile = "gfx/interface/ideologies/marketlib.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/progressive.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/libdem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/soccon.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_despotism_group"
+		texturefile = "gfx/interface/ideologies/despot.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_authoritarian_democrat_group"
+		texturefile = "gfx/interface/ideologies/authdem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_ultranational_socialism_group"
+		texturefile = "gfx/interface/ideologies/ultanat.dds"
+	}
+}

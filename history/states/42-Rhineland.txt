@@ -1,0 +1,33 @@
+
+state={
+	id=42
+	name="STATE_42"
+	resources={
+		steel=59.000
+		aluminium=14.000
+	}
+
+	history={
+		owner = HAM
+		victory_points = {
+			11435 1 
+		}
+		victory_points = {
+			11531 5 
+		}
+		buildings = {
+			infrastructure = 7
+
+
+		}
+		add_core_of = HAM
+
+	}
+
+	provinces={
+		241 
+	}
+	manpower=3027739
+	buildings_max_level_factor=1.000
+	state_category=town
+}

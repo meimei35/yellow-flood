@@ -1,0 +1,19 @@
+state={
+	id=928
+	name="STATE_928"
+	history={
+		owner = MUS
+		add_core_of = MUS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		1768 1812 4715 4817 7685 7768 7867 10592 10620 10692 12574 12602 
+	}
+	manpower=34917
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

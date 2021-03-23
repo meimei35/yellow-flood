@@ -1,0 +1,24 @@
+
+state={
+	id=781
+	name="STATE_781"
+
+	history={
+		owner = BOU
+		victory_points = {
+			2056 1 
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		1891 1932 1975 2056 7939 13239 
+	}
+	manpower=543817
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

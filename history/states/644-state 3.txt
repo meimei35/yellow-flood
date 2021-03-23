@@ -1,0 +1,22 @@
+
+state={
+	id=644
+	name="STATE_644"
+
+	history={
+		owner = GUK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = GUK
+
+	}
+
+	provinces={
+		1722 1745 1819 2853 2877 4006 4229 4455 4878 6211 12549 12592 12634 13061 13275 13278 13283 13291 13294 13296 13299 
+	}
+	manpower=48364
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

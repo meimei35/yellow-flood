@@ -1,0 +1,27 @@
+state={
+	id=863
+	name="STATE_863"
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 6
+			arms_factory = 1
+			dockyard = 3
+			air_base = 1
+			1562 = {
+				naval_base = 10
+
+			}
+		}
+		add_core_of = UPK
+		victory_points = {
+			1562 15 
+		}
+	}
+	provinces={
+		823 1562 7517 7986 12374 12461 13215 
+	}
+	manpower=4138190
+	buildings_max_level_factor=1.000
+	state_category=town
+}

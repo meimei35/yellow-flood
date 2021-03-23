@@ -1,0 +1,33 @@
+
+state={
+	id=375
+	name="STATE_375"
+	resources={
+		oil=120.000
+	}
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 3
+			10337 = {
+				naval_base = 3
+
+			}
+		}
+		add_core_of = UPK
+		victory_points = {
+			10337 10 
+		}
+		victory_points = {
+			3960 10 
+		}
+	}
+
+	provinces={
+		805 1500 1915 2082 3875 3960 4577 5022 5085 7628 7836 7981 9920 10337 10504 10778 10861 12341 12410 12486 12875 
+	}
+	manpower=2824712
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

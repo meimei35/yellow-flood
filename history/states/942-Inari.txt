@@ -1,0 +1,23 @@
+state={
+	id=942
+	name="STATE_942"
+	resources={
+		steel=4.000
+		chromium=1.000
+	}
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SCU
+
+	}
+	provinces={
+		103 167 2992 3069 3097 3158 6061 6142 
+	}
+	manpower=30134
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

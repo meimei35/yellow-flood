@@ -1,0 +1,24 @@
+state={
+	id=865
+	name="STATE_865"
+	resources={
+		tungsten=32.000
+		aluminium=25.000
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = UPK
+
+	}
+	provinces={
+		1663 7756 7827 7879 10591 10651 12573 12699 
+	}
+	manpower=23159
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

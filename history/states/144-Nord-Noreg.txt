@@ -1,0 +1,26 @@
+
+state={
+	id=144
+	name="STATE_144"
+	resources={
+		steel=9.000
+		tungsten=15.000
+	}
+
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = SCU
+
+	}
+
+	provinces={
+		22 64 76 128 2995 3016 3040 3082 6015 6079 6092 6107 9042 9064 9089 9128 9191 11034 11063 11077 11104 11169 
+	}
+	manpower=125251
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

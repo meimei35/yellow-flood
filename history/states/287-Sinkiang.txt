@@ -1,0 +1,22 @@
+
+state={
+	id=287
+	name="STATE_287"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1838 4947 5736 8042 8086 10885 12524 12820 12864 
+	}
+	manpower=408000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

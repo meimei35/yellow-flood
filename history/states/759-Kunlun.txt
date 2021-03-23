@@ -1,0 +1,22 @@
+
+state={
+	id=759
+	name="STATE_759"
+
+	history={
+		owner = PTK
+		add_core_of = PTK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1698 1943 2074 4973 10315 10865 10911 12890 
+	}
+	manpower=70000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=776
+	name="STATE_776"
+
+	history={
+		owner = BOU
+		victory_points = {
+			10919 1 
+		}
+		buildings = {
+			infrastructure = 3
+			10919 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2001 10919 12707 12731 12762 12817 12874 
+	}
+	manpower=1351563
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

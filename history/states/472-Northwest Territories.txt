@@ -1,0 +1,22 @@
+
+state={
+	id=472
+	name="STATE_472"
+
+	history={
+		owner = KAI
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KAI
+
+	}
+
+	provinces={
+		1763 2407 7348 7696 7766 7830 7858 10703 12166 12534 13192 
+	}
+	manpower=47681
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,19 @@
+state={
+	id=900
+	name="STATE_900"
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		add_core_of = VIN
+	}
+	provinces={
+		4175 4210 7400 7647 7909 7974 12317 
+	}
+	manpower=648349
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

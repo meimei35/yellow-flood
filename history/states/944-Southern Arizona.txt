@@ -1,0 +1,24 @@
+state={
+	id=944
+	name="STATE_944"
+	history={
+		owner = HUH
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = HUH
+		victory_points = {
+			853 3 
+		}
+
+	}
+	provinces={
+		853 1793 3834 4796 6897 7747 7920 8115 
+	}
+	manpower=235572
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

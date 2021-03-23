@@ -1,0 +1,55 @@
+ideas = {
+
+	country = {
+		CHU_german_elite= {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = 0.6 #they benefit the govermnent but anger the citizens 
+				stability_factor = -0.2
+				war_support_factor = -0.1
+			}
+		}
+		CHU_baron_dominance = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.4
+				research_speed_factor = 0.05
+			}
+		}
+		
+		CHU_failing_democracy = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.5
+				drift_defence_factor = -0.1
+			}
+		}
+	}
+}

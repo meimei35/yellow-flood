@@ -1,0 +1,46 @@
+
+state={
+	id=360
+	name="STATE_360"
+	resources={
+		steel=44.000
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 8
+			industrial_complex = 5
+			dockyard = 7
+			air_base = 2
+			6845 = {
+				naval_base = 8
+
+			}
+
+		}
+		add_core_of = UPK
+		victory_points = {
+			6845 20 
+		}
+		victory_points = {
+			11800 15 
+		}
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 6
+				dockyard = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		702 862 880 3697 3850 3880 6707 6823 6899 9662 9664 9789 9836 9923 11648 11650 11680 11769 11789 11817 12405 
+	}
+	manpower=9631346
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=818
+	name="STATE_818"
+
+	history={
+		owner = BOU
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5095 7041 10749 12849 13249 13252 13253 13254 13258 
+	}
+	manpower=418181
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

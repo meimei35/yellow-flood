@@ -1,0 +1,38 @@
+
+state={
+	id=741
+	name="STATE_741"
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			7376 25 
+		}
+		victory_points = {
+			10134 5
+		}
+		victory_points = {
+			7432 2 
+		}
+		victory_points = {
+			4251 5 
+		}
+		buildings = {
+			infrastructure = 2
+			7432 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1353 4251 4359 7292 7319 7376 7404 7432 10134 10177 10289 10317 12191 
+	}
+	manpower=3045000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

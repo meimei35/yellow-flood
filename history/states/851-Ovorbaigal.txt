@@ -1,0 +1,26 @@
+
+state={
+	id=851
+	name="STATE_851"
+	resources={
+		steel=9.000
+		chromium=8.000
+	}
+
+	history={
+		owner = MON
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MON
+
+	}
+
+	provinces={
+		1672 4677 4719 7725 7786 7860 10559 10683 12507 12622 
+	}
+	manpower=421619
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

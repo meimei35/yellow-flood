@@ -1,0 +1,27 @@
+state={
+	id=885
+	name="STATE_885"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = TUR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10106 5 
+		}
+		add_core_of = SWD
+		add_core_of = TUR
+
+	}
+	provinces={
+		1600 1938 10106 12372 
+	}
+	manpower=428191
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

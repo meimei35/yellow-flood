@@ -1,0 +1,30 @@
+state={
+	id=855
+	name="STATE_855"
+	history={
+		owner = HUH
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			air_base = 3
+			6785 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = HUH
+		victory_points = {
+			12782 1 
+		}
+
+	}
+	resources={
+		oil=200.000
+	}
+	provinces={
+		1927 2019 2042 4884 5061 6785 6798 6987 8064 12369 12728 12782 
+	}
+	manpower=2024712
+	buildings_max_level_factor=1.000
+	state_category=town
+}

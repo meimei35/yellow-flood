@@ -1,0 +1,24 @@
+
+
+set_politics = {
+	ruling_party = despotism 
+	last_election = "1935.12.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democrat = 8
+	social_liberal = 62
+	social_conservative = 0
+	authoritarian_democrat = 26
+	despotism = 4
+}
+
+create_country_leader = {
+	name = "Fumimaro Konoe"
+	desc = ""
+	picture = "Konoe.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}

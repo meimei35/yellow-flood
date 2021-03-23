@@ -1,0 +1,111 @@
+ideas = {
+
+	country = {
+		SIR_military_poltics= {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = 0.8
+				stability_factor = -0.2
+				war_support_factor = 0.1
+			}
+		}
+		SIR_greater_china_dream = {
+			picture = qingdreams_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				stability_factor = 0.5
+				war_support_factor = 0.3
+				conscription_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		SIR_bitter_stalemate = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				war_support_factor = 0.06
+			}
+		}
+		SIR_faux_freedom = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				stability_factor = -0.2
+				political_power_gain = -0.5
+				drift_defence_factor = -0.1
+			}
+		}
+		SIR_emilitary_powerhouse = {
+			
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {
+				conscription = 0.05
+				training_time_factor = -0.5
+				army_org = 10
+				army_morale_factor = 0.05
+				max_planning = 0.05
+			}
+		}
+		SIR_military_industrial_powerhouse = {
+
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {			
+				consumer_goods_factor = -0.1
+				production_factory_max_efficiency_factor = 0.3
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}			
+		}
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=767
+	name="STATE_767"
+
+	history={
+		owner = HOJ
+		add_core_of = HOJ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		7987 8103 10900 
+	}
+	manpower=151143
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

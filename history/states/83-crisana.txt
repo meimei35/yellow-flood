@@ -1,0 +1,27 @@
+
+state={
+	id=83
+	name="STATE_83"
+
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			6682 1 
+		}
+		add_core_of = TRA
+
+	}
+
+	provinces={
+		693 696 727 3694 3709 6682 6697 6711 6714 6731 9640 9672 9687 11622 11676 
+	}
+	manpower=632900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

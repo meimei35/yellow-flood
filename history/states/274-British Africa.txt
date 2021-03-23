@@ -1,0 +1,22 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = VIN
+		add_claim_by = SIO
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		8039 8096 12785 
+	}
+	manpower=913600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

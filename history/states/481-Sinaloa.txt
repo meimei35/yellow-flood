@@ -1,0 +1,30 @@
+
+state={
+	id=481
+	name="STATE_481"
+
+	history={
+		owner = HUH
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			8057 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = HUH
+		victory_points = {
+			7921 10 
+		}
+
+	}
+
+	provinces={
+		4898 4946 7921 8003 10853 10871 10916 12850 12897 
+	}
+	manpower=1255094
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

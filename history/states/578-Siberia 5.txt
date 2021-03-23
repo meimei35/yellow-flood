@@ -1,0 +1,25 @@
+
+state={
+	id=578
+	name="STATE_578"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MUS
+		victory_points = {
+			7789 1 
+		}
+
+	}
+
+	provinces={
+		1674 1765 1824 1835 4767 4827 7655 7793 12510 12580 
+	}
+	manpower=609304
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

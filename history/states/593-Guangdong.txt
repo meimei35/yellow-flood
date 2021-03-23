@@ -1,0 +1,34 @@
+
+state={
+	id=593
+	name="STATE_593"
+	resources={
+		tungsten=15.000
+	}
+
+	history={
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			1047 = {
+				naval_base = 5
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+		}
+		victory_points = {
+			1047 5 
+		}
+
+	}
+
+	provinces={
+		1047 1120 9970 9997 10080 10121 11941 12014 12095 
+	}
+	manpower=5700000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

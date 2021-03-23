@@ -1,0 +1,58 @@
+ideas = {
+
+	country = {
+		KOR_Russian_Revolts = {
+			picture = russianrevolt_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.4
+				stability_factor = -0.05
+			}
+		}
+		KOR_manchu_violence = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.4
+				drift_defence_factor = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				compliance_gain = -0.1
+			}
+		}
+		KOR_siberian_riches = {
+			picture = penis 
+
+			allowed = {
+				always = no
+			} 
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {
+				consumer_goods_factor = -0.08
+				stability_factor = 0.2
+				research_speed_factor = 0.1
+				production_speed_buildings_factor = 0.3
+			}
+		}	
+	}
+} 

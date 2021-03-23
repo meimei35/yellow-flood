@@ -1,0 +1,25 @@
+
+state={
+	id=147
+	name="STATE_147"
+
+	history={
+		owner = MUS
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MUS
+		victory_points = {
+			197 1 
+		}
+
+	}
+
+	provinces={
+		15 197 3121 9123 9158 9162 11085 11181 
+	}
+	manpower=24630
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

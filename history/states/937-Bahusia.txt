@@ -1,0 +1,21 @@
+state={
+	id=937
+	name="STATE_937"
+
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SCU
+
+	}
+
+	provinces={
+		171 6310 
+	}
+	manpower=130491
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

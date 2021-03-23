@@ -1,0 +1,30 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = AEG
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			12725 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			12725 1 
+		}
+		add_core_of = AEG
+
+	}
+
+	provinces={
+		1977 2003 4138 4963 7989 8105 10745 10902 12725 
+	}
+	manpower=1193507
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

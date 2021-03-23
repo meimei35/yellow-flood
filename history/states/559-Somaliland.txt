@@ -1,0 +1,27 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = AMA
+		add_core_of = AMA
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			1966 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1964 1966 4909 10818 10891 12840 
+	}
+	manpower=198895
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

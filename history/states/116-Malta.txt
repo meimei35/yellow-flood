@@ -1,0 +1,31 @@
+
+state={
+	id=116
+	name="STATE_116"
+
+	history={
+		owner = RMR
+		victory_points = {
+			12003 5 
+		}
+		buildings = {
+			infrastructure = 4
+			air_base = 3
+			12003 = {
+				naval_base = 3
+				coastal_bunker = 4
+
+			}
+
+		}
+		add_core_of = RMR
+
+	}
+
+	provinces={
+		12003 
+	}
+	manpower=341621
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

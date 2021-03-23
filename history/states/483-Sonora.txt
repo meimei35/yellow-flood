@@ -1,0 +1,29 @@
+
+state={
+	id=483
+	name="STATE_483"
+
+	history={
+		owner = HUH
+		buildings = {
+			infrastructure = 3
+			4908 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = HUH
+		victory_points = {
+			10765 5 
+		}
+
+	}
+
+	provinces={
+		1945 2069 4908 4977 8012 8033 8057 10765 10783 10848 10895 12833 
+	}
+	manpower=303987
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

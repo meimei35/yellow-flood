@@ -1,0 +1,22 @@
+
+state={
+	id=552
+	name="STATE_552"
+
+	history={
+		owner = AEG
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = AEG
+
+	}
+
+	provinces={
+		2064 10907 12099 12733 12816 13255 
+	}
+	manpower=18539
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		2088 5017 12723 
+	}
+	manpower=234510
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

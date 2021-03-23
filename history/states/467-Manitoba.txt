@@ -1,0 +1,26 @@
+
+state={
+	id=467
+	name="STATE_467"
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4872 5 
+		}
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		3721 4218 4872 5119 10656 12593 12636 12688 13280 
+	}
+	manpower=651071
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

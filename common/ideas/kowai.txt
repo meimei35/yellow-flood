@@ -1,0 +1,97 @@
+ideas = {
+
+	country = {
+		UPK_freedonian_violence = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.4
+				drift_defence_factor = -0.1
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				foreign_subversive_activites = 0.1
+			}
+		}
+		UPK_disjointed_government = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+			
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.5
+				war_support_factor = -0.1
+			}
+		}
+		UPK_zaibatsu_dominance = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.4
+				research_speed_factor = 0.05
+			}
+		}
+		UPK_kikue_adminstration = {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				stability_factor = 0.1				
+				political_power_gain = 0.5
+				research_speed_factor = 0.05
+			}
+		}
+		
+		UPK_industrial_powerhouse = {
+			picture = penis
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {			
+				consumer_goods_factor = -0.08
+				production_factory_max_efficiency_factor = 0.3
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}			
+		}
+	}
+}
+
+
+
+

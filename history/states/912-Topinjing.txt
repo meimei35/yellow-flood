@@ -1,0 +1,32 @@
+
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = SIR
+		add_core_of = SIR
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+			1089 = {
+				naval_base = 4
+
+			}
+			11928 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1089 4001 4091 4148 7142 7181 9953 10095 11928 12067 
+	}
+	manpower=9669300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

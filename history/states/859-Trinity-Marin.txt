@@ -1,0 +1,21 @@
+state={
+	id=859
+	name="STATE_859"
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+		}
+		add_core_of = UPK
+
+	}
+	provinces={
+		677 768 781 3588 6681 6745 6757 9697 
+	}
+	manpower=7130184
+	buildings_max_level_factor=1.000
+	state_category=town
+}
