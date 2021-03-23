@@ -7,7 +7,7 @@ state={
 	}
 
 	history={
-		owner = GON
+		owner = SIR
 		buildings = {
 			infrastructure = 1
 			8248 = {
