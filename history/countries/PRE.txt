@@ -1,4 +1,4 @@
-set_politics = {
+﻿set_politics = {
 	ruling_party = ultranational_socialism
 	last_election = "1935.3.5"
 	election_frequency = 48
@@ -10,6 +10,15 @@ set_popularities = {
 	ultranational_socialism = 80
 }
 #LEADERS
+create_country_leader = {
+	name = "Kurt von Schleicher"
+	desc = ""
+	picture = "sternberh.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+}
+
+
 create_country_leader = {
 	name = "Ernst Thälmann"
 	desc = ""

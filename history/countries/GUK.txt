@@ -1,34 +1,27 @@
 
 
 set_politics = {
-	ruling_party = social_liberal
+	ruling_party = despotism 
 	last_election = "1935.3.5"
 	election_frequency = 48
-	elections_allowed = yes 
+	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 0
-	social_liberal = 62
+	social_democrat = 62
+	social_liberal = 26
 	social_conservative = 0
-	authoritarian_democrat = 26
 	despotism = 4
 	market_liberal = 8
 }
 create_country_leader = {
-	name = "Yi Un"
+	name = "Hong Sa-ik"
 	desc = ""
 	picture = "korean.tga"
 	expire = "1999.1.1"
-	ideology = social_liberal_subtype
+	ideology = despotism_subtype
 }
 
-puppet = GUK 
-puppet = AMA
-
-
-
 add_ideas = {
-	KOR_manchu_violence
-	KOR_siberian_riches
+	KOR_Russian_Revolts
 }
