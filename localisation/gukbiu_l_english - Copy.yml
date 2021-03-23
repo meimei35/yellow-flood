@@ -1,6 +1,8 @@
 ﻿l_english:
  GUK_social_liberal_party:0 "Japanese Influence"
  GUK_market_liberal_party:0 "Freedonian Influence"
- GUK_social_democrat_party:0 "Yakutia Party"
+ GUK_social_democrat_party:0 "Yakut Party"
  GUK_social_conservative_party:0 "British Influence"
  GUK_despotism_party:0 "Colonial Administration"
+#ideas
+KOR_Russian_Revolts:0 "Russian Tensions"
