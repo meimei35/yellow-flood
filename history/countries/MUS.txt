@@ -1,23 +1,23 @@
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = ultranational_socialism
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 24
-	social_liberal = 26
-	social_conservative = 25
-	despotism = 25
+	social_democrat = 25
+	social_liberal = 30
+	communist = 25
+	ultranational_socialism = 20
 }
 create_country_leader = {
 	name = "Lavr Kornilov"
 	desc = ""
 	picture = "lavr.dds"
 	expire = "1999.1.1"
-	ideology = despotism_subtype
+	ideology = ultranational_socialism_subtype
 }
 
 create_country_leader = {
