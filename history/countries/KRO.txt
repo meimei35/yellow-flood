@@ -15,7 +15,7 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Tibet dude"
+	name = "Roman von Ungern-Sternberg"
 	desc = ""
 	picture = "long.tga"
 	expire = "1999.1.1"

@@ -7,9 +7,10 @@ set_politics = {
 }
 
 set_popularities = {
-	social_democrat = 25
+	social_democrat = 20
 	social_liberal = 30
-	communist = 25
+	communist = 20
+	socialist = 10
 	ultranational_socialism = 20
 }
 create_country_leader = {
