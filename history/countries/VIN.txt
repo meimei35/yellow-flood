@@ -15,6 +15,13 @@ set_popularities = {
 	despotism = 4
 	market_liberal = 8
 }
+#pupptes
+puppet = RIN 
+puppet = YUN
+puppet = VXI
+puppet = NGD
+
+
 #LEADERS
 create_country_leader = {
 	name = "Bao Dai"

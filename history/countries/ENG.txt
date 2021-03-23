@@ -23,6 +23,10 @@ create_country_leader = {
 	ideology = social_conservative_subtype
 }
 
+puppet = PRS
+
+
+
 add_ideas = {
 	ENG_legacy_1912
 	ENG_royal_republic

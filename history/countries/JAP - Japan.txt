@@ -15,6 +15,17 @@ set_popularities = {
 	despotism = 4
 	market_liberal = 8
 }
+#PP poo poo colonies 
+puppet = HOJ 
+puppet = KAI
+puppet = BON
+puppet = SHI
+puppet = BBA
+puppet = SMO
+puppet = ORI 
+puppet = BOU
+
+
 #LEADERS
 create_country_leader = {
 	name = "Hirohito"

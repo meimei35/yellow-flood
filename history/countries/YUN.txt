@@ -1,7 +1,7 @@
 
 
 set_politics = {
-	ruling_party = despotism
+	ruling_party = authoritarian_democrat 
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,7 +11,7 @@ set_popularities = {
 	social_democrat = 0
 	social_liberal = 0
 	social_conservative = 0
-	despotism = 100
+	authoritarian_democrat = 100
 	social_liberal = 0
 }
 
@@ -20,5 +20,5 @@ create_country_leader = {
 	desc = ""
 	picture = "long.tga"
 	expire = "1999.1.1"
-	ideology = despotism_subtype
+	ideology = authoritarian_democrat_subtype
 }

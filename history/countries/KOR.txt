@@ -23,6 +23,11 @@ create_country_leader = {
 	ideology = social_liberal_subtype
 }
 
+puppet = GUK 
+puppet = AMA
+
+
+
 add_ideas = {
 	KOR_Russian_Revolts
 	KOR_manchu_violence
