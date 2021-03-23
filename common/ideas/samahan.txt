@@ -13,8 +13,9 @@ ideas = {
 			}	
 			
 			modifier = {
-				political_power_gain = -0.4
-				stability_factor = -0.05
+				political_power_gain = -0.5
+				stability_factor = -0.3
+				war_support_factor = -0.5
 			}
 		}
 		KOR_manchu_violence = {
