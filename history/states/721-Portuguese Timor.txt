@@ -4,8 +4,8 @@ state={
 	name="STATE_721"
 
 	history={
-		owner = INS
-		add_core_of = INS
+		owner = RIN
+		add_core_of = RIN
 		buildings = {
 			infrastructure = 3
 			12190 = {
