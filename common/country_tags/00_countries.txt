@@ -353,4 +353,5 @@ HYD = "countries/Hyderabad.txt"
 BOM = "countries/Bombay.txt"
 KAS = "countries/Kashmir.txt"
 HUH = "countries/Asian.txt" #Republic of Hunhenuo 
+PRK = "countries/African.txt" #Goringia
 ASS = "countries/Turkey.txt"

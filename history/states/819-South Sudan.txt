@@ -2,7 +2,7 @@ state={
 	id=819
 	name="STATE_819"
 	history={
-		owner = NGD
+		owner = PRK
 		buildings = {
 			infrastructure = 2
 

@@ -4,6 +4,12 @@ GER = {
 	color = HSV { 0.1 0.15 0.4 }
 	color_ui = rgb { 138 155 116 }
 }
+
+PRK = {
+	color = HSV { 0.1 0.15 0.4 }
+	color_ui = rgb { 138 155 116 }
+}
+
 ENG = {
 	color = rgb { 200 0 0 }
 	color_ui = rgb { 200 0 0 }
