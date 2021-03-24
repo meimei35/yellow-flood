@@ -4,7 +4,7 @@ state={
 	name="STATE_103"
 
 	history={
-		owner = DAL
+		owner = YUG
 		victory_points = {
 			3868 3 
 		}
@@ -20,7 +20,7 @@ state={
 			industrial_complex = 3
 
 		}
-		add_core_of = DAL
+		add_core_of = YUG
 
 	}
 
