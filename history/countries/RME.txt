@@ -13,9 +13,9 @@ set_popularities = {
 }
 
 create_country_leader = {
-	name = "Mao"
+	name = "Mao Zedong" 
 	desc = ""
-	picture = "long.tga"
+	picture = "Mao.dds"
 	expire = "1999.1.1"
 	ideology = communist_subtype 
 }
