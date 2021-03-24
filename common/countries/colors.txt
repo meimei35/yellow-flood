@@ -946,8 +946,8 @@ SMO = {
 }  
 
 BOQ = {
-	color = rgb { 94 231 135 }
-	color_ui = rgb { 94 231 135 }
+	color = rgb { 255 126 0 }
+	color_ui = rgb { 255 126 0 }
 } 
 
 IML = {
