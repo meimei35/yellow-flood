@@ -9,8 +9,8 @@ set_politics = {
 set_popularities = {
 	social_democrat = 20
 	social_liberal = 30
-	communist = 20
-	socialist = 10
+	communist = 10
+	socialist = 20
 	ultranational_socialism = 20
 }
 create_country_leader = {
@@ -22,9 +22,9 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Boris Pasternak"
+	name = "Boris Slavinkov"
 	desc = ""
-	picture = "boris.dds"
+	picture = "russianlookinbloke.dds"
 	expire = "1999.1.1"
-	ideology = social_liberal_subtype
+	ideology = communist_subtype
 }
