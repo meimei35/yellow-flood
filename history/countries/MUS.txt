@@ -24,7 +24,7 @@ create_country_leader = {
 create_country_leader = {
 	name = "Boris Slavinkov"
 	desc = ""
-	picture = "boris.dds"
+	picture = "russianlookinbloke.dds"
 	expire = "1999.1.1"
 	ideology = communist_subtype
 }
