@@ -1,0 +1,17 @@
+﻿###########################
+# MUS Events
+###########################
+
+add_namespace = mus
+
+#test event
+country_event = {
+	id =mus.1
+	
+	is_triggered_only = yes
+
+	option = { # Refuse
+		name = moh.1.a
+		add_political_power = 40
+	}
+}
