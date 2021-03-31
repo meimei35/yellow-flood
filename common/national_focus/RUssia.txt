@@ -15,11 +15,47 @@ focus_tree = {
 focus = {
 		id = MUS_the_coup
 		icon = GFX_goal_generic_secret_weapon
-		x = 20
+		x = 10
 		y = 0
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
 		search_filters = { }
 		completion_reward = { }
-	}
+}
+focus = {
+		id = MUS_commies
+		icon = GFX_goal_generic_secret_weapon
+		x = 10
+		y = 1
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_the_coup }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = The_liberals
+		icon = GFX_goal_generic_secret_weapon
+		x = 15
+		y = 1
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_the_coup }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = the_nigger
+		icon = GFX_goal_generic_secret_weapon
+		x = 5
+		y = 1
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_the_coup }
+		search_filters = { }
+		completion_reward = { }
+}
