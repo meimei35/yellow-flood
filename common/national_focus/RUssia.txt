@@ -1,0 +1,25 @@
+focus_tree = {
+	id = russia_start
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = MUS
+		}
+	}
+	
+	default = no
+
+focus = {
+		id = MUS_the_coup
+		icon = GFX_goal_generic_secret_weapon
+		x = 20
+		y = 0
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		search_filters = { }
+		completion_reward = { }
+	}
