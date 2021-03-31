@@ -2,18 +2,19 @@ capital = 282
 
 set_politics = {
 	ruling_party = social_democrat
-	last_election = "1935.3.5"
-	election_frequency = 48
+	last_election = "1932.11.2"
+	election_frequency = 96
 	elections_allowed = yes
 }
 
 set_popularities = {
-	social_democrat = 62
-	social_liberal = 26
+	social_democrat = 48
+	socialist = 10
+	social_liberal = 25
 	social_conservative = 0
 	authoritarian_democrat = 0
-	despotism = 4
-	market_liberal = 8
+	despotism = 0
+	market_liberal = 17
 }
 #LEADERS
 create_country_leader = {
@@ -23,8 +24,14 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = social_democrat_subtype
 }
+create_country_leader = {
+	name = "Itō Noe"
+	desc = ""
+	picture = "woman.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
 add_ideas = {
-	UPK_freedonian_violence
 	UPK_disjointed_government
 	UPK_zaibatsu_dominance
 	UPK_kikue_adminstration

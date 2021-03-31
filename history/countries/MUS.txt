@@ -1,6 +1,6 @@
 
 set_politics = {
-	ruling_party = ultranational_socialism
+	ruling_party = authoritarian_democrat 
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -11,7 +11,9 @@ set_popularities = {
 	social_liberal = 30
 	communist = 10
 	socialist = 20
-	ultranational_socialism = 20
+	authoritarian_democrat = 1
+	fascism = 10 
+	ultranational_socialism = 9
 }
 create_country_leader = {
 	name = "Lavr Kornilov"
@@ -19,6 +21,22 @@ create_country_leader = {
 	picture = "lavr.dds"
 	expire = "1999.1.1"
 	ideology = ultranational_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = ""
+	picture = "kerensky.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "State Duma"
+	desc = ""
+	picture = "lavr.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
 }
 
 create_country_leader = {
