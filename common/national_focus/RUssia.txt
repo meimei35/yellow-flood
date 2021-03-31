@@ -38,7 +38,7 @@ focus = {
 focus = {
 		id = The_liberals
 		icon = GFX_goal_generic_secret_weapon
-		x = 15
+		x = 17
 		y = 1
 		cost = 5
 		ai_will_do = { factor = 100 }
@@ -56,6 +56,78 @@ focus = {
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
 		prerequisite = { focus = MUS_the_coup }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = succdem_nigger
+		icon = GFX_goal_generic_secret_weapon
+		x = 17
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = The_liberals }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = psr_faggot
+		icon = GFX_goal_generic_secret_weapon
+		x = 14
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = The_liberals }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = lolbert
+		icon = GFX_goal_generic_secret_weapon
+		x = 20
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = The_liberals }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = slavinkov
+		icon = GFX_goal_generic_secret_weapon
+		x = 8
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_commies }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = militarist
+		icon = GFX_goal_generic_secret_weapon
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_commies }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = nigkarin
+		icon = GFX_goal_generic_secret_weapon
+		x = 12
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = MUS_commies }
 		search_filters = { }
 		completion_reward = { }
 }
