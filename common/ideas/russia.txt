@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 		MUS_Velikaya_voyna = {
-			picture = qingdreams_icon
+			picture = nigerian
 			
 			allowed = {
 				always = no
@@ -75,3 +75,6 @@ ideas = {
 		}
 	}
 }
+
+
+

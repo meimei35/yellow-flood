@@ -46,3 +46,11 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = communist_subtype
 }
+
+
+add_ideas = {
+	MUS_Velikaya_voyna
+	MUS_unstable
+	MUS_reformed_military
+	MUS_insane_industy
+}
