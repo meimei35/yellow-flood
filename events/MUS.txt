@@ -10,8 +10,8 @@ country_event = {
 	
 	is_triggered_only = yes
 
-	option = { # Refuse
-		name = moh.1.a
+	option = { # Refyse
+		name = mus.1.a
 		add_political_power = 40
 	}
 }
