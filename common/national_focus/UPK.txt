@@ -1,0 +1,571 @@
+focus_tree = {
+	id = UPK shit 
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = UPK
+		}
+	}
+	
+	default = no
+
+##army cause fuck u 
+
+focus = {
+	id = UPK_reviewmilitaryspending
+	icon = GFX_goal_generic_secret_weapon
+	x = 39
+	y = 0
+	
+	cost = 5
+	
+	available = {
+	}
+	
+	completion_reward = {
+		army_experience = 10
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_increasethearmiesbudget
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_reviewmilitaryspending
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_reviewmilitaryspending
+	}
+	
+	completion_reward = {
+		army_experience = 15
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_constructthepentagon
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_increasethearmiesbudget
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_increasethearmiesbudget
+	}
+	completion_reward = {
+		add_command_power = 100
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_eisenhowerfirepower
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_constructthepentagon
+	
+	cost = 1
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_constructthepentagon
+	}
+	mutually_exclusive = {
+		focus = UPK_pattonsideals
+	}
+	mutually_exclusive = {
+		focus = UPK_macarthurstrategy
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_pattonsideals
+	icon = GFX_goal_generic_secret_weapon
+	x = -5
+	y = 1
+	relative_position_id = UPK_constructthepentagon
+
+	
+	cost = 1
+	
+	available = {
+	}
+	mutually_exclusive = {
+		focus = UPK_eisenhowerfirepower
+	}
+	mutually_exclusive = {
+		focus = UPK_macarthurstrategy
+	}
+
+	prerequisite = {
+	focus = UPK_constructthepentagon
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_macarthurstrategy
+	icon = GFX_goal_generic_secret_weapon
+	x = 5
+	y = 1
+	relative_position_id = UPK_constructthepentagon
+	
+	cost = 1
+	
+	available = {
+	}
+	mutually_exclusive = {
+		focus = UPK_eisenhowerfirepower
+	}
+	mutually_exclusive = {
+		focus = UPK_pattonsideals
+	}
+	prerequisite = {
+	focus = UPK_constructthepentagon
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_analysethegreatwar
+	icon = GFX_goal_generic_secret_weapon
+	x = -1
+	y = 1
+	relative_position_id = UPK_eisenhowerfirepower
+
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_eisenhowerfirepower
+	}
+	completion_reward = {
+		add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = cat_superior_firepower
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_artillerywargames
+	icon = GFX_goal_generic_secret_weapon
+	x = 1
+	y = 1
+	relative_position_id = UPK_eisenhowerfirepower
+
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_eisenhowerfirepower
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.7
+			uses = 2
+			category = artillery
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_study_russians
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_analysethegreatwar
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_analysethegreatwar
+	}
+	completion_reward = {
+		add_tech_bonus = {
+				bonus = 0.75
+				uses = 2
+				category = infantry_tech
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_howitzerproductionlines
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_artillerywargames
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_artillerywargames
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_tankexperiments
+	icon = GFX_goal_generic_secret_weapon
+	x = -1
+	y = 1
+	relative_position_id = UPK_pattonsideals
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_pattonsideals
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 0.5
+			uses = 2
+			category = armor
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_adoptthesherman
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_tankexperiments
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_tankexperiments
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			ahead_reduction = 1
+			uses = 1
+			technology = basic_medium_tank
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_landandaircollaboration
+	icon = GFX_goal_generic_secret_weapon
+	x = 1
+	y = 1
+	relative_position_id = UPK_pattonsideals
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_pattonsideals
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cat_battlefield_support
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_study_zhili_shit
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_landandaircollaboration
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_landandaircollaboration
+	}
+	completion_reward = {
+		add_tech_bonus = {
+				bonus = 1.0
+				uses = 1
+				category = cat_mobile_warfare
+			}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_onemansvision
+	icon = GFX_goal_generic_secret_weapon
+	x = -1
+	y = 1
+	relative_position_id = UPK_macarthurstrategy
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_macarthurstrategy
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = cat_grand_battle_plan
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_improvemilitarytraining
+	icon = GFX_goal_generic_secret_weapon
+	x = 1
+	y = 1
+	relative_position_id = UPK_macarthurstrategy
+
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_macarthurstrategy
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_staffthemilitarywithlikemindedgenerals
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_onemansvision
+
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_onemansvision
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_andrecruitmentmethods
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_improvemilitarytraining
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_improvemilitarytraining
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_amilitarytobeproudin
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 3
+	relative_position_id = UPK_eisenhowerfirepower
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_staffthemilitarywithlikemindedgenerals
+	focus = UPK_andrecruitmentmethods
+	focus = UPK_saltlaketankschool
+	focus = UPK_howitzerproductionlines
+	focus = UPK_analysetherussianintervention
+	focus = UPK_adoptthesherman
+	}
+	completion_reward = {
+		add_war_support = 0.1
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_utilizewalkietalkies
+	icon = GFX_goal_generic_secret_weapon
+	x = -2
+	y = 1
+	relative_position_id = UPK_amilitarytobeproudin
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_amilitarytobeproudin
+	}
+	completion_reward = {
+		add_tech_bonus = {
+			bonus = 1
+			uses = 1
+			category = signal_company_tech
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_foundthewomenauxiliarycorps
+	icon = GFX_goal_generic_secret_weapon
+	x = 2
+	y = 1
+	relative_position_id = UPK_amilitarytobeproudin
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_amilitarytobeproudin
+	}
+	completion_reward = {
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_rustbeltarmamentfactories
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_amilitarytobeproudin
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_amilitarytobeproudin
+	}
+	completion_reward = {
+		393 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		261 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+		394 = {
+			add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+		}
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
+focus = {
+	id = UPK_newfreedoniaarmyshit
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	relative_position_id = UPK_rustbeltarmamentfactories
+	
+	cost = 5
+	
+	available = {
+	}
+	prerequisite = {
+	focus = UPK_rustbeltarmamentfactories
+	}
+	completion_reward = {
+		army_experience = 50
+	}
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
