@@ -13,7 +13,7 @@ focus_tree = {
 	default = no
 
 focus = {
-		id = MUS_the_coup
+		id = Futrye_of_the_Rodina
 		icon = GFX_goal_generic_secret_weapon
 		x = 10
 		y = 0
@@ -24,46 +24,59 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = MUS_commies
+		id = Mus_duma_elections
 		icon = GFX_goal_generic_secret_weapon
 		x = 10
 		y = 1
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_the_coup }
+		prerequisite = { focus = Futrye_of_the_Rodina }
+		search_filters = { }
+		completion_reward = { }
+}
+
+focus = {
+		id = MUS_commies
+		icon = GFX_goal_generic_secret_weapon
+		x = 10
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
 		id = The_liberals
 		icon = GFX_goal_generic_secret_weapon
-		x = 17
-		y = 1
+		x = 13
+		y = 2
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_the_coup }
+		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
-		id = the_nigger
+		id = the_niggers
 		icon = GFX_goal_generic_secret_weapon
-		x = 5
-		y = 1
+		x = 7
+		y = 2
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_the_coup }
+		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
 		id = succdem_nigger
 		icon = GFX_goal_generic_secret_weapon
-		x = 17
-		y = 2
+		x = 15
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
@@ -74,8 +87,8 @@ focus = {
 focus = {
 		id = psr_faggot
 		icon = GFX_goal_generic_secret_weapon
-		x = 14
-		y = 2
+		x = 13
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
@@ -86,8 +99,8 @@ focus = {
 focus = {
 		id = lolbert
 		icon = GFX_goal_generic_secret_weapon
-		x = 20
-		y = 2
+		x = 17
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
@@ -98,8 +111,8 @@ focus = {
 focus = {
 		id = slavinkov
 		icon = GFX_goal_generic_secret_weapon
-		x = 8
-		y = 2
+		x = 9
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
@@ -110,20 +123,32 @@ focus = {
 focus = {
 		id = militarist
 		icon = GFX_goal_generic_secret_weapon
-		x = 10
-		y = 2
+		x = 5
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_commies }
+		prerequisite = { focus = the_niggers }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = kornlob
+		icon = GFX_goal_generic_secret_weapon
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = the_niggers }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
 		id = nigkarin
 		icon = GFX_goal_generic_secret_weapon
-		x = 12
-		y = 2
+		x = 11
+		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
