@@ -1,0 +1,77 @@
+ideas = {
+
+	country = {
+		MUS_unstable= {
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.8
+				stability_factor = -0.2
+				war_support_factor = -0.1
+			}
+		}
+		MUS_Velikaya_voyna = {
+			picture = qingdreams_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				war_support_factor = 0.3
+				conscription_factor = 0.1
+				army_core_defence_factor = 0.1
+			}
+		}
+		MUS_reformed_military = {
+			
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {
+				training_time_factor = -0.5
+				army_org = 10
+				army_morale_factor = 0.05
+				max_planning = 0.05
+			}
+		}
+		MUS_insane_industy = {
+
+			picture = penis
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+
+			modifier = {			
+				consumer_goods_factor = -0.3
+				production_factory_max_efficiency_factor = 0.3
+				line_change_production_efficiency_factor = 0.3
+				production_speed_buildings_factor = 0.3
+			}			
+		}
+	}
+}
