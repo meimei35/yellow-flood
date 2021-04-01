@@ -14,4 +14,8 @@ country_event = {
 		name = mus.1.a
 		add_political_power = 40
 	}
+	option = { # Accept
+		name = mus.2.a
+		add_political_power = 69
+	}
 }
