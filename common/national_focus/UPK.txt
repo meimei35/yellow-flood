@@ -76,7 +76,7 @@ focus = {
 	available_if_capitulated = yes
 }
 focus = {
-	id = UPK_eisenhowerfirepower
+	id = UPK_firepower
 	icon = GFX_goal_generic_secret_weapon
 	x = 0
 	y = 1
@@ -90,10 +90,10 @@ focus = {
 	focus = UPK_constructthepentagon
 	}
 	mutually_exclusive = {
-		focus = UPK_pattonsideals
+		focus = UPK_mobilearmy
 	}
 	mutually_exclusive = {
-		focus = UPK_macarthurstrategy
+		focus = UPK_grandnbattleplan
 	}
 	completion_reward = {
 	}
@@ -102,7 +102,7 @@ focus = {
 	available_if_capitulated = yes
 }
 focus = {
-	id = UPK_pattonsideals
+	id = UPK_mobilearmy
 	icon = GFX_goal_generic_secret_weapon
 	x = -5
 	y = 1
@@ -114,10 +114,10 @@ focus = {
 	available = {
 	}
 	mutually_exclusive = {
-		focus = UPK_eisenhowerfirepower
+		focus = UPK_firepower
 	}
 	mutually_exclusive = {
-		focus = UPK_macarthurstrategy
+		focus = UPK_grandnbattleplan
 	}
 
 	prerequisite = {
@@ -130,7 +130,7 @@ focus = {
 	available_if_capitulated = yes
 }
 focus = {
-	id = UPK_macarthurstrategy
+	id = UPK_grandnbattleplan
 	icon = GFX_goal_generic_secret_weapon
 	x = 5
 	y = 1
@@ -141,10 +141,10 @@ focus = {
 	available = {
 	}
 	mutually_exclusive = {
-		focus = UPK_eisenhowerfirepower
+		focus = UPK_firepower
 	}
 	mutually_exclusive = {
-		focus = UPK_pattonsideals
+		focus = UPK_mobilearmy
 	}
 	prerequisite = {
 	focus = UPK_constructthepentagon
@@ -156,18 +156,18 @@ focus = {
 	available_if_capitulated = yes
 }
 focus = {
-	id = UPK_analysethegreatwar
+	id = UPK_study_the_Velikaya_voyna
 	icon = GFX_goal_generic_secret_weapon
 	x = -1
 	y = 1
-	relative_position_id = UPK_eisenhowerfirepower
+	relative_position_id = UPK_firepower
 
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_eisenhowerfirepower
+	focus = UPK_firepower
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -185,14 +185,14 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = 1
 	y = 1
-	relative_position_id = UPK_eisenhowerfirepower
+	relative_position_id = UPK_firepower
 
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_eisenhowerfirepower
+	focus = UPK_firepower
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -210,19 +210,19 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = 0
 	y = 1
-	relative_position_id = UPK_analysethegreatwar
+	relative_position_id = UPK_study_the_Velikaya_voyna
 	
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_analysethegreatwar
+	focus = UPK_study_the_Velikaya_voyna
 	}
 	completion_reward = {
 		add_tech_bonus = {
-				bonus = 0.75
-				uses = 2
+				bonus = 1.0
+				uses = 3
 				category = infantry_tech
 		}
 	}
@@ -255,14 +255,14 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = -1
 	y = 1
-	relative_position_id = UPK_pattonsideals
+	relative_position_id = UPK_mobilearmy
 	
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_pattonsideals
+	focus = UPK_mobilearmy
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -292,9 +292,9 @@ focus = {
 	completion_reward = {
 		add_tech_bonus = {
 			bonus = 1
-			ahead_reduction = 1
+			ahead_reduction = 2
 			uses = 1
-			technology = basic_medium_tank
+			technology = improved_medium_tank
 		}
 	}
 	cancel_if_invalid = yes
@@ -306,14 +306,14 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = 1
 	y = 1
-	relative_position_id = UPK_pattonsideals
+	relative_position_id = UPK_mobilearmy
 	
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_pattonsideals
+	focus = UPK_mobilearmy
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -356,14 +356,14 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = -1
 	y = 1
-	relative_position_id = UPK_macarthurstrategy
+	relative_position_id = UPK_grandnbattleplan
 	
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_macarthurstrategy
+	focus = UPK_grandnbattleplan
 	}
 	completion_reward = {
 		add_tech_bonus = {
@@ -381,14 +381,14 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = 1
 	y = 1
-	relative_position_id = UPK_macarthurstrategy
+	relative_position_id = UPK_grandnbattleplan
 
 	cost = 5
 	
 	available = {
 	}
 	prerequisite = {
-	focus = UPK_macarthurstrategy
+	focus = UPK_grandnbattleplan
 	}
 	completion_reward = {
 	}
@@ -441,7 +441,7 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	x = 0
 	y = 3
-	relative_position_id = UPK_eisenhowerfirepower
+	relative_position_id = UPK_firepower
 	
 	cost = 5
 	
