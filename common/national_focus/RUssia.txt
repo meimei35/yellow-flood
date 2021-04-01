@@ -61,7 +61,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = the_niggers
+		id = the_militarists
 		icon = GFX_goal_generic_secret_weapon
 		x = 7
 		y = 2
@@ -73,7 +73,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = succdem_nigger
+		id = Kerensky
 		icon = GFX_goal_generic_secret_weapon
 		x = 15
 		y = 3
@@ -85,7 +85,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = psr_faggot
+		id = PSR
 		icon = GFX_goal_generic_secret_weapon
 		x = 13
 		y = 3
@@ -97,7 +97,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = lolbert
+		id = Kadety
 		icon = GFX_goal_generic_secret_weapon
 		x = 17
 		y = 3
@@ -121,7 +121,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = militarist
+		id = Thukachvesky
 		icon = GFX_goal_generic_secret_weapon
 		x = 5
 		y = 3
@@ -145,7 +145,7 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = nigkarin
+		id = bukharin
 		icon = GFX_goal_generic_secret_weapon
 		x = 11
 		y = 3
