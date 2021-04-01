@@ -1,8 +1,8 @@
-capital = 282
+capital = 361
 
 set_politics = {
 	ruling_party = social_democrat
-	last_election = "1932.11.2"
+	last_election = "1934.11.2"
 	election_frequency = 96
 	elections_allowed = yes
 }
