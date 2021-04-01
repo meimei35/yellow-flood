@@ -47,6 +47,12 @@ focus = {
 		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
+		mutually_exclusive = {
+		focus = the_militarists
+		}
+		mutually_exclusive = {
+		focus = The_liberals
+		}
 }
 focus = {
 		id = The_liberals
@@ -59,6 +65,12 @@ focus = {
 		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
+		mutually_exclusive = {
+		focus = the_militarists
+		}
+		mutually_exclusive = {
+		focus = MUS_commies
+		}
 }
 focus = {
 		id = the_militarists
@@ -71,6 +83,12 @@ focus = {
 		prerequisite = { focus = Mus_duma_elections }
 		search_filters = { }
 		completion_reward = { }
+		mutually_exclusive = {
+		focus = The_liberals
+		}
+		mutually_exclusive = {
+		focus = MUS_commies
+		}
 }
 focus = {
 		id = Kerensky

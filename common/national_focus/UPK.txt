@@ -564,3 +564,31 @@ focus = {
 	continue_if_invalid = no
 	available_if_capitulated = yes
 }
+
+
+#navy
+
+focus = {
+	id = UPK_two_ocean_act
+	icon = GFX_goal_generic_secret_weapon
+	prerequisite = {
+	}
+	relative_position_id = USA_second_vinson_act
+	x = 52
+	y = 0
+
+	cost = 5
+
+	available = {
+	}
+	available = {
+	}
+
+	completion_reward = {
+	navy_experience = 50
+	}
+
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
