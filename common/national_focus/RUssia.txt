@@ -128,7 +128,7 @@ focus = {
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = the_niggers }
+		prerequisite = { focus = the_militarists }
 		search_filters = { }
 		completion_reward = { }
 }
@@ -140,7 +140,7 @@ focus = {
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = the_niggers }
+		prerequisite = { focus = the_militarists }
 		search_filters = { }
 		completion_reward = { }
 }
