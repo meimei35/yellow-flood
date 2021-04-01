@@ -1,6 +1,11 @@
+
 state={
 	id=856
 	name="STATE_856"
+	resources={
+		aluminium=50.000
+	}
+
 	history={
 		owner = UPK
 		buildings = {
@@ -11,11 +16,9 @@ state={
 		add_core_of = UPK
 
 	}
-	resources={
-		aluminium=50.000
-	}
+
 	provinces={
-		1998 4955 9773 10867 12301 12720 12848 12893 
+		9773 10867 12301 12720 12848 12893 
 	}
 	manpower=1024712
 	buildings_max_level_factor=1.000

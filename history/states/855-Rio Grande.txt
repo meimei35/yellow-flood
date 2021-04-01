@@ -1,6 +1,11 @@
+
 state={
 	id=855
 	name="STATE_855"
+	resources={
+		oil=200.000
+	}
+
 	history={
 		owner = HUH
 		buildings = {
@@ -9,6 +14,7 @@ state={
 			air_base = 3
 			6785 = {
 				naval_base = 1
+
 			}
 
 		}
@@ -18,11 +24,9 @@ state={
 		}
 
 	}
-	resources={
-		oil=200.000
-	}
+
 	provinces={
-		1927 2019 2042 4884 5061 6785 6798 6987 8064 12369 12728 12782 
+		1927 1998 2019 2042 4884 4955 5061 6785 6798 6987 8064 12369 12728 12782 
 	}
 	manpower=2024712
 	buildings_max_level_factor=1.000
