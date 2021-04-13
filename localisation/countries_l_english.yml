@@ -64,7 +64,7 @@
  ###############
  # Middle East #
  ###############
- TUR:0 "Eastern Rome"
+ TUR:0 "Byzantine Empire"
  AEG:0 "Kingdom of Egypt"
  PER:0 "Persian Empire"
  ASS:0 "Arabia"
@@ -98,7 +98,7 @@
  MUS_communist:0 "Russian Socialist Republic"
  MUS_ultranational_socialism:0 "Russian State"
  MUS_fascism:0 "Russian State"
- RMR:0 "Roman Empire"
+ RMR:0 "Roman Republic"
  PRE:0 "Prussian State"
  SPR:0 "Iberian State"
  GUK:0 "Gukbuk"
