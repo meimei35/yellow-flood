@@ -15,10 +15,6 @@ set_popularities = {
 	social_liberal = 0
 }
 
-### Africa Colonies ###
-puppet = PRO 
-puppet = MRT
-
 create_country_leader = {
 	name = "Tsar Kirill Vladimirovich"
 	desc = ""

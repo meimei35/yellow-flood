@@ -1,0 +1,37 @@
+
+
+set_politics = {
+	ruling_party = social_democrat
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+	social_democrat = 34
+	social_conservative = 0
+	despotism = 33
+	social_liberal = 33
+}
+
+### Africa Colonies ###
+puppet = PRO 
+puppet = MRT
+
+
+
+create_country_leader = {
+	name = "Ferruccio Parri"
+	desc = ""
+	picture = "rome.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Italo Balbo"
+	desc = ""
+	picture = "rome.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
