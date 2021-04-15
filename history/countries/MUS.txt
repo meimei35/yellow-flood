@@ -16,11 +16,19 @@ set_popularities = {
 	ultranational_socialism = 9
 }
 create_country_leader = {
+	name = "Mikhail Tukhachevsky"
+	desc = ""
+	picture = "tukachev.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+}
+
+create_country_leader = {
 	name = "Lavr Kornilov"
 	desc = ""
 	picture = "lavr.dds"
 	expire = "1999.1.1"
-	ideology = ultranational_socialism_subtype
+	ideology = fascism_subtype
 }
 
 create_country_leader = {
@@ -46,6 +54,23 @@ create_country_leader = {
 	expire = "1999.1.1"
 	ideology = communist_subtype
 }
+
+create_country_leader = {
+	name = "Boris Slavinkov"
+	desc = ""
+	picture = "Booky.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Nikolai Bukharin"
+	desc = ""
+	picture = "Booky.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
 
 
 add_ideas = {
