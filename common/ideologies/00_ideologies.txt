@@ -334,3 +334,38 @@ ideologies = {
 		can_be_boosted = no
 	}
 }
+
+	
+	Esoteric_fascism = {
+		types = {
+		esoteric_subtype = {}
+		}
+		dynamic_faction_names = {
+			"FACTION_NAME_ESOTERIC_1"
+			"FACTION_NAME_ESOTERIC_2"
+			"FACTION_NAME_ESOTERIC_3"
+			"FACTION_NAME_ESOTERIC_4"
+			"FACTION_NAME_ESOTERIC_5"
+			"FACTION_NAME_ESOTERIC_6"
+		}
+		color = { 18 53 36 }
+		rules = {
+			can_force_government = no
+			can_puppet = no
+			can_join_factions = no
+			can_send_volunteers = yes
+			can_create_factions = no
+		}
+		modifiers = {
+			join_faction_tension = 1.00
+			generate_wargoal_tension = 1.00
+			lend_lease_tension = 1.00
+			civilian_intel_to_others = 10.0
+			army_intel_to_others = 10.0
+			navy_intel_to_others = 10.0
+			airforce_intel_to_others = 10.0
+		}
+		ai_neutral = yes	
+		#can_be_boosted = no
+	}
+}
