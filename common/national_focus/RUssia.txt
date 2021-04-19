@@ -14,7 +14,7 @@ focus_tree = {
 
 focus = {
 		id = Futrye_of_the_Rodina
-		icon = GFX_goal_generic_secret_weapon
+		icon = GFX_mus_future_of_russia
 		x = 10
 		y = 0
 		cost = 5
@@ -102,7 +102,7 @@ focus = {
 }
 focus = {
 		id = let_the_elections_begin
-		icon = GFX_goal_generic_secret_weapon
+		icon = GFX_mus_statedumaelections
 		x = 7
 		y = 4
 		cost = 5
@@ -114,7 +114,7 @@ focus = {
 }
 focus = {
 		id = thuka
-		icon = GFX_goal_generic_secret_weapon
+		icon = GFX_mus_militaristvictory
 		x = 13
 		y = 2
 		cost = 5

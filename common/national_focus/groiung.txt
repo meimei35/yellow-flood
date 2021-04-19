@@ -1,0 +1,90 @@
+focus_tree = {
+	id = goring_start	
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = PRK
+		}
+	}
+	
+	default = no
+
+focus = {
+	id =  PRK_an_independent_state
+	icon = GFX_goal_generic_secret_weapon
+	x = 5
+	y = 0
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_bush_war
+	icon = GFX_goal_generic_secret_weapon
+	x = 5
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = PRK_an_independent_state }
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_to_the_last_man
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = PRK_bush_war }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_conscript_natives
+	icon = GFX_goal_generic_secret_weapon
+	x = 6
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = PRK_bush_war }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_finish_off_the_dai_hung
+	icon = GFX_goal_generic_secret_weapon
+	x = 2
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = PRK_bush_war }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_contact_heydrich
+	icon = GFX_goal_generic_secret_weapon
+	x = 8
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = PRK_bush_war }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+focus = {
+	id =  PRK_aryan_support
+	icon = GFX_goal_generic_secret_weapon
+	x = 8
+	y = 3
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = PRK_contact_heydrich }
+	available_if_capitulated = yes
+	completion_reward = { }
+}

@@ -15,7 +15,7 @@ focus_tree = {
 focus = {
 	id =  ENG_chamberlains_last_year
 	icon = GFX_goal_generic_secret_weapon
-	x = 3
+	x = 4
 	y = 0
 	cost = 5 
 	ai_will_do = { factor = 100 }
@@ -24,14 +24,65 @@ focus = {
 }
 
 focus = {
-	id =  ENG_success_in_eden
+	id =  ENG_one_last_huzzah
 	icon = GFX_goal_generic_secret_weapon
-	x = 0
+	x = 4
 	y = 1
 	cost = 5 
 	ai_will_do = { factor = 100 }
-	available_if_capitulated = yes
 	prerequisite = { focus = ENG_chamberlains_last_year }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_for_stability
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	prerequisite = { focus = ENG_one_last_huzzah }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_talk_with_liberals
+	icon = GFX_goal_generic_secret_weapon	
+	x = 2
+	y = 3
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_for_stability }
+	mutually_exclusive = { focus = ENG_radicals }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_radicals
+	icon = GFX_goal_generic_secret_weapon	
+	x = 6
+	y = 3
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_for_stability }
+	mutually_exclusive = { focus = ENG_talk_with_liberals }
+	completion_reward = { }
+}
+
+
+focus = {
+	id =  ENG_success_in_eden
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 4
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_talk_with_liberals }
 	completion_reward = { }
 }
 
@@ -39,11 +90,11 @@ focus = {
 	id =  ENG_compromise_with_mosely
 	icon = GFX_goal_generic_secret_weapon
 	x = 6
-	y = 1
+	y = 4
 	cost = 5 
 	ai_will_do = { factor = 100 }
 	available_if_capitulated = yes
-	prerequisite = { focus = ENG_chamberlains_last_year }
+	prerequisite = { focus = ENG_radicals }
 	completion_reward = { }
 }
 
@@ -51,11 +102,11 @@ focus = {
 	id =  ENG_compromise_with_lovecraft
 	icon = GFX_goal_generic_secret_weapon
 	x = 4
-	y = 1
+	y = 4
 	cost = 5 
 	ai_will_do = { factor = 100 }
 	available_if_capitulated = yes
-	prerequisite = { focus = ENG_chamberlains_last_year }
+	prerequisite = { focus = ENG_radicals }
 	completion_reward = { }
 }
 
@@ -63,22 +114,22 @@ focus = {
 	id =  ENG_success_in_samuel
 	icon = GFX_goal_generic_secret_weapon	
 	x = 2
-	y = 1
+	y = 4
 	cost = 5 
 	ai_will_do = { factor = 100 }
 	available_if_capitulated = yes
-	prerequisite = { focus = ENG_chamberlains_last_year }
+	prerequisite = { focus = ENG_talk_with_liberals }
 	completion_reward = { }
 }
 
 focus = {
 	id =  ENG_tea_with_royalists
 	icon = GFX_goal_generic_secret_weapon
-	x = 6
-	y = 1
+	x = 8
+	y = 4
 	cost = 5 
 	ai_will_do = { factor = 100 }
 	available_if_capitulated = yes
-	prerequisite = { focus = ENG_chamberlains_last_year }
+	prerequisite = { focus = ENG_radicals }
 	completion_reward = { }
 }
