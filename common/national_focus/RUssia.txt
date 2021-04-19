@@ -23,154 +23,263 @@ focus = {
 		search_filters = { }
 		completion_reward = { }
 }
+
 focus = {
-		id = Mus_duma_elections
+		id = duma_fails
 		icon = GFX_goal_generic_secret_weapon
-		x = 10
+		x = 11
 		y = 1
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
+		mutually_exclusive = { focus = duma }
 		prerequisite = { focus = Futrye_of_the_Rodina }
 		search_filters = { }
 		completion_reward = { }
 }
-
 focus = {
-		id = MUS_commies
-		icon = GFX_goal_generic_secret_weapon
-		x = 10
-		y = 2
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = Mus_duma_elections }
-		search_filters = { }
-		completion_reward = { }
-		mutually_exclusive = {
-		focus = the_militarists
-		}
-		mutually_exclusive = {
-		focus = The_liberals
-		}
-}
-focus = {
-		id = The_liberals
-		icon = GFX_goal_generic_secret_weapon
-		x = 13
-		y = 2
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = Mus_duma_elections }
-		search_filters = { }
-		completion_reward = { }
-		mutually_exclusive = {
-		focus = the_militarists
-		}
-		mutually_exclusive = {
-		focus = MUS_commies
-		}
-}
-focus = {
-		id = the_militarists
-		icon = GFX_goal_generic_secret_weapon
-		x = 7
-		y = 2
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = Mus_duma_elections }
-		search_filters = { }
-		completion_reward = { }
-		mutually_exclusive = {
-		focus = The_liberals
-		}
-		mutually_exclusive = {
-		focus = MUS_commies
-		}
-}
-focus = {
-		id = Kerensky
-		icon = GFX_goal_generic_secret_weapon
-		x = 15
-		y = 3
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = The_liberals }
-		search_filters = { }
-		completion_reward = { }
-}
-focus = {
-		id = PSR
-		icon = GFX_goal_generic_secret_weapon
-		x = 13
-		y = 3
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = The_liberals }
-		search_filters = { }
-		completion_reward = { }
-}
-focus = {
-		id = Kadety
-		icon = GFX_goal_generic_secret_weapon
-		x = 17
-		y = 3
-		cost = 5
-		ai_will_do = { factor = 100 }
-		available_if_capitulated = yes
-		prerequisite = { focus = The_liberals }
-		search_filters = { }
-		completion_reward = { }
-}
-focus = {
-		id = slavinkov
+		id = duma
 		icon = GFX_goal_generic_secret_weapon
 		x = 9
-		y = 3
+		y = 1
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_commies }
+		mutually_exclusive = { focus = duma_fails }
+		prerequisite = { focus = Futrye_of_the_Rodina }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
-		id = Thukachvesky
+		id = reform
+		icon = GFX_goal_generic_secret_weapon
+		x = 9
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = duma }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = conessions
+		icon = GFX_goal_generic_secret_weapon
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = duma }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = conessions_to_radicals
 		icon = GFX_goal_generic_secret_weapon
 		x = 5
-		y = 3
+		y = 2
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = the_militarists }
+		prerequisite = { focus = duma }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
-		id = kornlob
+		id = promise_fair_elections
 		icon = GFX_goal_generic_secret_weapon
 		x = 7
 		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = the_militarists }
+		prerequisite = { focus = conessions_to_radicals }
+		prerequisite = { focus = conessions }
+		prerequisite = { focus = reform }
 		search_filters = { }
 		completion_reward = { }
 }
 focus = {
-		id = bukharin
+		id = let_the_elections_begin
+		icon = GFX_goal_generic_secret_weapon
+		x = 7
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = promise_fair_elections }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = thuka
+		icon = GFX_goal_generic_secret_weapon
+		x = 13
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = duma_fails }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = purge_liberals
 		icon = GFX_goal_generic_secret_weapon
 		x = 11
 		y = 3
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = MUS_commies }
+		prerequisite = { focus = thuka }
 		search_filters = { }
 		completion_reward = { }
 }
+focus = {
+		id = purge_commies
+		icon = GFX_goal_generic_secret_weapon
+		x = 13
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = thuka }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = takeoutbukharin
+		icon = GFX_goal_generic_secret_weapon
+		x = 13
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = thuka }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = ally_slavinkov
+		icon = GFX_goal_generic_secret_weapon
+		x = 15
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = thuka }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = send_dissidents_to_glag
+		icon = GFX_goal_generic_secret_weapon
+		x = 11
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = purge_liberals }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = controll
+		icon = GFX_goal_generic_secret_weapon
+		x = 13
+		y = 5
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = send_dissidents_to_glag }
+		prerequisite = { focus = takeoutbukharin }
+		prerequisite = { focus = ally_slavinkov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = kornilov
+		icon = GFX_goal_generic_secret_weapon
+		x = 19
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = duma_fails }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = rally_nationalists
+		icon = GFX_goal_generic_secret_weapon
+		x = 19
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = kornilov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = ally_thuka
+		icon = GFX_goal_generic_secret_weapon
+		x = 17
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = kornilov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = purge_bolseviks
+		icon = GFX_goal_generic_secret_weapon
+		x = 21
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = kornilov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = mop_up_the_liberals
+		icon = GFX_goal_generic_secret_weapon
+		x = 21
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = purge_bolseviks }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = old_russia
+		icon = GFX_goal_generic_secret_weapon
+		x = 19
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = rally_nationalists }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = orthdox
+		icon = GFX_goal_generic_secret_weapon
+		x = 19
+		y = 5
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = old_russia }
+		search_filters = { }
+		completion_reward = { }
+}
+
