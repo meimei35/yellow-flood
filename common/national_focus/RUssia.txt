@@ -282,4 +282,101 @@ focus = {
 		search_filters = { }
 		completion_reward = { }
 }
-
+focus = {
+		id = Slavinkov
+		icon = GFX_goal_generic_secret_weapon
+		x = 26
+		y = 2
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = duma_fails }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = Destroy_the_opposition
+		icon = GFX_goal_generic_secret_weapon
+		x = 26
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = Slavinkov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = arming_nationalists_in_gukbuk
+		icon = GFX_goal_generic_secret_weapon
+		x = 24
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = Slavinkov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = militarization
+		icon = GFX_goal_generic_secret_weapon
+		x = 28
+		y = 3
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = Slavinkov }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = industrialzation
+		icon = GFX_goal_generic_secret_weapon
+		x = 28
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = militarization }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = no_mercy
+		icon = GFX_goal_generic_secret_weapon
+		x = 24
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = arming_nationalists_in_gukbuk }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = forcefully_unite_the_party
+		icon = GFX_goal_generic_secret_weapon
+		x = 26
+		y = 4
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = Destroy_the_opposition }
+		search_filters = { }
+		completion_reward = { }
+}
+focus = {
+		id = means_to_the_tryue_end
+		icon = GFX_goal_generic_secret_weapon
+		x = 26
+		y = 5
+		cost = 5
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = forcefully_unite_the_party }
+		prerequisite = { focus = no_mercy }
+		prerequisite = { focus = industrialzation }
+		search_filters = { }
+		completion_reward = { }
+}
