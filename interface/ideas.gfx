@@ -5611,6 +5611,10 @@ SpriteType = {
 		texturefile = "gfx/interface/ideas/moslet.dds"
 	}
 	spriteType = {
+		name = "GFX_idea_lovecraft_icon"
+		texturefile = "gfx/interface/ideas/lovecraft.dds"
+	}
+	spriteType = {
 		name = "GFX_idea_rising_icon"
 		texturefile = "gfx/interface/ideas/rising.dds"
 	}

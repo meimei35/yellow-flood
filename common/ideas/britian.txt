@@ -69,7 +69,7 @@ ideas = {
 			}
 		}
 		ENG_esoteric_threat = {
-			picture = moslet_icon
+			picture = lovecraft_icon
 			
 			allowed = {
 				always = no

@@ -33,4 +33,5 @@ add_ideas = {
 	ENG_royal_republic
 	ENG_rising_sun_of_west
 	ENG_totalist_threat
+	ENG_esoteric_threat
 }

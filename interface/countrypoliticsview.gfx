@@ -437,48 +437,68 @@ spriteTypes = {
 	}
 
 	spriteType = {
-		name = "GFX_ideology_authsoc_group"
-		texturefile = "gfx/interface/ideologies/authsoc_group.dds"
+		name = "GFX_ideology_neutrality_group"
+		texturefile = "gfx/interface/ideologies/authoritarian_democrat_group.dds"
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_socialism_group"
-		texturefile = "gfx/interface/ideologies/socialism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_social_democratic_group"
-		texturefile = "gfx/interface/ideologies/social_democratic_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_marxist_group"
-		texturefile = "gfx/interface/ideologies/marxist_group.dds"
+		name = "GFX_ideology_communism_group"
+		texturefile = "gfx/interface/ideologies/communist_group.dds"
 	}
 
 	spriteType = {
+		name = "GFX_ideology_socialist_group"
+		texturefile = "gfx/interface/ideologies/socialist_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_social_democrat_group"
+		texturefile = "gfx/interface/ideologies/social_democrat_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_social_liberal_group"
+		texturefile = "gfx/interface/ideologies/social_liberal_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_social_conservative_group"
+		texturefile = "gfx/interface/ideologies/social_conservative_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_despotist_group"
+		texturefile = "gfx/interface/ideologies/despotism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_ultranational_socialism_group"
+		texturefile = "gfx/interface/ideologies/ultranational_socialism_group.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ideology_fascism_group"
+		texturefile = "gfx/interface/ideologies/fascism_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_burgundian_system_group"
+		texturefile = "gfx/interface/ideologies/burgundian_system_group.dds"
+	}
+
+	spriteType = {
+		name = "GFX_ideology_national_socialism_group"
+		texturefile = "gfx/interface/ideologies/national_socialism_group.dds"
+	}
+	
+	spriteType = {
 		name = "GFX_ideology_democratic_group"
-		texturefile = "gfx/interface/ideologies/democratic_group.dds"
+		texturefile = "gfx/interface/ideologies/market_liberal_group.dds"
 	}
-	
+
 	spriteType = {
-		name = "GFX_ideology_conservatism_group"
-		texturefile = "gfx/interface/ideologies/conservatism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_reactionism_group"
-		texturefile = "gfx/interface/ideologies/reactionism_group.dds"
-	}
-	
-	spriteType = {
-		name = "GFX_ideology_ultranationalism_group"
-		texturefile = "gfx/interface/ideologies/ultranationalism_group.dds"
-	}
-		
-	spriteType = {
-		name = "GFX_ideology_reactionism_group"
-		texturefile = "gfx/interface/ideologies/reactionism_group.dds"
+		name = "GFX_ideology_anarchism"
+		texturefile = "gfx/interface/ideologies/anarchism.dds"
 	}
 	
 	spriteType = {
@@ -582,6 +602,7 @@ spriteTypes = {
 		name = "GFX_leader_unknown"
 		textureFile = "gfx/leaders/leader_unknown.dds"
 		legacy_lazy_load = no
+		generate_mip_maps = yes
 	}
 	
 	spriteType = {
