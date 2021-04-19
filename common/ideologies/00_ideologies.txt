@@ -336,9 +336,9 @@ ideologies = {
 }
 
 	
-	Esoteric_fascism = {
+	esoteric_fascism = {
 		types = {
-		esoteric_subtype = {}
+		esoteric_fascism_subtype = {}
 		}
 		dynamic_faction_names = {
 			"FACTION_NAME_ESOTERIC_1"
