@@ -333,9 +333,7 @@ ideologies = {
 		ai_neutral = yes			
 		can_be_boosted = no
 	}
-}
 
-	
 	esoteric_fascism = {
 		types = {
 		esoteric_fascism_subtype = {}
