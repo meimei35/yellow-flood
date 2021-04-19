@@ -1,6 +1,6 @@
 
 set_politics = {
-	ruling_party = authoritarian_democrat 
+	ruling_party = despotism 
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -8,10 +8,11 @@ set_politics = {
 
 set_popularities = {
 	social_democrat = 20
-	social_liberal = 30
+	social_liberal = 25
 	communist = 10
 	socialist = 20
-	authoritarian_democrat = 1
+	authoritarian_democrat = 6
+	despotism = 0
 	fascism = 10 
 	ultranational_socialism = 9
 }
@@ -44,7 +45,7 @@ create_country_leader = {
 	desc = ""
 	picture = "duma.dds"
 	expire = "1999.1.1"
-	ideology = authoritarian_democrat_subtype
+	ideology = despotism_subtype
 }
 
 create_country_leader = {

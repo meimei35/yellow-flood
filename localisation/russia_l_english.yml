@@ -1,0 +1,19 @@
+﻿l_english:
+ #####Parties
+ MUS_social_liberal_party:0 "PSR"
+ MUS_social_liberal_party_long:0 "Partiya Sotsialistov-Revolyutsionerov"
+ MUS_authoritarian_democrat_party_long:0 "Evraziyskaya Partiya"
+ MUS_authoritarian_democrat_party:0 "Evraziytsy"
+ MUS_market_liberal_party:0 "Kadety"
+ MUS_market_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+ MUS_social_democrat_party:0 "TNSP"
+ MUS_social_democrat_party_long:0 "Trudovaya Narodno-Sotsialisticheskaya Partiya"
+ MUS_despotism_party:0 "VSRR"
+ MUS_despotism_party_long:0 "Vremennyy Sovet Rossiyskoy Respubliki"
+ #####National Spirits 
+ MUS_Velikaya_voyna:0 "Scars Of The Great War"
+ MUS_unstable:0 "Unstable Democracy"
+ MUS_reformed_military:0 "Reformed Military"
+ MUS_insane_industy:0 "Reformed Industry"
+
+ 
