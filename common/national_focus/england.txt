@@ -1,0 +1,72 @@
+focus_tree = {
+	id = england_start	
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	
+	default = no
+
+focus = {
+	id =  ENG_chamberlains_last_year
+	icon = GFX_goal_generic_secret_weapon
+	x = 3
+	y = 0
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_success_in_eden
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_chamberlains_last_year }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_compromise_with_mosely
+	icon = GFX_goal_generic_secret_weapon
+	x = 2
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_chamberlains_last_year }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_compromise_with_lovecraft
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_chamberlains_last_year }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_success_in_samuel
+	icon = GFX_goal_generic_secret_weapon	
+	x = 6
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_chamberlains_last_year }
+	completion_reward = { }
+}

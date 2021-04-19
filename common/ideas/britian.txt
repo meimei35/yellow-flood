@@ -68,5 +68,21 @@ ideas = {
 				communist_drift = 0.05
 			}
 		}
+		ENG_esoteric_threat = {
+			picture = moslet_icon
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}	
+			
+			modifier = {
+				political_power_gain = -0.5
+				esoteric_fascism_drift = 0.05
+			}
+		}
 	}
 }
