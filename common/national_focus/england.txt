@@ -38,7 +38,7 @@ focus = {
 focus = {
 	id =  ENG_compromise_with_mosely
 	icon = GFX_goal_generic_secret_weapon
-	x = 2
+	x = 6
 	y = 1
 	cost = 5 
 	ai_will_do = { factor = 100 }
@@ -62,6 +62,18 @@ focus = {
 focus = {
 	id =  ENG_success_in_samuel
 	icon = GFX_goal_generic_secret_weapon	
+	x = 2
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_chamberlains_last_year }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_tea_with_royalists
+	icon = GFX_goal_generic_secret_weapon
 	x = 6
 	y = 1
 	cost = 5 
