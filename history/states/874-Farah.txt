@@ -2,16 +2,16 @@ state={
 	id=874
 	name="STATE_874"
 	history={
-		owner = RAJ
+		owner = AFG
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = RAJ
+		add_core_of = AFG
 
 	}
 	provinces={
-		2101 4949 5020 5075 
+		2101 4949 5020  
 	}
 	manpower=601291
 	buildings_max_level_factor=1.000
