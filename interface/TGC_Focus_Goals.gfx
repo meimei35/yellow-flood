@@ -206,7 +206,7 @@ spriteTypes = {
 			texturefile = "gfx/interface/goals/mus_future_of_russia.dds"			
 			effectFile = "gfx/FX/buttonstate.lua"
 			animation = {
-				animationmaskfile = "gfx/interface/goals/mus_future_of_russia.dds"			
+				animationmaskfile = "gfx/interface/goals/mus_future_of_russia_shine.dds"			
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
@@ -219,7 +219,7 @@ spriteTypes = {
 			}
 
 			animation = {
-				animationmaskfile = "gfx/interface/goals/mus_future_of_russia.dds"			
+				animationmaskfile = "gfx/interface/goals/mus_future_of_russia_shine.dds"			
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
@@ -245,7 +245,7 @@ spriteTypes = {
 			texturefile = "gfx/interface/goals/mus_statedumaelections.dds"			
 			effectFile = "gfx/FX/buttonstate.lua"
 			animation = {
-				animationmaskfile = "gfx/interface/goals/mus_statedumaelections.dds"			
+				animationmaskfile = "gfx/interface/goals/mus_statedumaelections_shine.dds"			
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
@@ -258,7 +258,7 @@ spriteTypes = {
 			}
 
 			animation = {
-				animationmaskfile = "gfx/interface/goals/mus_statedumaelections.dds"			
+				animationmaskfile = "gfx/interface/goals/mus_statedumaelections_shine.dds"			
 				animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 				animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 				animationlooping = no			# yes or no ;)
