@@ -239,7 +239,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_mus_statedumaelections_shine"
-		texturefile = "gfx/interface/goals/statedumaelections.dds"			
+		texturefile = "gfx/interface/goals/mus_statedumaelections.dds"			
 		effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/mus_statedumaelections.dds"			

@@ -8,6 +8,11 @@ spriteTypes = {
 		name = "GFX_ideology_fascism_group"
 		texturefile = "gfx/interface/ideologies/fascism.dds"
 	}
+
+	spriteType = {
+		name = "GFX_ideology_esoteric_fascism_group"
+		texturefile = "gfx/interface/ideologies/esoteric.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_ideology_communist_group"
