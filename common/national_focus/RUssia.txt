@@ -156,7 +156,7 @@ focus = {
 		cost = 5
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = thuka }
+		prerequisite = { focus = purge_commies }
 		search_filters = { }
 		completion_reward = { }
 }
