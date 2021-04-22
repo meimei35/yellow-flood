@@ -51,17 +51,41 @@ create_country_leader = {
 create_country_leader = {
 	name = "Boris Slavinkov"
 	desc = ""
+	picture = "chernob.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Boris Slavinkov"
+	desc = ""
+	picture = "chernob.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = ""
+	picture = "theman.dds"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Boris Slavinkov"
+	desc = ""
 	picture = "boris.dds"
 	expire = "1999.1.1"
 	ideology = communist_subtype
 }
 
 create_country_leader = {
-	name = "Boris Slavinkov"
+	name = "Nikolai Trubetzkoy"
 	desc = ""
-	picture = "Booky.dds"
+	picture = "nikolai.dds"
 	expire = "1999.1.1"
-	ideology = communist_subtype
+	ideology = authoritarian_democrat_subtype
 }
 
 create_country_leader = {
