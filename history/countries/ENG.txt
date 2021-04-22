@@ -29,8 +29,8 @@ puppet = BOQ
 
 
 add_ideas = {
-	ENG_legacy_1912
-	ENG_royal_republic
+	ENG_instability
+	ENG_inequality
 	ENG_rising_sun_of_west
 	ENG_totalist_threat
 	ENG_esoteric_threat
