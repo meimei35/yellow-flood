@@ -12,6 +12,9 @@ focus_tree = {
 	
 	default = no
 
+continuous_focus_position = { x = 2200 y = 1100 }
+
+
 focus = {
 	id =  ENG_chamberlains_last_year
 	icon = GFX_goal_generic_secret_weapon
@@ -131,5 +134,252 @@ focus = {
 	ai_will_do = { factor = 100 }
 	available_if_capitulated = yes
 	prerequisite = { focus = ENG_radicals }
+	completion_reward = { }
+}
+
+focus = {
+	id = ENG_elections
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 5
+	cost = 5
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = {
+		focus = ENG_compromise_with_lovecraft
+		focus = ENG_success_in_samuel
+		focus = ENG_tea_with_royalists
+		focus = ENG_compromise_with_mosely
+		focus = ENG_success_in_eden
+	}
+}
+
+focus = {
+	id =  ENG_royalists
+	icon = GFX_goal_generic_secret_weapon
+	x = 8
+	y = 6
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_elections }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_mosely
+	icon = GFX_goal_generic_secret_weapon
+	x = 6
+	y = 6
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_elections }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_eden
+	icon = GFX_goal_generic_secret_weapon
+	x = 0
+	y = 6
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_elections }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_samuel
+	icon = GFX_goal_generic_secret_weapon
+	x = 2
+	y = 6
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_elections }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_deciding_a_king
+	icon = GFX_goal_generic_secret_weapon
+	x = 8
+	y = 7
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_royalists }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_destroy_counter_revs
+	icon = GFX_goal_generic_secret_weapon
+	x = 6
+	y = 7
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_mosely }
+	completion_reward = { }
+}
+
+focus = {
+	id = ENG_securing_stability
+	icon = GFX_goal_generic_secret_weapon
+	x = 1
+	y = 7
+	cost = 5
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = {
+		focus = ENG_samuel
+		focus = ENG_eden
+	}
+}
+
+focus = {
+	id =  ENG_lovecraft
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 6
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_elections }
+	completion_reward = { }
+}
+
+focus = {
+	id =  cuthulu_shit
+	icon = GFX_goal_generic_secret_weapon
+	x = 4
+	y = 7
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_lovecraft }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_edwrd_viii
+	icon = GFX_goal_generic_secret_weapon
+	x = 8
+	y = 8
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_deciding_a_king }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_suprise_from_nihon
+	icon = GFX_goal_generic_secret_weapon
+	x = 10
+	y = 8
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_deciding_a_king }
+	completion_reward = { }
+}
+
+focus = {
+	id =  ENG_suprise_from_byzantium
+	icon = GFX_goal_generic_secret_weapon
+	x = 6
+	y = 8
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = ENG_deciding_a_king }
+	completion_reward = { }
+}
+
+focus = {
+	id =  three_month_campgain
+	icon = GFX_goal_generic_secret_weapon
+	x = 15
+	y = 0
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus =  }
+	completion_reward = { }
+}
+
+focus = {
+	id =  destroy_free_france
+	icon = GFX_goal_generic_secret_weapon
+	x = 15
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = three_month_campgain }
+	completion_reward = { }
+}
+
+focus = {
+	id =  fortify_the_empire
+	icon = GFX_goal_generic_secret_weapon
+	x = 15
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = three_month_campgain }
+	completion_reward = { }
+}
+
+focus = {
+	id =  imperial_confrence
+	icon = GFX_goal_generic_secret_weapon
+	x = 25
+	y = 0
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus =  }
+	completion_reward = { }
+}
+
+focus = {
+	id = neogaite_japan
+	icon = GFX_goal_generic_secret_weapon
+	x = 25
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = imperial_confrence }
+	completion_reward = { }
+}
+
+focus = {
+	id = irish_question
+	icon = GFX_goal_generic_secret_weapon
+	x = 27
+	y = 1
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = imperial_confrence }
+	completion_reward = { }
+}
+
+focus = {
+	id = the_african_question
+	icon = GFX_goal_generic_secret_weapon
+	x = 25
+	y = 2
+	cost = 5 
+	ai_will_do = { factor = 100 }
+	available_if_capitulated = yes
+	prerequisite = { focus = neogaite_japan }
 	completion_reward = { }
 }
