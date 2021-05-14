@@ -1,23 +1,6 @@
 ideas = {
 
 	country = {
-		MUS_unstable= {
-			picture = penis
-			
-			allowed = {
-				always = no
-			}
-
-			allowed_civil_war = {
-				always = no
-			}	
-			
-			modifier = {
-				political_power_gain = -0.8
-				stability_factor = -0.2
-				war_support_factor = -0.1
-			}
-		}
 		MUS_Velikaya_voyna = {
 			picture = Scars_of_the_Great_War_icon
 			

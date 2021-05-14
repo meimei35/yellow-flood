@@ -58,7 +58,7 @@ focus_tree = {
 	#	}
 
 focus = {
-		id = Qing_1
+		id = year_of_Rat
 		#icon = 
 		x = 8
 		y = 0
@@ -69,52 +69,80 @@ focus = {
 		completion_reward = { }
 }
 focus = {
-		id = Unrest
+		id = meeting_with_zhili_officers
 		#icon = 
 		x = 8
 		y = 1
 		cost = 0
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = Qing_1 }
+		prerequisite = { focus = year_of_Rat }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { }
 }
 focus = {
-		id = dealing_with_unrest
+		id = dealing_unrest
 		#icon = 
 		x = 8
 		y = 2
 		cost = 0
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = Unrest }
+		prerequisite = { focus = meeting_with_zhili_officers }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { }
 }
+
 focus = {
-		id = imperial_coup
+		id = wu_peifu_plan
 		#icon = 
-		x = 10
+		x = 4
 		y = 3
 		cost = 0
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = dealing_with_unrest }
-		mutually_exclusive = { focus = heavnly_leader }
+		mutually_exclusive = { focus = the_puppet_king_steps_up }
+		prerequisite = { focus = dealing_unrest }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { }
 }
+
 focus = {
-		id = heavnly_leader
+		id = the_puppet_king_steps_up
 		#icon = 
-		x = 6
+		x = 12
 		y = 3
 		cost = 0
 		ai_will_do = { factor = 100 }
 		available_if_capitulated = yes
-		prerequisite = { focus = dealing_with_unrest }
-		mutually_exclusive = { focus = imperial_coup }
+		mutually_exclusive = { focus = wu_peifu_plan }
+		prerequisite = { focus = dealing_unrest }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { }
+}
+
+focus = {
+		id = listen_to_the_people
+		#icon = 
+		x = 14
+		y = 4
+		cost = 0
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = the_puppet_king_steps_up }
+		search_filters = { FOCUS_FILTER_INDUSTRY }
+		completion_reward = { }
+}
+
+focus = {
+		id = imperial_restoration
+		#icon = 
+		x = 11
+		y = 4
+		cost = 0
+		ai_will_do = { factor = 100 }
+		available_if_capitulated = yes
+		prerequisite = { focus = the_puppet_king_steps_up }
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = { }
 }

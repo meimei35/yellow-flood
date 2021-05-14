@@ -5636,13 +5636,13 @@ SpriteType = {
 		name = "GFX_idea_war_icon"
 		texturefile = "gfx/interface/ideas/war.dds"
 	}
-	########russian_icosn
+	########russian icons
 	spriteType = {
 		name = "GFX_Scars_of_the_Great_War_icon"
-		texturefile = "gfx/interface/ideas/Scars_of_the_Great_War.tga"
+		texturefile = "gfx/interface/ideas/Scars_of_the_Great_War.dds"
 	}
 	spriteType = {
 		name = "GFX_Reformed_Military_icon"
-		texturefile = "gfx/interface/ideas/Reformed_Military.tga"
+		texturefile = "gfx/interface/ideas/Reformed_Military.dds"
 	}
 }

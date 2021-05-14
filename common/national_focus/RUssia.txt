@@ -16,7 +16,7 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	prerequisite = {
 	}
-	x = 5
+	x = 20
 	y = 0
 
 	cost = 5
@@ -29,7 +29,31 @@ focus = {
 	completion_reward = {
 	navy_experience = 50
 	}
+	mutually_exclusive = { focus = oppose_retard }
+	cancel_if_invalid = yes
+	continue_if_invalid = no
+	available_if_capitulated = yes
+}
 
+focus = {
+	id = oppose_retard
+	icon = GFX_goal_generic_secret_weapon
+	prerequisite = {
+	}
+	x = 25
+	y = 0
+
+	cost = 5
+
+	available = {
+	}
+	available = {
+	}
+
+	completion_reward = {
+	navy_experience = 50
+	}
+	mutually_exclusive = { focus = thuka_retard }
 	cancel_if_invalid = yes
 	continue_if_invalid = no
 	available_if_capitulated = yes
