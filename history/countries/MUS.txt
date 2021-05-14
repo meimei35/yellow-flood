@@ -1,20 +1,20 @@
 
 set_politics = {
-	ruling_party = despotism 
+	ruling_party = ultranational_socialism
 	last_election = "1935.3.5"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	social_democrat = 20
-	social_liberal = 25
-	communist = 10
-	socialist = 20
-	authoritarian_democrat = 6
+	social_democrat = 15
+	social_liberal = 15
+	communist = 0
+	socialist = 10
+	authoritarian_democrat = 10
 	despotism = 0
-	fascism = 10 
-	ultranational_socialism = 9
+	fascism = 0
+	ultranational_socialism = 50
 }
 create_country_leader = {
 	name = "Mikhail Tukhachevsky"
@@ -100,7 +100,6 @@ create_country_leader = {
 
 add_ideas = {
 	MUS_Velikaya_voyna
-	MUS_unstable
 	MUS_reformed_military
 	MUS_insane_industy
 }
