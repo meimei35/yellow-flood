@@ -19,7 +19,7 @@ ideas = {
 			}
 		}
 		MUS_Velikaya_voyna = {
-			picture = nigerian
+			picture = Scars_of_the_Great_War_icon
 			
 			allowed = {
 				always = no
@@ -30,14 +30,12 @@ ideas = {
 			}	
 			
 			modifier = {
-				war_support_factor = 0.3
-				conscription_factor = 0.1
-				army_core_defence_factor = 0.1
+				war_support_factor = -0.3
 			}
 		}
 		MUS_reformed_military = {
 			
-			picture = penis
+			picture = Reformed_Military_icon
 			
 			allowed = {
 				always = no
@@ -48,7 +46,7 @@ ideas = {
 			}	
 
 			modifier = {
-				training_time_factor = -0.5
+				training_time_factor = -0.1
 				army_org = 10
 				army_morale_factor = 0.05
 				max_planning = 0.05
@@ -67,10 +65,10 @@ ideas = {
 			}	
 
 			modifier = {			
-				consumer_goods_factor = -0.3
-				production_factory_max_efficiency_factor = 0.3
-				line_change_production_efficiency_factor = 0.3
-				production_speed_buildings_factor = 0.3
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
 			}			
 		}
 	}
