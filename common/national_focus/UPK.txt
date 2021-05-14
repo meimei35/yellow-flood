@@ -19,7 +19,6 @@ focus = {
 	icon = GFX_goal_generic_secret_weapon
 	prerequisite = {
 	}
-	relative_position_id = USA_second_vinson_act
 	x = 5
 	y = 0
 
