@@ -110,7 +110,7 @@ focus = {
 focus = {
 		id = the_puppet_king_steps_up
 		#icon = 
-		x = 12
+		x = 13
 		y = 3
 		cost = 0
 		ai_will_do = { factor = 100 }
@@ -124,7 +124,7 @@ focus = {
 focus = {
 		id = listen_to_the_people
 		#icon = 
-		x = 14
+		x = 15
 		y = 4
 		cost = 0
 		ai_will_do = { factor = 100 }
