@@ -2,7 +2,7 @@ technologies = {
 
 ## INFANTRY WEAPONS ##
 
-	infantry_weapons_1 = {
+	infantry_weapons = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_1"}
 
 		enable_equipments = {
@@ -16,7 +16,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = infantry_weapons_2
+			leads_to_tech = infantry_weapons1
 			research_cost_coeff = 1
 		}
 		
@@ -46,7 +46,7 @@ technologies = {
 		}
 	}	
 	
-	infantry_weapons_2 = {
+	infantry_weapons1 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_2"}
 
 		enable_equipments = {
@@ -54,7 +54,7 @@ technologies = {
 		}	
 		
 		path = {
-			leads_to_tech = infantry_weapons_improvements_1
+			leads_to_tech = infantry_weapons2
 			research_cost_coeff = 1
 		}
 
@@ -74,7 +74,7 @@ technologies = {
 		}
 	}
 	
-	infantry_weapons_improvements_1 = {
+	infantry_weapons2 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_1"}
 
 		category_light_infantry = {
@@ -87,7 +87,7 @@ technologies = {
 			soft_attack = 0.05
 		}	
 		path = {
-			leads_to_tech = infantry_weapons_improvements_2
+			leads_to_tech = infantry_weapons3
 			research_cost_coeff = 1
 		}		
 
@@ -106,7 +106,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	infantry_weapons_improvements_2 = {
+	infantry_weapons3 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_2"}
 
 		category_light_infantry = {
@@ -122,7 +122,7 @@ technologies = {
 			defense = 0.05
 		}		
 		path = {
-			leads_to_tech = infantry_weapons_improvements_3
+			leads_to_tech = infantry_weapons4
 			research_cost_coeff = 1
 		}	
 
@@ -141,7 +141,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	infantry_weapons_improvements_3 = {
+	infantry_weapons4 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_3"}
 
 		category_light_infantry = {
@@ -157,7 +157,7 @@ technologies = {
 			breakthrough = 0.05
 		}			
 		path = {
-			leads_to_tech = infantry_weapons_improvements_4
+			leads_to_tech = infantry_weapons5
 			research_cost_coeff = 1
 		}
 		
@@ -176,7 +176,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	infantry_weapons_improvements_4 = {
+	infantry_weapons5 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_4"}
 
 		category_light_infantry = {
@@ -189,7 +189,7 @@ technologies = {
 			soft_attack = 0.1
 		}	
 		path = {
-			leads_to_tech = infantry_weapons_3
+			leads_to_tech = infantry_weapons6
 			research_cost_coeff = 1
 		}	
 
@@ -208,7 +208,7 @@ technologies = {
 			factor = 1
 		}
 	}
-	infantry_weapons_3 = {
+	infantry_weapons6 = {
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_3"}
 
 		enable_equipments = {
@@ -216,7 +216,6 @@ technologies = {
 		}	
 		
 		path = {
-			leads_to_tech = infantry_weapons_improvements_5
 			research_cost_coeff = 1
 		}
 
@@ -225,489 +224,6 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 14 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0.8
-		}
-	}
-	infantry_weapons_improvements_5 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_5"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_6
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1
-		start_year = 1960
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 16 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_6 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_6"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_7
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1962
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 18 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_7 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_7"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_8
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1964
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 20 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_8 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_8"}
-
-		category_light_infantry = {
-			soft_attack = 0.1
-		}
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_4
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1
-		start_year = 1966
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 22 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_4 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_4"}
-
-		enable_equipments = {
-			infantry_equipment_3
-		}	
-		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_9
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1968
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 24 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0.8
-		}
-	}
-	infantry_weapons_improvements_9 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_9"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_10
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1970
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 26 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_10 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_10"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}			
-		path = {
-			leads_to_tech = infantry_weapons_improvements_11
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1
-		start_year = 1972
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 28 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_11 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_11"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}			
-		path = {
-			leads_to_tech = infantry_weapons_improvements_12
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1974
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 30 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_12 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_12"}
-
-		category_light_infantry = {
-			soft_attack = 0.1
-		}
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_5
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1976
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 32 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_5 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_5"}
-
-		enable_equipments = {
-			infantry_equipment_4
-		}	
-		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_13
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1978
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 34 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 0.8
-		}
-	}
-	infantry_weapons_improvements_13 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_13"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_14
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1
-		start_year = 1980
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 36 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_14 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_14"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			defense = 0.05
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_15
-			research_cost_coeff = 1
-		}		
-
-		research_cost = 1
-		start_year = 1982
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 38 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_15 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_15"}
-
-		category_light_infantry = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		motorized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}
-		mechanized = {
-			soft_attack = 0.05
-			breakthrough = 0.05
-		}			
-		path = {
-			leads_to_tech = infantry_weapons_improvements_16
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1
-		start_year = 1984
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 40 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_improvements_16 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_improvements_16"}
-
-		category_light_infantry = {
-			soft_attack = 0.1
-		}
-		motorized = {
-			soft_attack = 0.1
-		}
-		mechanized = {
-			soft_attack = 0.1
-		}		
-		path = {
-			leads_to_tech = infantry_weapons_6
-			research_cost_coeff = 1
-		}	
-
-		research_cost = 1
-		start_year = 1986
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 42 }
-		}
-		
-		categories = {
-			infantry_weapons
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	infantry_weapons_6 = {
-		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech infantry_weapons_6"}
-
-		enable_equipments = {
-			infantry_equipment_5
-		}	
-		
-		path = {
-			leads_to_tech = infantry_weapons_improvements_8
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2
-		start_year = 1988
-		folder = {
-			name = infantry_folder
-			position = { x = 0 y = 44 }
 		}
 		
 		categories = {
