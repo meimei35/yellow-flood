@@ -1,0 +1,122 @@
+technologies = {
+
+#########################################################################
+#  Special Technologies
+#########################################################################
+#### Jungle Warfare
+	jungle_warfare = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech jungle_warfare"}
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		marine = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+		mountaineers = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+		paratrooper = {
+			jungle = { attack = 0.05 movement = 0.1 }
+		}
+	}
+
+#### Hungarian Light Infantry
+	HUN_light_infantry_tech = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech HUN_light_infantry_tech"}
+
+		research_cost = 1
+
+		allow = {
+			always = no
+		}
+
+		infantry = {
+			forest = { attack = 0.02 movement = 0.05 }
+			urban = { attack = 0.05 movement = 0.05 }
+		}
+	}
+	
+#### Waffen SS
+	waffen_ss = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech waffen_ss"}
+
+		allow = {
+			always = no
+		}
+
+		enable_subunits = {
+			SS_infantry
+			SS_cavalry
+			SS_motorized
+			SS_APC
+			SS_armor
+		}
+
+	}
+	base_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech base_armor"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+			medium_tank_equipment_1
+			medium_tank_equipment_2
+			light_tank_equipment_1
+			light_tank_equipment_2
+			medium_tank_destroyer_equipment_1
+			medium_tank_destroyer_equipment_2
+			light_tank_destroyer_equipment_1
+			light_tank_destroyer_equipment_2
+		}
+	}
+################################################################################################	
+		icbm_00 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech icbm_00"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+				icbm_equipment_equipment_1
+		}
+	}
+		mrbm_00 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech mrbm_00"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+				guided_missile_equipment_1
+		}
+	}
+		mrbm_01 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech mrbm_01"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+				guided_missile_equipment_2
+		}
+	}
+		mrbm_02 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech mrbm_02"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+				guided_missile_equipment_3
+		}
+	}
+		mrbm_03 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech mrbm_03"}
+		allow = {
+			always = no
+		}
+			enable_equipments = {
+				guided_missile_equipment_4
+		}
+	}
+}

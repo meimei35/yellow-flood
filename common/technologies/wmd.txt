@@ -1,0 +1,1147 @@
+technologies = {
+#######################################
+####NUCLEAR RESEARCH#########
+#######################################	
+	nuclear_capabilities = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech nuclear_capabilities"}
+		allow = { always = no }
+		
+		research_cost = 2
+
+		start_year = 1945
+		
+		#folder = {
+		#	name = secret_weapons_folder
+		#	position = { x = 0 y = 1 }
+		#}
+		
+		allow = {
+			always = no
+		}
+		
+		#ai_will_do = {
+		#	factor = 0
+		#}
+		
+		categories = {
+			nuclear
+		}
+	}
+	immoral_warfare = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech immoral_warfare"}
+		allow = { always = no }
+		
+		research_cost = 2
+
+		start_year = 1945
+		
+		#folder = {
+		#	name = secret_weapons_folder
+		#	position = { x = 0 y = 1 }
+		#}
+		
+		allow = {
+			always = no
+		}
+		
+		#ai_will_do = {
+		#	factor = 0
+		#}
+		
+		categories = {
+			nuclear
+		}
+	}
+	gas_warfare = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech gas_warfare"}
+		allow = { always = no }
+		enable_tactic = tactic_gas_attack
+		research_cost = 2
+
+		start_year = 1945
+		
+		#folder = {
+		#	name = secret_weapons_folder
+		#	position = { x = 0 y = 1 }
+		#}
+		
+		allow = {
+			always = no
+		}
+		
+		#ai_will_do = {
+		#	factor = 0
+		#}
+		
+		categories = {
+			nuclear
+		}
+	}
+	nukes = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech nukes"}
+		dependencies = {
+			nuclear_capabilities = 1
+		}
+		start_year = 1945
+		research_cost = 5
+		path = {
+			leads_to_tech = atomic_research 
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		nuclear_production = 1
+		
+		categories = {
+			nuclear
+		}
+	}
+	
+	atomic_research = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech atomic_research"}
+
+		research_speed_factor = 0.04
+		
+		path = {
+			leads_to_tech = nuclear_ship_reactor 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = nuclear_reactor 
+			research_cost_coeff = 1
+		}		
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+
+	}
+	
+	nuclear_reactor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech nuclear_reactor"}
+
+		# can build reactors
+		
+		path = {
+			leads_to_tech = civilian_reactors 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1955
+		research_cost = 5		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		
+		enable_building = {
+			building = nuclear_reactor
+			level = 1
+		}
+	}
+	nuclear_ship_reactor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech nuclear_ship_reactor"}
+		nuclear_production_factor = 0.1
+		# can build reactors for submarines / aircraft carriers
+		research_speed_factor = -0.02
+		
+		start_year = 1955
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -2 y = 5 }
+		}
+		folder = {
+			name = naval_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+	civilian_reactors = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech civilian_reactors"}
+
+		path = {
+			leads_to_tech = civilian_reactors2 
+			research_cost_coeff = 1
+		}
+		start_year = 1960
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		enable_building = {
+			building = nuclear_reactor
+			level = 2
+		}
+
+	}
+	civilian_reactors2 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech civilian_reactors2"}
+
+		path = {
+			leads_to_tech = civilian_reactors3
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = space_reactor
+			research_cost_coeff = 1
+		}
+		start_year = 1970
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		enable_building = {
+			building = nuclear_reactor
+			level = 3
+		}
+
+	}
+	
+	civilian_reactors3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech civilian_reactors3"}
+
+		path = {
+			leads_to_tech = civilian_reactors4
+			research_cost_coeff = 1
+		}
+		start_year = 1980
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		enable_building = {
+			building = nuclear_reactor
+			level = 4
+		}
+	}
+	civilian_reactors4 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech civilian_reactors4"}
+
+		start_year = 1990
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			nuclear
+		}
+		enable_building = {
+			building = nuclear_reactor
+			level = 5
+		}
+	}
+#####################
+##CHEMICAL###########
+#####################
+	chemical_g_series = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_g_series"}
+	
+		start_year = 1945
+		research_cost = 5
+		path = {
+			leads_to_tech = chemical_aerosol 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = chemical_protection 
+			research_cost_coeff = 1
+		}
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_protection = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_protection"}
+		enable_tactic = tactic_protective_gear
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_aerosol = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_aerosol"}
+		air_strategic_bomber_bombing_factor = 0.15
+		army_artillery_attack_factor = 0.15
+
+		path = {
+			leads_to_tech = chemical_lethal_gas 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = chemical_non_lethal_gas 
+			research_cost_coeff = 1
+		}
+		
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+
+	}
+	chemical_lethal_gas = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_lethal_gas"}
+        on_research_complete = {
+        	custom_effect_tooltip = CHEMICALATTACK
+            hidden_effect = {
+            	set_country_flag = chemical_attack_capabilities
+            }
+        }
+        resistance_target = -0.15
+		# can build reactors for submarines / aircraft carriers
+		path = {
+			leads_to_tech = chemical_shells 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			chemical_non_lethal_gas
+		}
+		start_year = 1950
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 2 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_shells = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_shells"}
+		path = {
+			leads_to_tech = chemical_packed_bombs 
+			research_cost_coeff = 1
+		}
+		army_artillery_attack_factor = 0.20
+
+		start_year = 1960
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 2 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_packed_bombs = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_packed_bombs"}
+		path = {
+			leads_to_tech = chemical_v_series_binary_munition 
+			research_cost_coeff = 1
+		}
+		air_cas_present_factor = 0.1
+		air_strategic_bomber_bombing_factor = 0.03
+
+		start_year = 1965
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 2 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_non_lethal_gas = {
+		on_research_complete = {
+			log = "[GetDateText]: [Root.GetName]: add tech chemical_non_lethal_gas"
+		}
+		# can build reactors for submarines / aircraft carriers
+		resistance_growth = -0.15
+		path = {
+			leads_to_tech = chemical_combat_tear_gas 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			chemical_lethal_gas
+		}
+		start_year = 1950
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_combat_tear_gas = {
+		on_research_complete = {
+		log = "[GetDateText]: [Root.GetName]: add tech chemical_combat_tear_gas"
+		custom_effect_tooltip = TEAR_GAS_EFFECT1
+	}
+		path = {
+			leads_to_tech = chemical_military_chemical_science 
+			research_cost_coeff = 1
+		}
+		artillery_brigade = {
+			urban = {
+				attack = 0.15
+			}
+			fort = {
+				attack = 0.15
+			}
+		}
+		MBT_sp_artillery_brigade = {
+			urban = {
+				attack = 0.15
+			}
+			fort = {
+				attack = 0.15
+			}
+		}
+		start_year = 1960
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_military_chemical_science = {
+		on_research_complete = {
+		log = "[GetDateText]: [Root.GetName]: add tech chemical_military_chemical_science"
+	}
+		path = {
+			leads_to_tech = chemical_v_series_binary_munition 
+			research_cost_coeff = 1
+		}
+		category_all_infantry = {
+			casualty_trickleback = 0.05
+		}
+		production_oil_factor = 0.1
+		local_resources_factor = 0.10
+		start_year = 1965
+		research_cost = 3
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+	}
+	chemical_v_series_binary_munition = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_v_series_binary_munition"}
+
+		category_support_battalions = {
+			soft_attack = 0.15
+		}
+		path = {
+			leads_to_tech = chemical_solid_dust_spread 
+			research_cost_coeff = 1
+		}
+		start_year = 1970
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+
+	}
+
+	chemical_solid_dust_spread = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_solid_dust_spread"}
+		category_support_battalions = {
+			max_organisation = 15
+		}
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = chemical_n_series
+			research_cost_coeff = 1
+		}
+		start_year = 1970
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+
+	}
+	chemical_n_series = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech chemical_n_series"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = chemical_n_series_protection
+			research_cost_coeff = 1
+		}
+		dependencies = {
+			immoral_warfare = 1
+		}
+		start_year = 1990
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			chemical_tech
+		}
+
+	}
+	
+	biological_weapons = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_weapons"}
+	
+		research_speed_factor = -0.02
+	
+		start_year = 1945
+		research_cost = 5
+		
+		path = {
+			leads_to_tech = biological_human_experiment 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = biological_bacterial 
+			research_cost_coeff = 1
+		}
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+		
+		categories = {
+			nuclear
+		}
+	}
+	
+	biological_human_experiment = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_human_experiment"}
+
+		research_speed_factor = 0.04
+		path = {
+			leads_to_tech = biological_body_enhacement 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_body_enhacement = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_body_enhacement"}
+
+		research_speed_factor = -0.02
+		army_org_factor = -0.05
+		army_morale_factor = 0.15
+		path = {
+			leads_to_tech = biological_viral2 
+			research_cost_coeff = 1
+		}
+		start_year = 1955
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_viral2 = { #Human Special Research
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_viral2"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_viral3 
+			research_cost_coeff = 1
+		}
+		start_year = 1960
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_viral3 = { #basic body manipulation
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_viral3"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_viral4 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_viral4 = { #insanity
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_viral4"}
+
+		research_speed_factor = -0.02
+		
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = -1 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_bacterial = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_bacterial"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_bacterial1 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 3 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_bacterial1 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_bacterial1"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_bacterial2 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 7 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_bacterial2 = { #improved rate
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_bacterial2"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_bacterial3 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 11 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_bacterial3 = { #production
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_bacterial3"}
+
+		research_speed_factor = -0.02
+		path = {
+			leads_to_tech = biological_bacterial4 
+			research_cost_coeff = 1
+		}
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 15 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+	biological_bacterial4 = { #super agent
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech biological_bacterial4"}
+
+		research_speed_factor = -0.02
+		
+		start_year = 1950
+		research_cost = 5
+		
+		folder = {
+			name = secret_weapons_folder
+			position = { x = 1 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			
+			modifier = {
+				factor = 1.2
+				date > "1941.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1942.1.1"
+			}
+			
+			modifier = {
+				factor = 1.2
+				date > "1943.1.1"
+			}
+			
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+		
+		categories = {
+			nuclear
+		}
+
+	}
+}

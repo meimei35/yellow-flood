@@ -1,0 +1,1345 @@
+technologies = {
+	###START TECH###
+	gw_artillery = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech gw_artillery"}
+
+		enable_equipments = {
+			artillery_equipment_1
+		}
+		
+		allow = {
+			always = no
+		}
+		
+		research_cost = 1.5
+		
+		#folder = {
+		#	name = artillery_folder
+		#	position = { x = 0 y = 0 }
+		#}
+		
+		categories = {
+			artillery
+		}
+		
+		#ai_will_do = {
+		#	factor = 1
+		#	
+		#}
+	}
+	###START OF ARTILLERY BRANCH; FIRST TOWED THEN SELF PROPELLED###
+	artillery4 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery4"}
+
+		enable_equipments = {
+			artillery_equipment_2
+		}
+		
+		path = {
+			leads_to_tech = artillery_1950 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = SPART_1950
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1945
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	artillery_1950 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_1950"}
+		
+		enable_equipments = {
+			artillery_equipment_3
+		}
+		
+		path = {
+			leads_to_tech = artillery_1970 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_1950_soft_attack 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	artillery_1950_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_1950_soft_attack"}
+		category_line_artillery = {
+			soft_attack = 0.15
+		}
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	artillery_1970 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_1970"}
+		
+		enable_equipments = {
+			artillery_equipment_4
+		}
+
+		path = {
+			leads_to_tech = artillery_1990 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_1970_soft_attack 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	artillery_1970_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_1970_soft_attack"}
+		category_line_artillery = {
+			soft_attack = 0.15
+		}
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -5 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	artillery_1990 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_1990"}
+		
+		enable_equipments = {
+			artillery_equipment_5
+		}
+		
+		research_cost = 1
+		
+		start_year = 1990
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1950 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1950"}
+		dependencies = {
+			advanced_medium_tank = 1
+		}
+		enable_equipments = {
+			MBT_1950_artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPART_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1950_soft_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1950_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1950_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1950_soft_attack"}
+		
+		MBT_sp_artillery_brigade = {
+			soft_attack = 0.2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1950_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1950_speed"}
+		
+		MBT_sp_artillery_brigade = {
+			maximum_speed = 0.1
+		}
+			
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1960 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1960"}
+		
+		enable_equipments = {
+			MBT_1960_artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPART_1970
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1960_soft_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1960_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1960_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1960_soft_attack"}
+		MBT_sp_artillery_brigade = {
+			soft_attack = 0.2
+		}
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1960_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1960_speed"}
+		MBT_sp_artillery_brigade = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1970 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1970"}
+		
+		enable_equipments = {
+			MBT_1970_artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPART_1980
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1970_soft_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1970_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1970_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1970_soft_attack"}
+		MBT_sp_artillery_brigade = {
+			soft_attack = 0.2
+		}
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1970_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1970_speed"}
+		MBT_sp_artillery_brigade = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1980 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1980"}
+		
+		enable_equipments = {
+			MBT_1980_artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPART_1990
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1980_soft_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPART_1980_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1980_soft_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1980_soft_attack"}
+		MBT_sp_artillery_brigade = {
+			soft_attack = 0.1
+		}
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1980_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1980_speed"}
+		MBT_sp_artillery_brigade = {
+			maximum_speed = 0.1
+		}
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPART_1990 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPART_1990"}
+		
+		enable_equipments = {
+			MBT_1990_artillery_equipment_1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1990
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	###ANTI-AIR SYSTEMS. FIRST TOWED THEN SP###
+	antiair5 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair5"}
+
+		enable_equipments = {
+			anti_air_equipment_1
+		}
+		enable_subunits = {
+		mot_anti_air_brigade
+		anti_air
+		}
+		enable_equipment_modules = { 
+				ship_anti_air_1
+			}
+		path = {
+			leads_to_tech = antiair_1950 
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = SPAA_1950
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+
+		start_year = 1945
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			artillery
+		}
+	}
+	antiair_1950 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1950"}
+		
+		enable_equipments = {
+			anti_air_equipment_2
+		}
+		path = {
+			leads_to_tech = antiair_1950_air_attack 
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = { 
+			ship_anti_air_2
+		}		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1950_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1950_air_attack"}
+		anti_air = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		enable_equipment_modules = { 
+			ship_anti_air_3
+		}
+		path = {
+			leads_to_tech = antiair_1970_air_attack 
+			research_cost_coeff = 1
+		}
+		research_cost = 1
+		
+		start_year = 1955
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1970_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1970_air_attack"}
+		path = {
+			leads_to_tech = antiair_1975_air_attack
+			research_cost_coeff = 1
+		}
+		anti_air = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		enable_equipment_modules = { 
+			ship_anti_air_4
+		}
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1975_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1975_air_attack"}
+		path = {
+			leads_to_tech = antiair_1970 
+			research_cost_coeff = 1
+		}
+		anti_air = {
+			air_attack = 0.1
+		}
+		mot_anti_air_brigade = {
+			air_attack = 0.1
+		}
+		research_cost = 1
+		
+		start_year = 1965
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1970 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1970"}
+		enable_subunits = {
+		manpad_anti_air
+		anti_air_brigade
+		}		
+		enable_equipments = {
+			manpad_equipment_1
+		}
+		path = {
+			leads_to_tech = antiair_1980_air_attack 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 10 }
+		}
+		
+		categories = {
+			manpad_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1980_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1975_air_attack"}
+		path = {
+			leads_to_tech = antiair_1990 
+			research_cost_coeff = 1
+		}
+		anti_air_brigade = {
+			max_organisation = 3
+		}
+		manpad_anti_air = {
+			max_organisation = 3
+		}
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	antiair_1990 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech antiair_1990"}
+		
+		enable_equipments = {
+			manpad_equipment_2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1985
+		
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = 16 }
+		}
+		
+		categories = {
+			manpad_tech
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1950 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1950"}
+		dependencies = {
+			advanced_medium_tank = 1
+		}
+		enable_equipments = {
+			MBT_1950_aa_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPAA_1960
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1950_air_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1950_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 2 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1950_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1950_air_attack"}
+		
+		MBT_sp_anti_air_brigade = {
+			air_attack = 0.2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1950_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1950_speed"}
+		
+		MBT_sp_anti_air_brigade = {
+			maximum_speed = 0.1
+		}
+			
+		research_cost = 1
+		
+		start_year = 1950
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1960 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1960"}
+		
+		enable_equipments = {
+			MBT_1960_aa_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPAA_1970
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1960_air_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1960_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 6 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1960_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1960_air_attack"}
+		
+		MBT_sp_anti_air_brigade = {
+			air_attack = 0.2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1960_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1960_speed"}
+		
+		MBT_sp_anti_air_brigade = {
+			maximum_speed = 0.1
+		}
+			
+		research_cost = 1
+		
+		start_year = 1960
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1970 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1970"}
+		
+		enable_equipments = {
+			MBT_1970_aa_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPAA_1980
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1970_air_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1970_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 10 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1970_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1970_air_attack"}
+		
+		MBT_sp_anti_air_brigade = {
+			air_attack = 0.2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1970_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1970_speed"}
+		
+		MBT_sp_anti_air_brigade = {
+			maximum_speed = 0.1
+		}
+			
+		research_cost = 1
+		
+		start_year = 1970
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1980 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1980"}
+		
+		enable_equipments = {
+			MBT_1980_aa_equipment_1
+		}
+
+		path = {
+			leads_to_tech = SPAA_1990
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1980_air_attack
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = SPAA_1980_speed
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 14 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1980_air_attack = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1980_air_attack"}
+		
+		MBT_sp_anti_air_brigade = {
+			air_attack = 0.2
+		}
+		
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1980_speed = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1980_speed"}
+		
+		MBT_sp_anti_air_brigade = {
+			maximum_speed = 0.1
+		}
+			
+		research_cost = 1
+		
+		start_year = 1980
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	SPAA_1990 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech SPAA_1990"}
+		
+		enable_equipments = {
+			MBT_1990_aa_equipment_1
+		}
+		
+		research_cost = 2
+		
+		start_year = 1990
+		
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = 18 }
+		}
+		
+		categories = {
+			artillery
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+	}
+	# yeeted below idk why it was never added
+
+	###AIR SUPPORT###
+#	air_artillery_integration = {
+#		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech air_artillery_integration"}
+#
+#		# EFFECT ########
+#		category_cas = {
+#			air_ground_attack = 0.05
+#		}
+#		air_cas_efficiency = 0.1
+#
+#		###########
+#
+#		path = {
+#			leads_to_tech = dedicated_artillery_observers
+#			research_cost_coeff = 1
+#		}
+#		path = {
+#			leads_to_tech = airbombing_reliance
+#			research_cost_coeff = 1
+#		}
+#	
+#		research_cost = 2
+#		
+#		categories = {
+#			cat_battlefield_support
+#			artillery
+#		}
+#		start_year = 1945
+#		folder = {
+#			name = artillery_folder
+#			position = { x = 0 y = 0 }
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#		}
+#	}
+#	dedicated_artillery_observers = {
+#		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech dedicated_artillery_observers"}
+#
+#		# EFFECT ########
+#		artillery = {
+#			soft_attack = 0.1
+#			recon = 2
+#		}
+#		
+#
+#		###########
+#
+#		path = {
+#			leads_to_tech = artillery_standarization
+#			research_cost_coeff = 1
+#		}
+#		
+#		xor = {
+#			airbombing_reliance
+#		}
+#	
+#		research_cost = 2
+#		
+#		categories = {
+#			cat_battlefield_support
+#			artillery
+#		}
+#		start_year = 1950
+#		folder = {
+#			name = artillery_folder
+#			position = { x = -2 y = 2 }
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#		}
+#	}
+#	airbombing_reliance = {
+#		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech airbombing_reliance"}
+#
+#		# EFFECT ########
+#		category_cas = {
+#			air_ground_attack = 0.1
+#		}
+#		air_cas_efficiency = 0.1
+#		
+#		###########
+#
+#		path = {
+#			leads_to_tech = artillery_standarization
+#			research_cost_coeff = 1
+#		}
+#		
+#		xor = {
+#			dedicated_artillery_observers
+#		}
+#	
+#		research_cost = 2
+#		
+#		categories = {
+#			cat_battlefield_support
+#			artillery
+#		}
+#		start_year = 1950
+#		folder = {
+#			name = artillery_folder
+#			position = { x = 2 y = 2 }
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#		}
+#	}
+#	artillery_standarization = {
+#		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech artillery_standarization"}
+#
+#		# EFFECT ########
+#		artillery = {
+#			reliability = 0.1
+#			build_cost_ic = -0.15
+#		}
+#		
+#		###########
+#	
+#		research_cost = 2
+#		start_year = 1960
+#		categories = {
+#			cat_battlefield_support
+#			artillery
+#		}
+#		
+#		folder = {
+#			name = artillery_folder
+#			position = { x = 0 y = 6 }
+#		}
+#		
+#		ai_will_do = {
+#			factor = 2
+#		}
+#	}
+}

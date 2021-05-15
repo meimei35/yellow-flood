@@ -1,0 +1,1753 @@
+technologies = {
+	### SOVIET TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	
+	advanced_medium_tank = {#Panther
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech advanced_medium_tank"}
+
+		enable_equipments = {
+			medium_tank_equipment_3
+			medium_tank_destroyer_equipment_3
+		}
+		path = {
+			leads_to_tech = MBT_1950
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1945
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+	
+	mechanised_infantry3 = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech mechanised_infantry3"}
+
+		enable_equipments = {
+			mechanized_equipment_3
+		}
+		path = {
+			leads_to_tech = APC_1950
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1945
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			motorized_equipment
+			infantry_tech
+			cat_mechanized_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	advanced_light_tank = {#Panther
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech advanced_light_tank"}
+
+		enable_equipments = {
+			light_tank_equipment_3 
+			light_tank_destroyer_equipment_3
+			light_tank_artillery_equipment_3
+			light_tank_aa_equipment_3
+		}
+		path = {
+			leads_to_tech = IFV_1950
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1945
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 0 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+			cat_medium_armor
+		}
+	}
+
+	APC_1950 = {#Panzer I
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1950"}
+
+		enable_equipments = {
+			APC_1950_equipment_1 
+		}
+		enable_subunits = {
+			APC
+		}
+		
+		path = {
+			leads_to_tech = APC_1960
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor
+			leads_to_tech = APC_1950_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 turret
+			leads_to_tech = APC_1950_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor engine
+			leads_to_tech = APC_1950_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}	
+	
+	APC_1950_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1950_basic_armor"}
+		
+		APC = {
+			armor_value = 0.02
+			hardness = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	
+	APC_1950_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1950_basic_turret"}
+		
+		APC = {
+			soft_attack = 0.01
+			hard_attack = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	APC_1950_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1950_basic_engine"}
+		
+		APC = {
+			maximum_speed = 0.03
+			reliability = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	APC_1960 = {#Panzer II / APC 1960
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1960"}
+
+		enable_equipments = {
+			APC_1960_equipment_1 
+		}
+		
+		path = {
+			leads_to_tech = APC_1970
+			research_cost_coeff = 1
+		}
+		path = { #1960 armor
+			leads_to_tech = APC_1960_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 turret
+			leads_to_tech = APC_1960_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 armor engine
+			leads_to_tech = APC_1960_basic_engine
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	APC_1960_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1960_basic_armor"}
+		
+		APC = {
+			armor_value = 0.02
+			hardness = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	
+	APC_1960_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1960_basic_turret"}
+		
+		APC = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	APC_1960_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1960_basic_engine"}
+		
+		APC = {
+			maximum_speed = 0.03
+			reliability = 0.01
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	APC_1970 = {#Leopard
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1970"}
+
+		enable_equipments = {
+			APC_1970_equipment_1 
+		}	
+		path = { #1980 
+			leads_to_tech = APC_1980
+			research_cost_coeff = 1
+		}
+		path = { #1970 armor
+			leads_to_tech = APC_1970_basic_armor
+			research_cost_coeff = 1
+		}
+		path = { #1970 turret
+			leads_to_tech = APC_1970_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1970 armor engine
+			leads_to_tech = APC_1970_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	APC_1970_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1970_basic_armor"}
+		
+		APC = {
+			armor_value = 0.02
+			hardness = 0.01
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	APC_1970_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1970_basic_turret"}
+		
+		APC = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	APC_1970_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1970_basic_engine"}
+		
+		APC = {
+			maximum_speed = 0.03
+			reliability = 0.01
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	APC_1980 = {#Leopard
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1980"}
+
+		enable_equipments = {
+			APC_1980_equipment_1 
+		}
+		path = { #1990 armor
+			leads_to_tech = APC_1990
+			research_cost_coeff = 1
+		}
+		path = { #1980 armor
+			leads_to_tech = APC_1980_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1980 turret
+			leads_to_tech = APC_1980_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1980 armor engine
+			leads_to_tech = APC_1980_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1980
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 14 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	APC_1980_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1980_basic_armor"}
+		
+		APC = {
+			armor_value = 0.02
+			hardness = 0.01
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	
+	APC_1980_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1980_basic_turret"}
+		
+		APC = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	APC_1980_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1980_basic_engine"}
+		
+		APC = {
+			maximum_speed = 0.01
+			reliability = 0.05
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 16 }
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+
+	APC_1990 = {#Leopard
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech APC_1990"}
+
+		enable_equipments = {
+			APC_1990_equipment_1 
+		}
+		
+		research_cost = 2
+		start_year = 1990
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 18 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			APC
+		}
+	}
+	
+	IFV_1950 = {#Panzer III
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1950"}
+
+		enable_equipments = {
+			IFV_1950_equipment_1 
+		}
+		enable_subunits = {
+			IFV
+		}
+		path = {
+			leads_to_tech = IFV_1960 
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor
+			leads_to_tech = IFV_1950_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 turret
+			leads_to_tech = IFV_1950_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor engine
+			leads_to_tech = IFV_1950_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+
+		
+		ai_will_do = {
+			factor = 2
+			
+		}
+		
+		categories = {
+			armor
+			IFV
+		}
+	}
+	
+	IFV_1950_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1950_basic_armor"}
+		
+		IFV = {
+			armor_value = 0.02
+			breakthrough = 0.02
+			hardness = 0.01
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	IFV_1950_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1950_basic_turret"}
+		
+		IFV = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1950_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1950_basic_engine"}
+		
+		IFV = {
+			maximum_speed = 0.02
+			reliability = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1960 = {#Panzer IV
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1960"}
+
+		enable_equipments = {
+			IFV_1960_equipment_1 
+		}
+		
+		path = {
+			leads_to_tech = IFV_1970 
+			research_cost_coeff = 1
+		}
+		path = { #1960 armor
+			leads_to_tech = IFV_1960_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 turret
+			leads_to_tech = IFV_1960_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 armor engine
+			leads_to_tech = IFV_1960_basic_engine
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 3
+		}
+		
+		categories = {
+			armor
+			IFV
+		}
+	}
+	
+	IFV_1960_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1960_basic_armor"}
+		
+		IFV = {
+			armor_value = 0.02
+			breakthrough = 0.02
+			hardness = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	IFV_1960_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1960_basic_turret"}
+		
+		IFV = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1960_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1960_basic_engine"}
+		
+		IFV = {
+			maximum_speed = 0.02
+			reliability = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1970 = {#Panther
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1970"}
+
+		enable_equipments = {
+			IFV_1970_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = IFV_1980 
+			research_cost_coeff = 1
+		}
+		path = { #1970 armor
+			leads_to_tech = IFV_1970_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1970 turret
+			leads_to_tech = IFV_1970_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1970 armor engine
+			leads_to_tech = IFV_1970_basic_engine
+			research_cost_coeff = 1
+		}
+		research_cost = 2
+		start_year = 1970
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+		
+
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			IFV
+		}
+	}
+	
+	IFV_1970_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1970_basic_armor"}
+		
+		IFV = {
+			armor_value = 0.02
+			breakthrough = 0.02
+			hardness = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	IFV_1970_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1970_basic_turret"}
+		
+		IFV = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1970_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1970_basic_engine"}
+		
+		IFV = {
+			maximum_speed = 0.02
+			reliability = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1980 = {#E-50
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1980"}
+
+		enable_equipments = {
+			IFV_1980_equipment_1
+		}	
+		path = {
+			leads_to_tech = IFV_1990
+			research_cost_coeff = 1
+		}
+		path = { #1980 armor
+			leads_to_tech = IFV_1980_basic_armor
+			research_cost_coeff = 1
+		}
+		path = { #1980 turret
+			leads_to_tech = IFV_1980_basic_turret
+			research_cost_coeff = 1
+		}
+		path = { #1980 armor engine
+			leads_to_tech = IFV_1980_basic_engine
+			research_cost_coeff = 1
+		}
+		research_cost = 2.5
+		start_year = 1980
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 14 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			IFV
+		}
+	}
+	
+	IFV_1980_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1980_basic_armor"}
+		
+		IFV = {
+			armor_value = 0.02
+			breakthrough = 0.01
+			hardness = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+	IFV_1980_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1980_basic_turret"}
+		
+		IFV = {
+			soft_attack = 0.02
+			hard_attack = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1980_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1980_basic_engine"}
+		
+		IFV = {
+			maximum_speed = 0.01
+			reliability = 0.01
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 16 }
+		}
+		
+		categories = {
+			armor
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	IFV_1990 = {#T-90
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech IFV_1990"}
+
+		enable_equipments = {
+			IFV_1990_equipment_1
+		}	
+		research_cost = 2.5
+		start_year = 1990
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 18 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			IFV_1990
+		}
+	}
+	
+
+	
+	MBT_1950 = {#T-55
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1950"}
+
+		enable_equipments = {
+			MBT_1950_equipment_1 
+		}
+		
+		path = {
+			leads_to_tech = MBT_1960
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor
+			leads_to_tech = MBT_1950_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 turret
+			leads_to_tech = MBT_1950_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1950 armor engine
+			leads_to_tech = MBT_1950_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1950
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 2 }
+		}
+		
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			cat_heavy_armor
+		}
+	}
+	
+	MBT_1950_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1950_basic_armor"}
+		
+		MBT = {
+			armor_value = 0.02
+			breakthrough = 0.02
+			hardness = 0.02
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			armor_improvements
+		}
+	}
+	
+	MBT_1950_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1950_basic_turret"}
+		
+		MBT = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 4 }
+		}
+		
+		categories = {
+			armor
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1950_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1950_basic_engine"}
+		
+		MBT = {
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1953
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			armor
+			engine_improvement
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1960 = {#T-64
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1960"}
+
+		enable_equipments = {
+			MBT_1960_equipment_1
+		}
+		
+		path = {
+			leads_to_tech = MBT_1970 
+			research_cost_coeff = 1
+		}
+		path = { #1960 armor
+			leads_to_tech = MBT_1960_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 turret
+			leads_to_tech = MBT_1960_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #1960 armor engine
+			leads_to_tech = MBT_1960_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2.5
+		start_year = 1960
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			MBT
+		}
+	}
+	
+	MBT_1960_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1960_basic_armor"}
+		
+		MBT = {
+			armor_value = 0.05
+			breakthrough = 0.05
+			hardness = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			armor_improvements
+		}
+	}
+	
+	
+	MBT_1960_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1960_basic_turret"}
+		
+		MBT = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 8 }
+		}
+		
+		categories = {
+			armor
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	MBT_1960_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1960_basic_engine"}
+		
+		MBT = {
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1963
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			armor
+			engine_improvement
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1970 = {#King Tiger
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1970"}
+		
+		path = {
+			leads_to_tech = MBT_1980
+			research_cost_coeff = 1
+		}
+		path = { #MBT_1970 armor
+			leads_to_tech = MBT_1970_basic_armor
+			research_cost_coeff = 1
+		}
+		
+		path = { #MBT_1970 turret
+			leads_to_tech = MBT_1970_basic_turret
+			research_cost_coeff = 1
+		}
+		
+		path = { #MBT_1970 armor engine
+			leads_to_tech = MBT_1970_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			MBT_1970_equipment_1 
+		}
+		
+		research_cost = 2.5
+		start_year = 1970
+		
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 10 }
+		}
+
+		
+		ai_will_do = {
+			factor = 1
+			
+		}
+		
+		categories = {
+			armor
+			MBT
+		}
+	}
+	
+	MBT_1970_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1970_basic_armor"}
+		
+		MBT = {
+			armor_value = 0.05
+			breakthrough = 0.05
+			hardness = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 12 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			armor_improvements
+		}
+	}
+	
+	MBT_1970_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1970_basic_turret"}
+		
+		MBT = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 12 }
+		}
+		
+		categories = {
+			armor
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1970_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1970_basic_engine"}
+		
+		MBT = {
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1973
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 12 }
+		}
+		
+		categories = {
+			armor
+			engine_improvement
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1980 = {#Maus
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1980"}
+
+		path = {
+			leads_to_tech = MBT_1990
+			research_cost_coeff = 1
+		}
+		path = { #MBT_1980 armor
+			leads_to_tech = MBT_1980_basic_armor
+			research_cost_coeff = 1
+		}
+		path = { #MBT_1980 turret
+			leads_to_tech = MBT_1980_basic_turret
+			research_cost_coeff = 1
+		}
+		path = { #MBT_1980 armor engine
+			leads_to_tech = MBT_1980_basic_engine
+			research_cost_coeff = 1
+		}
+		
+		enable_equipments = {
+			MBT_1980_equipment_1
+		}
+		
+		research_cost = 2.5
+		start_year = 1980
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 14 }
+		}
+
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			MBT
+		}
+	}
+	
+	MBT_1980_basic_armor = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1980_basic_armor"}
+		
+		MBT = {
+			armor_value = 0.05
+			breakthrough = 0.05
+			hardness = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 1 y = 16 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+			armor_improvements
+		}
+	}
+	
+	MBT_1980_basic_turret = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1980_basic_turret"}
+		
+		MBT = {
+			soft_attack = 0.05
+			hard_attack = 0.05
+			ap_attack = 0.1
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = 3 y = 16 }
+		}
+		
+		categories = {
+			armor
+			turret_improvements
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	
+	MBT_1980_basic_engine = {
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1980_basic_engine"}
+		
+		MBT = {
+			maximum_speed = 0.05
+			reliability = 0.05
+		}
+		
+		research_cost = 1
+
+		start_year = 1983
+		
+		folder = {
+			name = armour_folder
+			position = { x = -1 y = 16 }
+		}
+		
+		categories = {
+			armor
+			engine_improvement
+		}
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+	}
+	
+	MBT_1990 = {#T-90
+		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech MBT_1990"}
+		
+		enable_equipments = {
+			MBT_1990_equipment_1
+		}
+		
+		research_cost = 2.5
+		start_year = 1990
+		folder = {
+			name = armour_folder
+			position = { x = 0 y = 18 }
+		}
+
+		
+		ai_will_do = {
+			factor = 0
+		}
+		
+		categories = {
+			armor
+			MBT
+		}
+	}
+	
+}
