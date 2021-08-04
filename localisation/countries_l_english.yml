@@ -65,13 +65,13 @@
  # Middle East #
  ###############
  TUR:0 "Roman Empire"
- EGY:0 "Yegipetskaya Imperiya"
+ EGY:0 "Egipetskaya Imperiya"
  PER:0 "Persian Empire" 
  ##########
  # Europe #
  ##########
  ENG:0 "Commonwealth of Britain"
- HOL:0 "Holland"
+ HOL:0 "United Kingdom of the Netherlands"
  SCU:0 "Kingdom of Scandinavia"
  IRE:0 "Ireland"
  BER:0 "Berlin Commune"

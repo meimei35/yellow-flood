@@ -8,12 +8,12 @@ state={
 		oil=5
 	}
 	history={
-		owner = ALJ
+		owner = TUR
 		buildings = {
 			infrastructure = 1
 		}
 		add_core_of = IRQ
-		add_core_of = ALJ
+		add_core_of = TUR
 	}
 	
 	provinces={

@@ -1,4 +1,4 @@
-
+capital = 829
 
 set_politics = {
 	ruling_party = social_liberal
@@ -8,10 +8,10 @@ set_politics = {
 }
 
 set_popularities = {
-	social_democrat = 0
+	social_democrat = 26
 	social_liberal = 62
 	social_conservative = 0
-	authoritarian_democrat = 26
+	authoritarian_democrat = 0 
 	despotism = 4
 	market_liberal = 8
 }
