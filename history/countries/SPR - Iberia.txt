@@ -1,5 +1,3 @@
-
-
 set_politics = {
 	ruling_party = despotism
 	last_election = "1935.3.5"
@@ -8,16 +6,17 @@ set_politics = {
 }
 
 set_popularities = {
-	social_democrat = 11
+	social_democrat = 53
 	social_liberal = 34
 	social_conservative = 2
-	despotism = 53
+	despotism = 11
 }
 
+
 create_country_leader = {
-	name = "Victor Emmanuel III"
+	name = "Alejandro Lerroux"
 	desc = ""
-	picture = "VictorEmmanuelIII.dds"
+	picture = "rome.dds"
 	expire = "1999.1.1"
-	ideology = despotism_subtype
+	ideology = social_democrat_subtype
 }

@@ -1,0 +1,21 @@
+
+state={
+	id=911
+	name="STATE_911"
+	manpower = 351346
+
+	state_category = town
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = HUN
+		add_core_of = ROM
+	}
+
+	provinces={
+		6697 3696 713 6682
+	}
+}

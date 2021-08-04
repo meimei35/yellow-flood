@@ -56,7 +56,7 @@ bookmarks = {
 
 		}
 				
-		"MUS"= {
+		"RUS"= {
 			history = ""
 			ideas = {
             }
@@ -76,7 +76,7 @@ bookmarks = {
 
 		}
 
-		"RMR"= {
+		"TUR"= {
 			history = ""
 			ideas = {
             }

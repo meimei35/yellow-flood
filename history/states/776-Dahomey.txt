@@ -1,28 +1,25 @@
 
 state={
 	id=776
-	name="STATE_776"
-
+	name="STATE_776" # Benin/Dahomey
+	manpower = 1351563
+	
+	state_category = pastoral
 	history={
-		owner = BOU
+		owner = WAF
+		#add_core_of = WAF
 		victory_points = {
-			10919 1 
+			10919 1
 		}
 		buildings = {
 			infrastructure = 3
 			10919 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		2001 10919 12707 12731 12762 12817 12874 
+		10919 12874 12762
 	}
-	manpower=1351563
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

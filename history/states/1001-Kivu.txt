@@ -1,0 +1,23 @@
+state={
+	id=1001
+	name="STATE_1001" #Uele
+
+	state_category = rural
+
+	history={
+		owner = NBE
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = NBE
+		add_core_of = CFS
+		add_core_of = PCN
+		add_core_of = KIV
+
+	}
+
+	provinces={
+		2154 6027 12808 2073 11934 2034
+	}
+	manpower=543213
+}

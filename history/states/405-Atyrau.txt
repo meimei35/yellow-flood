@@ -4,20 +4,32 @@ state={
 	name="STATE_405"
 
 	history={
-		owner = MUS
+		owner = RUS
+		victory_points = {
+			1459 3
+		}
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 1
 
 		}
-		add_core_of = MUS
+
+		add_core_of = RUS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+
+			}
+
+		}
 
 	}
 
 	provinces={
-		756 1216 1384 1919 10205 11687 12218 12239 12722 
+		1459 4686 10148 10601 10660
 	}
-	manpower=2275820
+	manpower=5523820
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=city
 }

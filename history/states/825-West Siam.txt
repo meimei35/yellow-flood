@@ -1,0 +1,25 @@
+state={
+	id=825
+	name="STATE_825"
+	manpower=2860000
+
+	state_category=town
+	history={
+		owner = VIN
+
+		victory_points = {
+			10221 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = VIN
+
+	}
+	provinces={
+		1427 4319 4348 4388 4392 4566 7338 7367 7587 10193 10221 12122 12173 12220
+	}
+
+	buildings_max_level_factor=1.000
+}

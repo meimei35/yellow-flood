@@ -1,26 +1,25 @@
-
 state={
 	id=680
 	name="STATE_680"
-
+	manpower = 120177
+	
+	state_category = wasteland
+	resources={
+		oil=6
+	}
 	history={
-		owner = TUR
-		victory_points = {
-			3942 1 
-		}
+		owner = SYR
 		buildings = {
 			infrastructure = 2
-
 		}
 		add_core_of = SYR
-		add_core_of = TUR
-
+		add_core_of = ALJ
+		victory_points = {
+			1606 1
+		}
 	}
 
 	provinces={
-		1072 2013 3942 7513 12442 
+		901 1606 1634 6883 10882 1578
 	}
-	manpower=134110
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

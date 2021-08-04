@@ -5,15 +5,12 @@ state={
 	state_category = small_island
 
 	history={
-		owner = VIN
+		owner = JAP
 		buildings = {
 			infrastructure = 3
 			7290 = {
 				naval_base = 1
 			}
-		}
-		victory_points = {
-			7290 1
 		}
 	}
 	provinces={

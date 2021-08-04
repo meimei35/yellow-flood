@@ -2,18 +2,21 @@
 state={
 	id=382
 	name="STATE_382"
+	manpower = 1035790
 	resources={
-		oil=14.000
+		oil=14 # was: 20
 	}
+	
+	state_category = town
 
 	history={
 		owner = UPK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
 		}
 		add_core_of = UPK
+		
 		victory_points = {
 			1827 5 
 		}
@@ -21,9 +24,6 @@ state={
 	}
 
 	provinces={
-		1658 1809 1827 3869 4723 4760 7780 10588 10640 11772 12570 12642 
+		868 1658 1738 1809 1827 3869 6887 7780 10535 10588 11772 12570 12627 12642 
 	}
-	manpower=1035790
-	buildings_max_level_factor=1.000
-	state_category=town
 }

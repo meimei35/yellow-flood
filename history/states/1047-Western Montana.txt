@@ -1,0 +1,22 @@
+state={
+	id=1047
+	name="STATE_1047"
+	manpower = 204210
+	state_category = rural
+	resources={
+		tungsten=1 # was: 16
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		1736 6742 7779 1854 12676 4838
+	}
+}

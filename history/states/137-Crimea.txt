@@ -3,19 +3,13 @@ state={
 	id=137
 	name="STATE_137"
 	manpower = 1061607
-	
+
 	state_category = city
 
 	history={
-		owner = MUS
+		owner = RUS
 		victory_points = {
 			3686 20
-		}
-		victory_points = {
-			9680 1
-		}
-		victory_points = {
-			6704 1
 		}
 		buildings = {
 			infrastructure = 5
@@ -30,7 +24,8 @@ state={
 				coastal_bunker = 1
 			}
 		}
-		add_core_of = MUS
+		add_core_of = RUS
+		add_core_of = UKR
 		1939.1.1 = {
 			buildings = {
 				dockyard = 2
@@ -39,6 +34,6 @@ state={
 	}
 
 	provinces={
-		705 3686 3722 6704 6724 9677 9680 9718 11649 
+		705 3686 3722 6704 6724 9677 9680 9718 11649
 	}
 }

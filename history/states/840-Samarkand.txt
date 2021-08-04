@@ -1,0 +1,26 @@
+
+state={
+	id=840
+	name="STATE_840"
+
+	history={
+		owner = AFG
+		victory_points = {
+			10671 3
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+
+		}
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		10671 7775 1216
+	}
+	manpower=543000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

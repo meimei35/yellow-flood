@@ -1,0 +1,24 @@
+
+state={
+	id=889
+	name="STATE_889"
+	manpower = 118930
+
+	state_category = pastoral
+
+	history={
+		owner = KUR
+		add_core_of = KUR
+		add_core_of = PER
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			7604 1
+		}
+	}
+
+	provinces={
+	7604 13120 	
+	}
+}

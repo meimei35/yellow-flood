@@ -2,23 +2,20 @@
 state={
 	id=208
 	name="STATE_208" # Luga
-	manpower = 341819
-	
+	manpower = 771819
+
 	state_category = rural
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
-			infrastructure = 5
+			infrastructure = 6
 			air_base = 3
 		}
-		add_core_of = MUS
-		victory_points = {
-			9098 1
-		}
+		add_core_of = RUS
 	}
 
 	provinces={
-		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 
+		104 126 181 3053 3120 6139 6197 9097 9098 9120 9408 11097 11032 11080 11186 11139
 	}
 }

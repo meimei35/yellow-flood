@@ -1,0 +1,28 @@
+state = { #Ruijin
+	id=931
+	name="STATE_931"
+	manpower = 2531203
+	state_category = rural
+	resources={
+		tungsten=40
+		steel=4
+	}
+
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			10112 1
+		}
+	}
+
+	provinces = {
+		1053 1110 4081 7172 7199 10112 11945 12030
+	}
+}

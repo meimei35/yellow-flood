@@ -1,25 +1,23 @@
 
 state={
 	id=568
-	name="STATE_568"
+	name="STATE_568" # Krasnoyarsk
+	manpower = 1728427
+
+	state_category = town
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
 			infrastructure = 3
-
 		}
 		victory_points = {
-			4724 1 
+			4724 1
 		}
-		add_core_of = MUS
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		1777 1813 1850 1876 4690 4724 4782 4818 4853 7703 7713 7731 7744 7815 7841 10562 10570 10639 10646 10712 12523 12563 12621 12625 12628 12691 
+		1777 1850   4724 4782 4818 4853 7744 7815 10639 10712  12621  12666 12691
 	}
-	manpower=1726427
-	buildings_max_level_factor=1.000
-	state_category=town
 }

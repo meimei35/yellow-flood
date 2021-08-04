@@ -1,0 +1,33 @@
+
+state={
+	id=991
+	name="Frankfurt"
+
+	manpower = 1898235
+	
+	state_category = large_city
+	
+	resources={
+		
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			infrastructure = 4
+
+		}
+		victory_points = {
+			6488 20.0 
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		6488 589 3574
+	}
+}

@@ -2,31 +2,28 @@
 state={
 	id=48
 	name="STATE_48"
-	manpower = 1685989
+	manpower = 1891500
 	resources={
-		aluminium = 2
+		aluminium=2
 	}
-	
-	
+
+
 	state_category = city
 
 	history={
-		owner = THR
-		victory_points = { #Sofia
-			949 15 
-		}
-		victory_points = { #Vidin
-			9771 1
+		owner = BUL
+		victory_points = {
+			949 15
 		}
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 6
 			air_base = 3
 		}
-		add_core_of = THR
+		add_core_of = BUL
 	}
 
 	provinces={
-		793 935 949 965 3908 3971 9771 11754 
+		793 935 949 965 3908 3971 11754 9771
 	}
 }

@@ -1,28 +1,23 @@
 
 state={
 	id=772
-	name="STATE_772"
+	name="STATE_772" # Middle Congo (Brazzaville)
+	manpower = 46415
+	
+	state_category = rural
 	resources={
-		rubber=1.000
+		rubber=1 # was: 1
 	}
-
 	history={
-		owner = PRK
+		owner = ITA
+		add_core_of = CMR
 		buildings = {
 			infrastructure = 3
-			12824 = {
-				naval_base = 1
-
-			}
-
 		}
 
 	}
 
 	provinces={
-		988 7931 10071 10883 12741 12824 
+		6008 
 	}
-	manpower=746415
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

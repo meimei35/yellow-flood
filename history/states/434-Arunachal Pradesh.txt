@@ -2,21 +2,20 @@
 state={
 	id=434
 	name="STATE_434"
+	manpower = 114514
+
+	state_category = wasteland
 
 	history={
-		owner = PTK
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = PTK
 
 	}
 
 	provinces={
-		1116 1996 7455 10810 12730 
+		1996 10810 12730
 	}
-	manpower=200000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

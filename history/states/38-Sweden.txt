@@ -2,29 +2,35 @@
 state={
 	id=38
 	name="STATE_38"
+	manpower=631955
 	resources={
-		steel=20.000
+		steel=40 # was: 62
 	}
+	
+	state_category = town
+	
 
 	history={
 		owner = SCU
 		victory_points = {
-			156 1 
+			9151 1 
 		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-			
-
+			air_base = 3
+			130 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = SCU
-
 	}
 
 	provinces={
-		49 77 114 125 156 205 3005 3045 3070 3148 6023 6093 6147 9035 9051 9117 9151 9173 9182 9193 11040 11053 11091 11123 11147 11197 11209 13099 
+		46 113 125 130 168 184 205 3039
+		 3108 3111 3162 6010 6063
+		6126 6129 6185 9035 9066 9088 9141
+		9151 9154 9171 9229 11040 11049 11052
+		11116 11120 11123 11129 11147 11148 11187 11209 13117 
 	}
-	manpower=601955
-	buildings_max_level_factor=1.000
-	state_category=town
 }

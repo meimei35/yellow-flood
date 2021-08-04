@@ -1,0 +1,22 @@
+state={
+	id=915
+	name="STATE_915"
+	resources={
+			oil=1
+		}
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	provinces={
+		4856 1723 1853 10632 12539 10558 12669 10689 7806 4786 12541 1781 10560 7864 1787 4858 10634 10695 12544 4729 10704 12686 1725 12614
+	}
+	manpower=2333
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,32 @@
+state={
+	id=964
+	name="STATE_964"
+	state_category = rural
+	provinces={
+		1761 4716 4835 7736 7854 12506 12575 
+	}
+	manpower = 178381
+	buildings_max_level_factor=1.000
+	
+
+	
+	history = {
+	
+	owner = KCK
+	
+	add_core_of = KCK
+
+	 
+	        buildings = {
+			
+			infrastructure = 2
+			
+			
+			}
+	
+	
+	
+	
+	
+	}
+}

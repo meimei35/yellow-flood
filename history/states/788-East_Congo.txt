@@ -1,0 +1,27 @@
+
+state={
+	id=788
+	name="STATE_788" #
+	manpower = 734200
+
+	resources={
+		rubber=5 # was: 5
+	}
+	state_category = rural
+
+	history={
+		owner = PCN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = PCN
+		add_core_of = CFS
+		add_core_of = NBE
+		add_core_of = KIV
+	}
+
+	provinces={
+		10951 7219 8016
+	}
+}

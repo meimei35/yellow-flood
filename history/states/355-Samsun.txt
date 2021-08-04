@@ -6,13 +6,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = TUR
-		victory_points = {
-			11881 10
+	victory_points = {
+			11894 5 
 		}
+		owner = TUR
 		buildings = {
 			infrastructure = 3
-			11881 = {
+			11894 = {
 				naval_base = 3
 			}
 		}

@@ -1,0 +1,21 @@
+state={
+	id=814
+	name="STATE_814"
+
+	history={
+		owner = VIN
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4175 7400 7909 7974 7603 2061 1566 1607 7647 12317 1170 7562
+	}
+	manpower=629734
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

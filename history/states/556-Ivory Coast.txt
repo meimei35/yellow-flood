@@ -1,0 +1,28 @@
+state={
+	id=556
+	name="STATE_556"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+			victory_points = {
+			12838 1 
+		}
+		owner = MLI		
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+
+
+	provinces={
+		2012 2044 10812 10829 10915 12751 12838 10771
+	}
+	manpower=2844500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

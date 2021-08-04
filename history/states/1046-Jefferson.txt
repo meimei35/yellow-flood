@@ -1,0 +1,35 @@
+
+state={
+	id=1046
+	name="STATE_1046"
+	manpower = 750000
+	
+	state_category = pastoral
+	
+	resources={
+		oil=80 # was: 350
+		aluminium=16 # was: 14
+		steel=10
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 5
+			arms_factory = 1
+			air_base = 1
+			610 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = UPK
+		victory_points = {
+			3588 3
+		}
+	}
+
+	provinces={
+		3588 10159 781 610 3644 6482 6665 4331 4347 3471 11733 505 11495
+		12281 528 10151 
+	}
+}

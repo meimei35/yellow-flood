@@ -4,22 +4,26 @@ state={
 	name="STATE_565"
 	resources={
 		steel=10.000
+		chromium=5.000
 	}
 
 	history={
-		owner = GUK
+		owner = KCK
+		add_core_of = KCK
+		victory_points = {
+			4868 1
+		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = GUK
 
 	}
 
 	provinces={
-		1666 1761 1792 4675 4716 4737 4762 4795 4835 4855 4868 7736 7759 7854 7889 10565 10583 10654 10681 12506 12538 12565 12575 
+		1792 4737 4795 4868 7759 10583 10654 12538 
 	}
-	manpower=195325
+	manpower=205325
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

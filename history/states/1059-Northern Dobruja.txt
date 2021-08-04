@@ -1,0 +1,29 @@
+
+state={
+	id=1059
+	name="STATE_1059" # Northern Dobruja
+	manpower = 446100
+
+	state_category = rural
+
+	history={
+		owner = BUL
+		victory_points = { 657 3 }
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			657 = {
+				naval_base = 8
+			}
+			687 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		657 9635 3076 687
+	}
+}

@@ -1,28 +1,21 @@
-
 state={
 	id=751
 	name="STATE_751"
-
+	provinces={
+		1999 2067 4999 7294 10726 10841 12819
+	}
+	manpower=1591736
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 	history={
 		owner = MNG
 		add_core_of = MNG
+		add_claim = TIB
 		buildings = {
 			infrastructure = 1
 
 		}
-		victory_points = {
-			12141 3 
-		}
-		victory_points = {
-			7294 1 
-		}
+
 
 	}
-
-	provinces={
-		2067 4999 7294 12819 
-	}
-	manpower=28378
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

@@ -1,0 +1,97 @@
+
+set_politics = {
+	ruling_party = ultranational_socialism
+	last_election = "1935.3.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+	social_democrat = 15
+	social_liberal = 15
+	communist = 0
+	socialist = 10
+	authoritarian_democrat = 10
+	despotism = 0
+	fascism = 0
+	ultranational_socialism = 50
+}
+create_country_leader = {
+	name = "Mikhail Tukhachevsky"
+	desc = ""
+	picture = "tukachev.dds"
+	expire = "1999.1.1"
+	ideology = ultranational_socialism_subtype
+}
+
+create_country_leader = {
+	name = "Lavr Kornilov"
+	desc = ""
+	picture = "lavr.dds"
+	expire = "1999.1.1"
+	ideology = fascism_subtype
+}
+
+create_country_leader = {
+	name = "Alexander Kerensky"
+	desc = ""
+	picture = "kerensky.dds"
+	expire = "1999.1.1"
+	ideology = social_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Placeholder"
+	desc = ""
+	picture = "duma.dds"
+	expire = "1999.1.1"
+	ideology = despotism_subtype
+}
+
+create_country_leader = {
+	name = "Viktor Chernov"
+	desc = ""
+	picture = "chernob.dds"
+	expire = "1999.1.1"
+	ideology = social_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Pavel Milyukov"
+	desc = ""
+	picture = "theman.dds"
+	expire = "1999.1.1"
+	ideology = market_liberal_subtype
+}
+
+create_country_leader = {
+	name = "Boris Slavinkov"
+	desc = ""
+	picture = "boris.dds"
+	expire = "1999.1.1"
+	ideology = communist_subtype
+}
+
+create_country_leader = {
+	name = "Nikolai Trubetzkoy"
+	desc = ""
+	picture = "nikolai.dds"
+	expire = "1999.1.1"
+	ideology = authoritarian_democrat_subtype
+}
+
+create_country_leader = {
+	name = "Nikolai Bukharin"
+	desc = ""
+	picture = "Booky.dds"
+	expire = "1999.1.1"
+	ideology = socialist_subtype
+}
+
+
+
+add_ideas = {
+	MUS_Velikaya_voyna
+	MUS_reformed_military
+	MUS_insane_industy
+}

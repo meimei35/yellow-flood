@@ -1,0 +1,22 @@
+state={
+	id=810
+	name="STATE_810"
+	manpower=1324721
+
+	state_category = pastoral
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		810 1571 3791 3815 3843 4551 5427 6811 6863 7569 7670 9623 9798 10215 10376 10463 10519 10521 11906 12342 12443 12500 12355 12482 10503
+	}
+	buildings_max_level_factor=1.000
+}

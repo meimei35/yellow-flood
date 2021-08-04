@@ -1,0 +1,24 @@
+state= {
+	id=935
+	name="STATE_935" # Khotan
+	manpower = 2362624
+	resources={
+		oil=2.000
+	}
+	state_category = rural
+	history= {
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 2
+		}
+
+		victory_points = {
+			1970 1
+		}
+
+	}
+	provinces={
+		1970 8112 4973 10911 1943 5042 
+	}
+}

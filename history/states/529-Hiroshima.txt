@@ -1,39 +1,22 @@
 
 state={
 	id=529
-	name="STATE_529" # Chugoku
-	manpower = 5341000
-	state_category = large_city
+	name="STATE_529" # San'in
+	manpower = 1237000
+	state_category = town
 
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 7
-			air_base = 3
-			dockyard = 2
-			arms_factory = 2
-			industrial_complex = 2
-			1092 = {
-				naval_base = 10
-
-			}
-		}
-		
-		victory_points = {
-			1092 30
-		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 3
-				arms_factory = 3
-				industrial_complex = 3
-			}
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 2
 		}
 
 	}
 
 	provinces={
-		1092 1167 1191 4197 7050 7145 7212 9968 10052 10055 11946 11985 
+		10055 1167 7145 1191 7050
 	}
 }

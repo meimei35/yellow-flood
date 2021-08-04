@@ -2,33 +2,26 @@
 state={
 	id=277
 	name="STATE_277"
-	resources={
-		steel=6.000
-	}
-
+	manpower = 3424403
+	
+	state_category = city
+	
 	history={
-		owner = HUH
+		owner = MEX
 		buildings = {
 			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
-
 		}
-		add_core_of = HUH
+		add_core_of = MEX
 		victory_points = {
-			1965 25 
+			1965 10 
 		}
-		victory_points = {
-			2008 10 
-		}
-
 	}
 
 	provinces={
-		1952 2008 2011 4956 5052 10172 12804 
+		1965 2008 2011 7913 12755 
 	}
-	manpower=3424403
-	buildings_max_level_factor=1.000
-	state_category=city
+	
 }

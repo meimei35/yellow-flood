@@ -5,7 +5,8 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = JAP
+		owner = ATU
+		add_core_of = ATU
 		buildings = {
 			infrastructure = 1
 			2165 = {

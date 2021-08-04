@@ -1,0 +1,22 @@
+
+state={
+	id=1036
+	name="STATE_1036" # Yakutsk
+	manpower = 37866
+
+	state_category = rural
+		
+	resources={
+		steel= 24
+	}
+
+	history={
+		owner = KCK
+		add_core_of = KCK
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		12650 7772 7746 4752 10667 10608 12694 1748 7844 
+	}
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=903
+	name="STATE_903" # Kita-Kanto
+	manpower = 3986000
+
+	state_category = city
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			dockyard = 1
+		}
+	}
+
+	provinces={
+		7016 4100 993 1113 4000
+	}
+}

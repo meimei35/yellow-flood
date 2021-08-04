@@ -1,0 +1,29 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+	manpower = 316200
+	state_category = rural
+	
+	resources={
+		steel=6 # was: 10
+	}
+
+
+	history={
+		owner = SCU
+		victory_points = {
+			11114 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = SCU
+	}
+	
+	
+	provinces={
+		147 3128 3141 6028 6195 9054 9138 9218 11114
+	}
+}

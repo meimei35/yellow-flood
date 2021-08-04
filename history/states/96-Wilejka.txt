@@ -1,25 +1,25 @@
-
 state={
 	id=96
 	name="STATE_96"
-
+	manpower = 1155581
+	
+	state_category = rural
+	
 	history={
+		owner = LIT
 		victory_points = {
-			406 1 
+			3320 5
 		}
-		owner = MUS
 		buildings = {
-			infrastructure = 4
-
-		}
-		add_core_of = MUS
-
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+		}		
+		add_core_of = LIT
 	}
 
 	provinces={
-		233 277 358 406 6340 9236 9341 11391 
+		3366 3393 3320 6413 9274 9295 11342
+		11391 6340 
 	}
-	manpower=726000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

@@ -2331,7 +2331,7 @@ SpriteType = {
 		texturefile = "gfx/interface/ideas/idea_famh.dds"
 	}
 	
-	### RUSSIAN IDEAS
+	### RUSVINN IDEAS
 	spriteType = {
 		name = "GFX_idea_mikhail_kalinin"
 		texturefile = "gfx/interface/ideas/idea_mikhail_kalinin.dds"
@@ -2841,7 +2841,7 @@ SpriteType = {
 	}
 	
 	
-	### GENERIC PORTRAITS ASIA
+	### GENERIC PORTRAITS AVIN
 	### suffix from graphicalculturetype
 
 	spriteType = {

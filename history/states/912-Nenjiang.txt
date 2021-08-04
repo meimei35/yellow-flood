@@ -1,0 +1,23 @@
+state={
+	id=912
+	name="STATE_912"
+	manpower=1781232
+
+	state_category = rural
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		victory_points = {
+			4506 2
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		1645 4506 4561 4649 7526 7582 12485 10379
+	}
+	buildings_max_level_factor=1.000
+}

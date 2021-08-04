@@ -1,0 +1,31 @@
+state = {
+	id = 789
+	name ="STATE_789" # Liaoxi
+	manpower = 1591736
+
+	state_category = town
+
+	resources = {
+		oil = 1
+		steel = 1
+	}
+	history = {
+		owner = KOR
+		add_core_of = KOR
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		victory_points = {
+			9835 3
+		}
+		victory_points = {
+			11836 1
+		}
+	}
+	provinces = {
+		11815 6837 11886 9835 9788 9831 11836 6951 846 6893
+	}
+}

@@ -1,23 +1,26 @@
-
 state={
 	id=618
 	name="STATE_618"
+	resources={
+		oil=1
+	}
 
 	history={
-		owner = KRO
-		add_core_of = KRO
+	owner = SIK
+	add_core_of = SIK
+		victory_points = {
+			4823 1
+		}
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 1
-
 		}
 
 	}
 
 	provinces={
-		1708 1783 1844 4714 4788 4823 4849 7693 7850 7866 10610 10674 10691 12590 12601 12737 
+		4714 4823 4849 7693 7737 12737 1844 12590
 	}
 	manpower=670800
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=rural
 }

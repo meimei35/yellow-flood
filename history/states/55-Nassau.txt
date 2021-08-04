@@ -2,37 +2,29 @@
 state={
 	id=55
 	name="STATE_55"
+	manpower = 1898235
+
+	state_category = large_city
 
 	history={
-		owner = FFT
+		owner = GER
 		buildings = {
-			infrastructure = 7
+			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 1
+		}
 
-		}
-		victory_points = {
-			6488 20.0 
-		}
-		victory_points = {
-			564 3 
-		}
-		add_core_of = FFT
+		add_core_of = GER
+
 		1939.1.1 = {
 			buildings = {
 				air_base = 3
-				arms_factory = 4
-
+				arms_factory = 2
 			}
-
 		}
-
 	}
 
 	provinces={
-		3397 3524 6421 6444 6488 6549 6594 9486 9524 11417 11445 13116 
+		564 3397 3524 6444 6549 9486 9524 9547 11445 11533 
 	}
-	manpower=3798235
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

@@ -1,0 +1,20 @@
+state={
+	id=967
+	name="West Sahara"
+	manpower = 574
+	
+	state_category = wasteland
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = MOR
+	}
+	
+	provinces={
+		5012 10875 
+	}
+}

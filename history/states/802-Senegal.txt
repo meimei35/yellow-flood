@@ -1,0 +1,25 @@
+state={
+	id=802
+	name="STATE_802"
+	
+	state_category = pastoral
+	provinces={
+		2100 4948 7972 8015 12710 12834 
+	}
+	history={
+		owner = FRA #SEN
+		add_core_of = SEN
+		buildings = {
+			infrastructure = 3
+			4948 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			4948 1
+		}
+
+	}
+	manpower=1482744
+	buildings_max_level_factor=1.000
+}

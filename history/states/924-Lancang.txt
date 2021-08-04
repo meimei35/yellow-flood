@@ -1,0 +1,24 @@
+
+state={
+	id=924
+	name="STATE_924"
+	manpower = 8456533
+
+	state_category = rural
+
+	resources={
+		rubber=3
+	}
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1383 1522 5009 10413 10776 12262
+	}
+}

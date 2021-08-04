@@ -2,24 +2,22 @@
 state={
 	id=407
 	name="STATE_407"
+	manpower = 320113
+
+	state_category = rural
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
 			infrastructure = 3
-
 		}
-		add_core_of = MUS
 		victory_points = {
-			11537 1 
+			3618 1 
 		}
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		432 468 470 508 545 566 576 1254 1290 1318 3467 3502 3515 3538 3563 4254 4294 4322 4351 6491 6525 6551 6564 6588 7341 7370 7438 9462 9513 9526 9528 9538 10253 11457 11472 11473 11480 11482 11510 11524 11552 
+		432 470 508 566 3404 3467 3515 6491 6551 6564 6588 9445 9487 9526 9538 9549 11473 11524 11537 11552 464 3618 6498 6523 9469 11455 11469
 	}
-	manpower=268572
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

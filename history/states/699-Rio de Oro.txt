@@ -1,29 +1,22 @@
-
 state={
 	id=699
 	name="STATE_699"
+	manpower = 24000
+	
+	state_category = wasteland
 
 	history={
 		owner = SPR
-		add_core_of = SPR
 		buildings = {
 			infrastructure = 1
 			8038 = {
 				naval_base = 1
-
 			}
-
 		}
-		victory_points = {
-			8038 1 
-		}
-
+		add_core_of = MOR
 	}
-
+	
 	provinces={
 		4920 7979 8038 8111 
 	}
-	manpower=17056
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

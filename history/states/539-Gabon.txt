@@ -2,27 +2,30 @@
 state={
 	id=539
 	name="STATE_539"
+	manpower = 3264000
 
+	state_category = rural
+	resources={
+		rubber=1
+	}
 	history={
-		owner = PRK
+		owner = ITA
+		add_core_of = GBN
 		victory_points = {
-			5139 1 
+			8193 2
 		}
 		buildings = {
 			infrastructure = 3
-			5139 = {
+			industrial_complex = 1
+			air_base = 1
+			12975 = {
 				naval_base = 1
-
 			}
-
 		}
 
 	}
 
 	provinces={
-		2192 5139 8193 8207 10948 12975 13210 
+		2192 8193 8207 12975 13210
 	}
-	manpower=409752
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

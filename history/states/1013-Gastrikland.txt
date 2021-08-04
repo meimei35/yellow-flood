@@ -1,0 +1,25 @@
+
+state={
+	id=1013
+	name="STATE_1013"
+	manpower = 194000
+	state_category = town
+	
+	resources={
+		
+	}
+
+
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = SCU
+	}
+	
+	
+	provinces={
+		49 3045 3148 9051 9117 9193 11091
+	}
+}

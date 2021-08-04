@@ -2,15 +2,18 @@
 state={
 	id=213
 	name="STATE_213"
+	manpower = 205751
+	state_category = rural
 	resources={
-		steel=14.000
-		chromium=12.000
+		steel=14 # was: 28
+		chromium=12 # was: 24
 	}
 
 	history={
-		owner = MUS
+		owner = RUS
+add_core_of = RUS
 		victory_points = {
-			3134 5 
+			3134 5
 		}
 		buildings = {
 			infrastructure = 2
@@ -18,18 +21,12 @@ state={
 			3134 = {
 				naval_base = 4
 				coastal_bunker = 1
-
 			}
-
 		}
-		add_core_of = MUS
 
 	}
 
 	provinces={
-		98 116 3012 3134 3170 6140 6181 6194 9059 9115 9165 9179 9201 9215 9217 11088 11117 11140 11196 
+		15 6181 98 116 3012 3134 3170 6140 6194 9059 9115 9165 9179 9201 9215 9217 11088 11117 11140 11196 74 142 6117 9039 11128 9203 11183 6157 11031 178
 	}
-	manpower=275751
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

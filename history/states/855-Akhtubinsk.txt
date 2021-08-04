@@ -1,0 +1,21 @@
+
+state={
+	id=855
+	name="STATE_855"
+	manpower = 97620
+
+	state_category = rural
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		9459 
+		9415 6468 3443 11400 
+	}
+}

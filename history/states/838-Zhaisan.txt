@@ -1,0 +1,27 @@
+
+state={
+	id=838
+	name="STATE_838"#Ust-Kamenogorsk
+	resources={
+		chromium=6
+	}
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			4867 1
+		}
+
+	}
+
+	provinces={
+		1749 1818 1864 4674 4867 7890 10610 12427 12564 12635 13151
+	}
+	manpower=255000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

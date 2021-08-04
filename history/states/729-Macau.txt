@@ -1,26 +1,25 @@
-
 state={
 	id=729
 	name="STATE_729"
+	manpower = 157805
+
+	state_category = enclave
 
 	history={
 		owner = MIN
 		add_core_of = MIN
-
-		buildings = {
-			infrastructure = 3
-			arms_factory = 1
-		}
 		victory_points = {
-			10404 3 
+			4189 1
 		}
-
+		buildings = {
+			infrastructure = 4
+			4189 = {
+				naval_base = 1
+			}
+		}
 	}
 
 	provinces={
-		1023 4092 4152 4480 7128 7168 7210 10404 12407 
+		4189
 	}
-	manpower=1684893
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

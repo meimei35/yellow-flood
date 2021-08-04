@@ -1,0 +1,23 @@
+
+state={
+	id=898
+	name="STATE_898"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 1
+
+		}
+
+
+	}
+
+	provinces={
+		12509 4781 10713
+	}
+	manpower=123432
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

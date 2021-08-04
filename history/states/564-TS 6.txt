@@ -4,23 +4,29 @@ state={
 	name="STATE_564"
 	resources={
 		steel=10.000
-		chromium=18.000
+		chromium=12.000
 		tungsten=10.000
 		aluminium=4.000
 	}
 
 	history={
+		victory_points = {
+			1696 1
+		}
+		victory_points = {
+			1672 2
+		}
 		owner = MON
 		buildings = {
 			infrastructure = 4
-
+			industrial_complex = 1
 		}
 		add_core_of = MON
 
 	}
 
 	provinces={
-		1696 1762 1791 4705 4766 4837 7751 7816 7835 10528 10658 12644 
+		1696 4705 4766 7751 7816 7835 7860 10658 12507 12644 
 	}
 	manpower=370893
 	buildings_max_level_factor=1.000

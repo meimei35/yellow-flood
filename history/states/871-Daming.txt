@@ -1,0 +1,18 @@
+state = {
+	id = 871
+	name = "STATE_871"
+	manpower = 5964950
+	state_category = town
+	history = {
+		owner = SIR
+		add_core_of = SIR
+		buildings = {
+			industrial_complex = 1
+			infrastructure = 3
+		}
+		victory_points = { 1188 5 }
+	}
+	provinces = {
+		1169 1188 4058 7160 7092 9987 11933 11962 12062
+	}
+}

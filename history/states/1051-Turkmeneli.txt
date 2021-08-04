@@ -1,0 +1,27 @@
+state={
+	id=1051
+	name="STATE_1051"#Erbil
+	manpower = 325781
+
+	state_category = town
+	resources={
+		oil=10
+	}
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			10106 3
+		}
+		victory_points = {
+			3916 1
+		}
+		add_core_of = KUR
+	}
+
+	provinces={
+		3916 5014 10811
+	}
+}

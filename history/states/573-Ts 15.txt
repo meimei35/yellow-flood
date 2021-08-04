@@ -1,28 +1,24 @@
 
 state={
 	id=573
-	name="STATE_573"
+	name="STATE_573" # Zlatoust
+	manpower = 477677
+	
+	state_category = pastoral
 	resources={
-		chromium=23.000
+		chromium=23 # was: 32
 	}
 
 	history={
-		victory_points = {
-			10329 1 
-		}
-		owner = MUS
+		owner = RUS
 		buildings = {
 			infrastructure = 4
 
 		}
-		add_core_of = MUS
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		237 278 361 3280 4758 4874 7320 10216 11307 12659 
+		237 278 361 3280 4758 4874 7320 7824 10136 10142 10216 11223 11307 12117 12659
 	}
-	manpower=556677
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

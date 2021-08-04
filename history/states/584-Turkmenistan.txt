@@ -1,23 +1,26 @@
-
 state={
 	id=584
 	name="STATE_584"
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
-			infrastructure = 1
-			amrs_factory = 1
+			infrastructure = 2
+			industrial_complex = 1
 
 		}
-		add_core_of = MUS
+		add_core_of = RUS
+		victory_points = {
+			12333 3
+		}	
 
 	}
 
 	provinces={
-		1493 1593 1649 4482 4549 4599 4958 5003 7477 7560 7563 7618 7635 7924 8099 10357 10359 10414 10742 12491 
+		4599 10510 12491
+		8099 12333
 	}
-	manpower=464523
+	manpower=1064523
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

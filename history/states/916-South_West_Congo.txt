@@ -1,0 +1,25 @@
+state={
+	id=916
+	name="STATE_916"
+
+	state_category = rural
+
+	history={
+		owner = CFS
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		add_core_of = CFS
+		add_core_of = NBE
+		add_core_of = PCN
+		add_core_of = KIV
+
+	}
+
+	provinces={
+		12945 10025 12896 4128 7716
+	}
+	manpower=2006500
+}

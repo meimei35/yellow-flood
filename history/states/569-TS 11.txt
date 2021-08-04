@@ -1,26 +1,22 @@
 
 state={
 	id=569
-	name="STATE_569"
+	name="STATE_569" # Kemerovo
+	manpower = 1567322
+
+	state_category = town
 
 	history={
-		owner = MUS
+		owner = RUS
+add_core_of = RUS
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
-		}
-		add_core_of = MUS
-		victory_points = {
-			7757 1 
 		}
 
 	}
 
 	provinces={
-		1685 1718 1816 4711 4789 4793 7789 7886 10580 10649 12174 12631 
+		1369 1685  4665 4789 4793 7757 7886 10580  12631
 	}
-	manpower=1567322
-	buildings_max_level_factor=1.000
-	state_category=town
 }

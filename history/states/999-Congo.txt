@@ -1,0 +1,27 @@
+state={
+	id=999
+	name="STATE_999"
+
+	state_category = rural
+
+	history={
+		owner = MWA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MWA
+		add_core_of = CFS
+		add_core_of = PCN
+		add_core_of = KIV
+		add_core_of = NBE
+		victory_points = {
+		1731 1
+		}
+
+	}
+
+	provinces={
+		2024 1731 10858 1929
+	}
+	manpower=400321
+}

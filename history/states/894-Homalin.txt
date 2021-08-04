@@ -1,0 +1,21 @@
+
+state={
+	id=894
+	name="STATE_894"
+	manpower = 340200
+
+	state_category = pastoral
+
+	history={
+		owner = ASM
+		add_core_of = ASM
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1197 4087
+	}
+}

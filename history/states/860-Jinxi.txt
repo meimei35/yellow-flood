@@ -1,0 +1,18 @@
+state = { #Jinxi #Western Shanxi
+	id = 860
+	name = "STATE_860"
+	state_category = town
+	history = {
+		owner = SIR
+		add_core_of = SIR
+
+
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces = {
+		1034 1531 1575 4074 7571 4634 10367 10507 12300
+	}
+	manpower = 453500
+}

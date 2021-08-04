@@ -1,22 +1,21 @@
+state = {
+	id = 598
+	name = "STATE_598" #Yangzhou
+	manpower = 7321900
+	state_category = town
 
-state={
-	id=598
-	name="STATE_598"
-
-	history={
+	history = {
 		owner = SIR
 		add_core_of = SIR
 		buildings = {
 			infrastructure = 3
-
 		}
-
+		victory_points = {
+			12067 2
+		}
 	}
 
-	provinces={
-		1001 1029 1076 1121 1161 4005 4031 4082 4123 7025 7200 9956 11973 12055 13144 
+	provinces = {
+		1089 4001 4005 4091 4123 7142 7181 9953 10095 11928 12067 13144
 	}
-	manpower=12669300
-	buildings_max_level_factor=1.000
-	state_category=town
 }

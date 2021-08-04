@@ -1,33 +1,30 @@
-
-state={
+state=
+{
 	id=163
 	name="STATE_163"
+	manpower = 674000
+
+	state_category = large_town
 
 	history={
-		owner = ROM
+		owner = ITA
 		victory_points = {
-			657 3 
+			11564 5 
 		}
 		buildings = {
 			infrastructure = 5
-			657 = {
-				naval_base = 8
-
-			}
-			687 = {
+			3943 = {
 				naval_base = 1
-
 			}
-			dockyard = 1
+			industrial_complex = 2
 		}
-		add_core_of = ROM
+		add_core_of = ITA
+		add_core_of = RMR
+		add_core_of = YUG
+		add_core_of = CRO
 
 	}
-
 	provinces={
-		657 687 3076 9635 13265 
+		3943 11901 591 11564
 	}
-	manpower=606501
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

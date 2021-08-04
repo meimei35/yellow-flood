@@ -1,0 +1,23 @@
+
+state={
+	id=923
+	name="STATE_923"
+	manpower = 498345
+
+	state_category = town
+
+	history={
+		owner = TRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+		add_core_of = ROM
+		add_core_of = TRA
+	}
+
+	provinces={
+		646 9606 11608
+	}
+}

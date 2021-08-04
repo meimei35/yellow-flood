@@ -1,0 +1,26 @@
+state={
+	id=1057
+	name="STATE_1057"
+	resources={
+		chromium=35 # was: 46.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9628 5
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		9647 9628 670
+		714 11633 6718 6733 3672 11632 683 700
+	}
+	manpower=523970
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

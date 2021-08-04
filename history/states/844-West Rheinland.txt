@@ -1,0 +1,20 @@
+state={
+	id=844
+	name="STATE_844"
+	manpower=1203187
+	buildings_max_level_factor=1.000
+	state_category = city
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 7
+		}
+		add_core_of = GER
+	}
+
+	provinces={
+		3547 3444 9522 587 13395
+		11494 11470 11435 
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=886
+	name="STATE_886"
+	manpower = 1048200
+
+	state_category = pastoral
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			4425 1
+		}
+
+	}
+
+	provinces={
+		1934 4318 4425 10920
+	}
+}

@@ -1,0 +1,19 @@
+state = {
+	id = 873
+	name = "STATE_873"
+	manpower = 10000000
+	state_category = rural
+	history = {
+		owner = SIR
+		add_core_of = SIR
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			1124 3
+		}
+	}
+	provinces = {
+		1124 1154 4181 7055 9971 12015
+	}
+}

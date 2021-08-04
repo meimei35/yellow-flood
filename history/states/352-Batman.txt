@@ -4,26 +4,22 @@ state={
 	name="STATE_352"
 
 	history={
-		owner = TUR
-		victory_points = {
-			6935 1 
-		}
-		victory_points = {
-			7604 1 
-		}
+		owner = KUR
 		buildings = {
 			infrastructure = 3
 
 		}
-		add_core_of = TUR
-		add_claim_by = KUR
+		victory_points = {
+			12476 1 
+		}
+		add_core_of = KUR
 
 	}
 
 	provinces={
-		864 1463 1636 6935 7530 7604 10811 12318 12476 13121 
+		864 1463 7530 10497 12318 12387 12476 
 	}
-	manpower=365490
+	manpower=425300
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

@@ -1,33 +1,18 @@
-
 state={
 	id=752
 	name="STATE_752"
-
+	provinces={
+		1918 7988 8104 12724 12837
+	}
+	manpower=540000
+	buildings_max_level_factor=1.000
+	state_category = pastoral
 	history={
-		owner = PTK
-		add_core_of = PTK
-		victory_points = {
-			4999 1 
-		}
+		owner = TIB
+		add_core_of = TIB
 		buildings = {
 			infrastructure = 1
 
 		}
-		1939.1.1 = {
-			buildings = {
-				industrial_complex = 1
-				infrastructure = 2
-
-			}
-
-		}
-
 	}
-
-	provinces={
-		1999 4937 8104 8126 10726 12724 12837 
-	}
-	manpower=300000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

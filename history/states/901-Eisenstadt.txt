@@ -1,0 +1,27 @@
+
+state={
+	id=901
+	name="STATE_901" # Eisenstadt
+	manpower = 34030
+
+	state_category = rural
+	resources={
+		steel = 1
+	}
+	history={
+		owner = AUS
+		victory_points = {
+			9661 1
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = HUN
+		add_core_of = AUS
+	}
+
+	provinces={
+		9661 11630 3700 
+	}
+}

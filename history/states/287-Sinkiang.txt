@@ -2,10 +2,17 @@
 state={
 	id=287
 	name="STATE_287"
+	resources={
+		oil=2
+	}
 
 	history={
 		owner = SIK
 		add_core_of = SIK
+
+		victory_points = {
+			4682 2
+		}
 		buildings = {
 			infrastructure = 1
 
@@ -14,9 +21,9 @@ state={
 	}
 
 	provinces={
-		1838 4947 5736 8042 8086 10885 12524 12820 12864 
+		7792 10545 7702 4770 1703 4682 5736 7949 4828 10614
 	}
-	manpower=408000
+	manpower=526777
 	buildings_max_level_factor=1.000
-	state_category=wasteland
+	state_category=pastoral
 }

@@ -1,16 +1,18 @@
-
 state={
 	id=566
-	name="STATE_566"
+	name="STATE_566" #Irktusk
+
+	state_category = rural
 	resources={
-		steel=20.000
-		aluminium=7.000
+		steel=20 # was: 28.000
+		aluminium=7 # was: 10.000
 	}
 
 	history={
-		owner = GUK
+		owner = RUS
+add_core_of = RUS
 		victory_points = {
-			4797 3 
+			4797 3
 		}
 		buildings = {
 			infrastructure = 4
@@ -18,14 +20,13 @@ state={
 			air_base = 1
 
 		}
-		add_core_of = GUK
+
 
 	}
 
 	provinces={
-		1707 1727 1810 1829 4797 4815 7838 10524 10543 10596 10661 12525 12540 12647 13152 
+		1707 1727 1810 1829 4797 4815 7838 10524 10543 10596 10661 12525 12540 12647 13152
 	}
 	manpower=755237
 	buildings_max_level_factor=1.000
-	state_category=rural
 }

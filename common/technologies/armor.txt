@@ -1,5 +1,5 @@
 technologies = {
-	### SOVIET TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
+	### SOVIET TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MRUS EASILY
 	
 	advanced_medium_tank = {#Panther
 		on_research_complete = {log = "[GetDateText]: [Root.GetName]: add tech advanced_medium_tank"}

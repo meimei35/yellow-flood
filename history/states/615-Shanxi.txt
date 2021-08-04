@@ -1,27 +1,26 @@
+state = { #Jindong #Eastern Shanxi
+	id = 615
+	name = "STATE_615"
+	manpower = 5480000
 
-state={
-	id=615
-	name="STATE_615"
+	state_category = rural
+	resources = {
+		steel = 10
+	}
 
-	history={
+	history = {
 		owner = SIR
 		add_core_of = SIR
-		victory_points = {
-			1519 3 
-		}
 		buildings = {
 			infrastructure = 4
 			arms_factory = 2
-			industrial_complex = 2
-
 		}
-
+		victory_points = {
+			12432 2
+		}
 	}
 
-	provinces={
-		1027 1139 1180 1203 1438 1519 1575 4058 4469 4538 4606 4634 7074 7571 10421 12062 12078 12344 
+	provinces = {
+		1027 1180 1203 1438 1519 4469 4538 10421 10480 12078 12344 12432
 	}
-	manpower=7601000
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

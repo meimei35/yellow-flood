@@ -1,0 +1,38 @@
+
+state={
+	id=981
+	name="Truong Sa"
+	resources={
+		
+	}
+
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			13354 = {
+				naval_base = 1
+
+			}
+			13355 = {
+				naval_base = 1
+
+			}
+			13356 = {
+				naval_base = 1
+
+			}
+			13357 = {
+			    naval_base = 1
+			}
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		13354 13355 13356 13357
+	}
+	manpower=8944
+	state_category=small_island
+}

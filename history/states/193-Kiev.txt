@@ -1,26 +1,22 @@
 
 state={
 	id=193
-	name="STATE_193"
+	name="STATE_193" # Kiev
+	manpower = 700310
+
+	state_category = city
 
 	history={
-		victory_points = {
-			3568 3 
-		}
-		owner = MUS
+		owner = UKR
 		buildings = {
 			infrastructure = 5
-			air_base = 8
-
+			industrial_complex = 2
 		}
-		add_core_of = MUS
 
+		add_core_of = UKR
 	}
 
 	provinces={
-		238 489 546 582 3480 3542 3568 3584 6458 6508 6532 6589 9437 9506 9543 11425 11489 11557 
+		582 9543 11557 489 11530
 	}
-	manpower=1373637
-	buildings_max_level_factor=1.000
-	state_category=city
 }

@@ -1,0 +1,27 @@
+state={
+	id=919
+	name="STATE_919"
+
+	state_category = rural
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			10715 = {
+				naval_base = 3
+			}
+
+		}
+
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		12600 7810 10534 7683 10715 7807
+	}
+	manpower=28000
+}

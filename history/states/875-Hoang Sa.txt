@@ -1,0 +1,35 @@
+
+state={
+	id=875
+	name="Hoang Sa"
+	resources={
+		
+	}
+
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			13358 = {
+				naval_base = 1
+
+			}
+			13359 = {
+				naval_base = 1
+
+			}
+			13360 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		13358 13359 13360
+	}
+	manpower=13952
+	state_category=small_island
+}

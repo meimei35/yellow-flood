@@ -1,35 +1,30 @@
 
 state={
 	id=535
-	name="STATE_535" # Koshinetsu
-	manpower = 3871000
-	state_category = large_city
-	
+	name="STATE_535" # Chubu Mountains
+	manpower = 3587000
+	state_category = town
+
 	resources={
-		steel=27 # was: 35
-		tungsten=8 # was: 10
+		steel=2
+		tungsten=2
 	}
 
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-		
-			arms_factory = 1
-			industrial_complex = 2
 			infrastructure = 3
-			dockyard = 1
-			fuel_silo = 1
-
 		}
-		
 		victory_points = {
-			10032 15
+			11908 2
 		}
+
+
 
 	}
 
 	provinces={
-		998 7102 7217 10015 10032 
+		 10015 11989 11908 7217 7187 12072 10100
 	}
 }

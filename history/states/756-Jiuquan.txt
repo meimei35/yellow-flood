@@ -1,22 +1,24 @@
 
 state={
 	id=756
-	name="STATE_756"
+	name="STATE_756" # Jiuquan
+	manpower = 3156620
+	state_category = rural
+	resources={
+		tungsten=1
+	}
 
 	history={
-		owner = RME
-		add_core_of = RME
-		buildings = {
-			infrastructure = 1
+		owner = XSM
+		add_core_of = XSM
 
+		buildings = {
+			infrastructure = 2
 		}
 
 	}
 
 	provinces={
-		1778 1781 2028 4783 4786 4843 7727 7803 7864 7971 8102 10560 10770 10899 
+		1778 2028 5057 5076 5100 7971 12327 12596 12820
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

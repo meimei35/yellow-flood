@@ -1,0 +1,22 @@
+state={
+	id=804
+	name="STATE_804"
+	manpower = 29500
+
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = RUS
+		add_core_of = RUS
+
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1744 3169 4746 4774 7796 7895
+	}
+}

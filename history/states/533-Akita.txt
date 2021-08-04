@@ -1,9 +1,9 @@
 
 state={
 	id=533
-	name="STATE_533" # Tohoku
-	manpower = 6575000
-	state_category = large_city
+	name="STATE_533" # Minami Tohoku
+	manpower = 3934000
+	state_category = large_town
 	resources={
 		steel=27 # was: 35
 	}
@@ -12,29 +12,22 @@ state={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-		
+
 			arms_factory = 1
 			industrial_complex = 2
-			fuel_silo = 1
-			infrastructure = 3
-			air_base = 6
-			9859 = {
-				naval_base = 6
 
-			}
+			infrastructure = 3
+			air_base = 3
 		}
-		
+
+
 		victory_points = {
-			6994 5
-		}
-		
-		victory_points = {
-			7169 15
+			7169 5
 		}
 
 	}
 
 	provinces={
-		1024 1063 1165 3848 4067 4118 4122 4153 6870 6873 6994 7169 9807 9859 9865 11847 12056 
+		1024 1063 1165 4067 4118 4122 4153 7169 12056
 	}
 }

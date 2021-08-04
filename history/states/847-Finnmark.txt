@@ -1,0 +1,21 @@
+
+state={
+	id=847
+	name="STATE_847"
+	manpower = 100000
+
+	state_category = pastoral
+
+	history={
+		owner = SCU
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = SCU
+	}
+
+	provinces={
+		3082 6107 6079 3040 128 9191 11169 9128 76 3016 22 2995 11104 9089 6015 9064 11063 11034 6092 64 9116 11077 9042 
+	}
+}

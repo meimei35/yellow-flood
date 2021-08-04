@@ -1,13 +1,15 @@
 
 state={
 	id=430
-	name="STATE_430"
+	name="STATE_430" # East Bengal
+	manpower = 31973300
+
+	state_category = large_town
 
 	history={
-		add_core_of = ORI
-		owner = ORI
+		owner = BNG
 		victory_points = {
-			11929 1 
+			11929 15
 		}
 		buildings = {
 			infrastructure = 5
@@ -18,13 +20,10 @@ state={
 			}
 
 		}
-
+		add_core_of = BNG
 	}
 
 	provinces={
-		1075 4616 7565 7634 7662 9993 10416 10443 10514 11929 11968 12423 13208 
+		997 1075 4162 4616 7078 7124 7179 7634 9935 9991 9993 10035 10416 10443 11911 11929 11968 12010 12423 13208 2843
 	}
-	manpower=31973300
-	buildings_max_level_factor=1.000
-	state_category=town
 }

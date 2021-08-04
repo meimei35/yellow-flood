@@ -3,7 +3,8 @@ state={
 	name="STATE_777"
 
 	history={
-		owner = BOU
+		owner = WAF
+		add_core_of = WAF
 		victory_points = {
 			1951 1
 		}

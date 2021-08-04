@@ -1,0 +1,25 @@
+
+state={
+	id=794
+	name="STATE_794"
+	history={
+	owner = SIK
+	add_core_of = SIK
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			12601 1
+		}
+
+	}
+
+	provinces={
+		7850 7866 12526 1708 1783 12601
+	}
+	manpower=369657
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

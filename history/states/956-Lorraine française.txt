@@ -1,0 +1,26 @@
+
+state={
+	id=956
+	name="STATE_956"
+	manpower = 316790
+	resources={
+		steel = 120
+	}
+	state_category = town
+	history={
+	    victory_points = { 
+		     13339 1
+		 }
+		owner = FRA
+		buildings = {
+		
+			infrastructure = 6
+		}
+		add_core_of = FRA
+		add_claim_by = GER
+	}
+
+	provinces={
+		13338 13339 13341
+	}
+}

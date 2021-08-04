@@ -1,10 +1,13 @@
 
 state={
 	id=780
-	name="STATE_780"
-
+	name="STATE_780" # Guinea
+	manpower = 195041
+	
+	state_category = pastoral
 	history={
-		owner = SIO
+		owner = GUN
+		add_core_of = GUN
 		victory_points = {
 			1909 1 
 		}
@@ -12,17 +15,11 @@ state={
 			infrastructure = 3
 			1909 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
 
 	provinces={
-		2094 4957 5039 8008 
+		1909 4957 5039 8008 12802 12858
 	}
-	manpower=195041
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

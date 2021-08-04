@@ -1,0 +1,25 @@
+
+state={
+	id=837
+	name="STATE_837"
+
+	history={
+		owner = KOR
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 4
+
+		}
+		victory_points = {
+			11801 3
+		}
+		add_claim_by = MAN
+	}
+
+	provinces={
+		3830 3900 9768 814 11801 10331 9905 3814 3881 9873 6937
+	}
+	manpower=1230500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

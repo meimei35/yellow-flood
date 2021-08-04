@@ -1,0 +1,22 @@
+state={
+	id=913
+	name="STATE_913"
+	manpower = 655000
+
+	state_category = town
+
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		add_core_of = CZE
+		add_core_of = AUS
+
+	}
+	provinces = {
+		7857 5283 543 11525 557
+ 	}
+}

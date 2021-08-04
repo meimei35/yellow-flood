@@ -1,0 +1,21 @@
+
+state={
+	id=1061
+	name="STATE_1061"
+	manpower = 43557
+	
+	state_category = rural
+	
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		10783 3834 7920
+	}
+}

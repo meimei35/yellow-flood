@@ -1,23 +1,26 @@
-
 state={
 	id=310
 	name="STATE_310"
-	manpower = 47341
+	manpower = 54312
+	resources={
+		aluminium=10
+		steel=6
+	}
 
 	state_category = pastoral
 
 	history={
-		owner = CHU
-		add_core_of = CHU
+		owner = BRA
 		buildings = {
-			infrastructure = 2
+			infrastructure = 4
 			12885 = {
 				naval_base = 1
 			}
 		}
 		victory_points = {
-			12885 1 
+			12885 15 
 		}
+		add_core_of = BRA
 	}
 
 	provinces={

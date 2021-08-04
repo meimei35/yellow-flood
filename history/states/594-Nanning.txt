@@ -1,31 +1,29 @@
-
-state={
-	id=594
-	name="STATE_594"
-	resources={
-		tungsten=11.000
-		steel=8.000
-		chromium=3.000
+state = {
+	id = 594
+	name = "STATE_594"
+	manpower = 3850000
+	state_category = town
+	resources = {
+		tungsten = 14
+		steel = 10
+		chromium = 4
 	}
 
-	history={
+	history = {
 		owner = MIN
 		add_core_of = MIN
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
-
+			arms_factory = 1
+			air_base = 1
 		}
 		victory_points = {
-			7137 10 
+			7137 10
 		}
-
 	}
 
-	provinces={
-		1018 4023 4121 4177 7044 7192 10004 10105 11926 11983 12023 
+	provinces = {
+		4028 7044 7137 7192 7650 10050 10105 11983 12023
 	}
-	manpower=6550000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

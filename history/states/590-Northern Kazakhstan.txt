@@ -1,25 +1,24 @@
 
 state={
 	id=590
-	name="STATE_590"
+	name="STATE_590" # Akmolinsk
+	manpower = 664232
+
+	state_category = pastoral
 
 	history={
-		owner = MUS
-		add_core_of = MUS
+		owner = RUS
+		add_core_of = RUS
+		#add_core_of = KAZ
 		victory_points = {
-			4333 1 
+			4333 1
 		}
 		buildings = {
-			infrastructure = 4
-
+			infrastructure = 3
 		}
-
 	}
 
 	provinces={
-		1223 1229 1309 1375 1391 1418 1662 1680 4232 4238 4281 4309 4333 7298 7326 7407 7425 7741 7874 10211 10239 10308 10633 12152 12619 
+		1223 10268 12111 1229 1375 1680 4232 4238 4281 4309 4333 7298 7326 7383 7407 7425 10211 10239 10308 10633 12152
 	}
-	manpower=980533
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

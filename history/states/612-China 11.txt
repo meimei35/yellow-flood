@@ -4,19 +4,22 @@ state={
 	name="STATE_612"
 
 	history={
-		owner = KOR
-		add_core_of = KOR
+		victory_points = {
+			7648 1
+		}
+		owner = MON
+		add_core_of = MON
 		buildings = {
-			infrastructure = 1
+			infrastructure = 2
 
 		}
 
 	}
 
 	provinces={
-		1551 1608 1796 1811 1871 4222 4555 7578 7648 10363 10372 10499 12348 12554 
+		1551 1558 1608 1796 1811 1871 3978 4222 4555 4655 7578 7648 10363 10372 10429 10499 12348 12448 12554 12469 7812
 	}
-	manpower=566000
+	manpower=1101548
 	buildings_max_level_factor=1.000
 	state_category=rural
 }

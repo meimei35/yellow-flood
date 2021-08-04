@@ -1,0 +1,21 @@
+state={
+	id=971
+	name="Sahara español"
+	manpower = 176000
+	
+	state_category = wasteland
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 1
+			
+
+
+		}
+		add_core_of = MOR
+	}
+	
+	provinces={
+		7958 4933 4154 1152 7908 8046 1207
+	}
+}

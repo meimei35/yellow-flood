@@ -1,8 +1,9 @@
-
-state={
+state = {
 	id=484
 	name="STATE_484"
-
+	manpower = 108841
+	state_category = rural
+	
 	history={
 		owner = UPK
 		buildings = {
@@ -10,25 +11,13 @@ state={
 			air_base = 3
 			1892 = {
 				naval_base = 2
-
 			}
 			12736 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = UPK
-		victory_points = {
-			12461 10 
-		}
 
 	}
-
-	provinces={
-		1892 1904 7964 8119 12736 12859 13216 
-	}
-	manpower=108841
-	buildings_max_level_factor=1.000
-	state_category=rural
+	provinces= { 1892 1904 7964 8119 12461 12736 12859 13215 13216}
 }

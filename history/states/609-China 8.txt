@@ -1,7 +1,13 @@
 
 state={
 	id=609
-	name="STATE_609"
+	name="STATE_609" # East Hebei
+	resources={
+		steel=6
+	}
+	manpower = 6050099
+
+	state_category = city
 
 	history={
 		owner = SIR
@@ -10,19 +16,18 @@ state={
 			infrastructure = 5
 			arms_factory = 1
 			industrial_complex = 1
-			3900 = {
+			dockyard = 2
+			12043 = {
 				naval_base = 2
-
 			}
-
 		}
-
+		add_claim_by = MAN
+		victory_points = {
+			10068 10
+		}
 	}
 
 	provinces={
-		828 881 900 952 1052 1489 1590 3955 6904 6969 9768 9776 10397 10480 11822 12043 
+		881 900 1052 3955 6969 11822 12043 10068
 	}
-	manpower=6400000
-	buildings_max_level_factor=1.000
-	state_category=town
 }

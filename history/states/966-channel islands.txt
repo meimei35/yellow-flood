@@ -1,0 +1,27 @@
+
+state={
+	id=966
+	name="Channel islands"
+	manpower = 97245
+	
+	state_category = small_island
+
+	history={
+		owner = ENG
+
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			13346 = {
+				naval_base = 2
+			}
+
+		}
+		add_core_of = ENG
+	
+	}
+
+	provinces={
+		13346
+	}
+}

@@ -1,31 +1,21 @@
-
 state={
 	id=622
 	name="STATE_622"
 	resources={
-		steel=3.000
-		tungsten=3.000
+		oil=2
 	}
-
-	history={
+        state_category = town
+	history=
+	{
 		owner = SIR
 		add_core_of = SIR
-		victory_points = {
-			8049 3 
-		}
 		buildings = {
-			infrastructure = 3
-			arms_factory = 2
-			industrial_complex = 3
-
+			infrastructure = 2
 		}
-
-	}
-
+}
 	provinces={
-		517 1458 1976 2006 4939 5007 7208 7301 7314 7659 8049 10733 10880 12156 12356 12713 
+		517 1458 4939 7208 7314 7659 8049 10880 12356 5007 12156 10733
 	}
-	manpower=7006200
+	manpower=1853884
 	buildings_max_level_factor=1.000
-	state_category=large_town
 }

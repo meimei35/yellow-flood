@@ -23,7 +23,6 @@ create_country_leader = {
 	ideology = social_conservative_subtype
 }
 
-puppet = PRS
 puppet = BOQ
 
 

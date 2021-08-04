@@ -1,0 +1,21 @@
+
+state={
+	id=859
+	name="STATE_859" # Tambov
+	manpower = 1779583
+
+	state_category = rural
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		6591 3469 3567 11412 9552 11475 11396 6477
+		9424 473 6432 11439 9489 9579 534 
+	}
+}

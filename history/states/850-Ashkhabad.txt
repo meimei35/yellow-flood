@@ -1,0 +1,25 @@
+state={
+	id=850
+	name="STATE_850"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		
+		add_core_of = AFG
+		victory_points = {
+			7560 3
+		}	
+	}
+
+	provinces={
+		4958 7491 7560 10357
+	}
+	manpower=564523
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

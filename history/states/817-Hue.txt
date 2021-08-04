@@ -1,0 +1,30 @@
+state={
+	id=817
+	name="STATE_817"
+	resources={
+		rubber=12.000
+	}
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			4379 3
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			10309 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		1248 4255 4379 7229 10137 10180 10309
+	}
+	manpower=4245000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

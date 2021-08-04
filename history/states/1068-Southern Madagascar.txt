@@ -1,0 +1,29 @@
+
+state={
+	id=1068
+	name="STATE_1068"
+	manpower = 1094611
+		resources={
+		steel= 4
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = KOR
+		add_core_of = MAG
+		victory_points = {
+			12956 1
+		}
+		victory_points = {
+			13388 1
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces={
+		8246 12956 13383 13382 2200 13388 13389 10993 13384
+	}
+}

@@ -1,23 +1,24 @@
 
 state={
 	id=210
-	name="STATE_210" # Nevel
-	manpower = 830133
-	
-	state_category = rural
+	name="STATE_210" # Dvinsk
+	manpower = 375500
+
+	state_category = town
 
 	history={
-		owner = MUS
+		owner = LAT
+		victory_points = {
+			310 1
+		}
 		buildings = {
 			infrastructure = 5
+			industrial_complex = 1
 		}
-		add_core_of = MUS
-		victory_points = {
-			11234 1
-		}
+		add_core_of = LAT
 	}
 
 	provinces={
-		207 248 354 387 3333 6242 6293 9254 9331 9353 9386 11234 11259 
+	310 341 7482 6459 9275 222 319 11222	
 	}
 }

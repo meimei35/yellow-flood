@@ -1,0 +1,21 @@
+
+state={
+	id=798
+	name="STATE_798"
+	manpower = 8930
+
+	state_category = pastoral
+
+	history={
+		owner = KSM
+		buildings = {
+			infrastructure = 1
+		}
+    add_core_of = TIB
+		add_core_of = KSM
+	}
+
+	provinces={
+		7273
+	}
+}

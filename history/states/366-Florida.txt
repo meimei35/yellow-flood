@@ -2,6 +2,9 @@
 state={
 	id=366
 	name="STATE_366"
+	manpower = 1468210
+	
+	state_category = city
 
 	history={
 		owner = UPK
@@ -11,23 +14,18 @@ state={
 			air_base = 8
 			1572 = {
 				naval_base = 2
-
 			}
 			1843 = {
 				naval_base = 5
-
 			}
 			7388 = {
 				naval_base = 3
-
 			}
 			10352 = {
 				naval_base = 1
-
 			}
-
 		}
-		add_core_of = USA
+		add_core_of = UPK
 		victory_points = {
 			1843 5 
 		}
@@ -35,9 +33,7 @@ state={
 	}
 
 	provinces={
-		866 1433 1480 1556 1572 1584 1843 1913 7388 7583 9834 10407 10489 12325 12353 12381 12439 12470 12498 12752 
+		866 1556 1572 1584 1843 1913 7388 9834 10352 10380 10407 10489 12353 12381 12439 12752 13199
 	}
-	manpower=1468210
-	buildings_max_level_factor=1.000
-	state_category=city
+	
 }

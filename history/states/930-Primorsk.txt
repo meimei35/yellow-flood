@@ -1,0 +1,33 @@
+state= {
+	id=930
+	name="STATE_930"
+	manpower = 1277683
+	state_category = town
+	resources={
+		chromium = 15
+		steel = 10
+	}
+
+	history= {
+		owner = KOR
+		victory_points = {
+			6961 3
+		}
+		victory_points = {
+			6989 1
+		}
+		add_core_of = KOR
+
+		buildings = {
+			6961 = {
+				naval_base = 2
+			}
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+		}
+	}
+	provinces={
+		 3787 6684 6838 6989 9762 9895 9926 11750 9639 11643 11904 3811 11745 9641 11765 837 6833 11777 11624 664 6686 681 11629 3695 6715 3739 3723 3753 11626 6961
+	}
+}

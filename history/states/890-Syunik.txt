@@ -1,0 +1,22 @@
+
+state={
+	id=890
+	name="STATE_890"
+	manpower = 1051981
+
+	state_category = pastoral
+
+	history={
+		owner = ARM
+		add_core_of = RUS
+		add_core_of = ARM
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		4660 6642 12450 9715 1467 1539
+	}
+}

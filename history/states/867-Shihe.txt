@@ -1,0 +1,19 @@
+state = {
+	id = 867
+	name = "STATE_867"
+	manpower = 1783941
+
+	state_category = town
+
+	history = {
+		owner = MNG
+		add_core_of = MNG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces = {
+		4041 5030 10304 10757 12414
+	}
+}

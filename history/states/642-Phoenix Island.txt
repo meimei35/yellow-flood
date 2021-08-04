@@ -7,7 +7,7 @@ state={
 	state_category = tiny_island
 
 	history={
-		owner = SIR
+		owner = UPK
 		buildings = {
 			infrastructure = 3
 			13050 = {

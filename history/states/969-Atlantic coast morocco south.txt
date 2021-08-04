@@ -1,0 +1,19 @@
+state={
+	id=969
+	name="Coast of Morocco"
+	manpower = 1235000
+	
+	state_category = rural
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = MOR
+	}
+	
+	provinces={
+		 1102 11943 7203
+	}
+}

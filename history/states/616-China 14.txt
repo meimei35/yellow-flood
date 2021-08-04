@@ -1,22 +1,20 @@
 
 state={
 	id=616
-	name="STATE_616"
+	name="STATE_616" # Ningxia
+	manpower = 920980
+
+	state_category = pastoral
 
 	history={
 		owner = RME
 		add_core_of = RME
 		buildings = {
 			infrastructure = 2
-
 		}
-
 	}
 
 	provinces={
-		1630 5031 5057 5100 7511 8127 12327 12750 12776 
+		3742 4783 5031 7727 7803 12776 7511 8055 8081 8102 8127 10724 10770 10899 12750
 	}
-	manpower=2077600
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

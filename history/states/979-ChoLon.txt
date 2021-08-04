@@ -1,0 +1,32 @@
+
+state={
+	id=979
+	name="Cho Lon City"
+	resources={
+		
+	}
+
+	history={
+		add_core_of = VIN
+		owner = VIN
+		victory_points = {
+			1396 5
+		}
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 1
+			1396 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1396
+	}
+	manpower=305784
+	state_category=city
+}

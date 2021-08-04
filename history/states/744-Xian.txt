@@ -1,25 +1,30 @@
 
 state={
 	id=744
-	name="STATE_744"
+	name="STATE_744"#Shaanxi
+	resources={
+		steel=4.000
+	}
 
 	history={
 		owner = SIR
 		add_core_of = SIR
 		victory_points = {
-			7418 1 
+			1976 3
 		}
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
 		}
 
 	}
 
 	provinces={
-		4167 4256 5092 7406 7418 10257 12408 
+		1976 2006 4256 5092 7301 7406 10257 12408 12713
 	}
-	manpower=9000000
+	manpower=9313234
 	buildings_max_level_factor=1.000
 	state_category=town
 }

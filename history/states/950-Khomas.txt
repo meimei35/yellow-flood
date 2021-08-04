@@ -1,0 +1,23 @@
+
+state={
+	id=950
+	name="STATE_950"
+	manpower = 222000
+	
+	state_category = wasteland
+
+	history={
+		owner = SWF
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			4879 1
+		}
+		add_core_of = SWF
+	}
+
+	provinces={
+		4879 13344 13233 10963 13235 13234 7605 13241 13242 5189 13240 13238 13239 5154
+	}
+}

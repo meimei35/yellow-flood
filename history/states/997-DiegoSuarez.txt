@@ -1,0 +1,21 @@
+state={
+	id=997
+	name="Diego-Suarez"
+	manpower = 75324
+	
+	state_category = rural
+	
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			13363 = {
+			    naval_base = 2
+			}
+		}
+	}
+
+	provinces={
+		13363
+	}
+}

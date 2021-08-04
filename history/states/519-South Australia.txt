@@ -4,19 +4,25 @@ state={
 	name="STATE_519"
 
 	history={
-		owner = VXI
+		owner = JAP
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 3
+			industrial_complex = 1
+			12910 = {
+				naval_base = 2
+			}
 		}
-		add_core_of = VXI
-
+		add_core_of = JAP
+		victory_points = {
+			12910 5 
+		}
 	}
 
 	provinces={
-		2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927 
+		2219 5183 5197 5211 5225 7567 8165 8186 8220 10925 10927
+		13169 13170 12910 12918 12924 1773
 	}
-	manpower=138811
+	manpower=200800
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

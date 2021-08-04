@@ -1,0 +1,28 @@
+state=
+{
+	id=790
+	name="STATE_790" # Sichuan
+	manpower = 2286036
+
+	state_category = large_city
+
+
+	history=
+	{
+		owner = MNG
+		add_core_of = MNG
+
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			6999 15
+		}
+
+	}
+	provinces={
+		1893 4141 4431 6999
+	}
+}

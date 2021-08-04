@@ -3,33 +3,34 @@ state={
 	id=408
 	name="STATE_408"
 	resources={
-		chromium=20.000
+		chromium=18
 	}
 
 	history={
 		owner = KOR
 		victory_points = {
-			957 20
+			957 10
 		}
 		buildings = {
 			infrastructure = 4
-			dockyard = 1
+			dockyard = 2
+			industrial_complex = 1
 			air_base = 5
 			957 = {
 				naval_base = 8
 				coastal_bunker = 3
-
 			}
 
-		}
+	}
+
 		add_core_of = KOR
 
 	}
 
 	provinces={
-		837 957 3787 3811 3977 6684 6833 6838 6961 6989 9762 9895 9926 11626 11745 11750 11765 11777 11879 11904 
+		957 11879 3977
 	}
-	manpower=941465
+	manpower=441465
 	buildings_max_level_factor=1.000
 	state_category=city
 }

@@ -1,0 +1,22 @@
+
+state={
+	id=1043
+	name="STATE_1043"
+
+	history={
+		owner = RUS
+		victory_points = {
+			12397 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = RUS
+	}
+	provinces={
+		7597 7556 12397 12340 10506 12658 10603 7706 12640
+	}
+	manpower=72270
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

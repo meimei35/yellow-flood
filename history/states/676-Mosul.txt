@@ -1,33 +1,25 @@
 state={
 	id=676
-	name="STATE_676"
-	resources={
-		oil=2.000
-	}
+	name="STATE_676" #Sulaymaniyah
+	manpower = 295685
+
+	state_category = wasteland
+
 	history={
-		owner = TUR
+		owner = KUR
 		buildings = {
-			infrastructure = 3
-
+			infrastructure = 1
+		}
+		add_core_of = KUR
+		victory_points = {
+			8123 1
 		}
 		victory_points = {
-			3916 3 
+			6826 1
 		}
-		victory_points = {
-			6826 1 
-		}
-		victory_points = {
-			1822 1 
-		}
-		add_core_of = TUR
-		add_core_of = PER
-
 	}
 
 	provinces={
-		1822 3916 5014 6826 8123 10793 
+		6826 8123 10793 
 	}
-	manpower=418741
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

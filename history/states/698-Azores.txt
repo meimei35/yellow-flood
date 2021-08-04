@@ -6,7 +6,7 @@ state={
 	state_category = small_island
 	
 	history={
-		owner = UPK
+		owner = JAP
 		victory_points = {
 			1751 3 
 		}
@@ -16,7 +16,8 @@ state={
 				naval_base = 3
 			}
 		}
-		add_core_of = UPK
+		add_core_of = JAP
+		
 	}
 	
 	provinces={

@@ -1,0 +1,29 @@
+state={
+	id=986
+	name="STATE_986"
+	state_category = rural
+	
+	history={
+		owner = KOR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			dockyard = 1
+			6922 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = KOR
+		victory_points = {
+			6922 3
+		}
+	}
+	
+	provinces={
+		6922 
+	}
+	manpower=91562
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,25 @@
+state=
+{
+	id=1014
+	name="STATE_1014"
+	manpower = 954500
+
+	state_category = town
+
+	history=
+	{
+		owner = MOL
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+		}
+
+		add_core_of = ROM
+		add_core_of = MOL
+		add_core_of = UKR
+		
+	}
+	provinces = { 414 3407 6600 11705 }
+	
+}

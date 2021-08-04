@@ -1,0 +1,20 @@
+state={
+	id=940
+	name="Lower Niger"
+	manpower = 159241
+
+	state_category = town
+
+	history = {
+		owner = UPV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = UPV
+	}
+
+	provinces={
+		12794 8116 7954 7930 4927 5045
+	}
+}

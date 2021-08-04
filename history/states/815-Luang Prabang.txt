@@ -1,0 +1,23 @@
+state={
+	id=815
+	name="STATE_815"
+
+
+	history={
+		owner = VIN
+		add_core_of = VIN
+		add_core_of = LAO
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4339 7075 7218 9961 12392 12433
+	}
+	manpower=519000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

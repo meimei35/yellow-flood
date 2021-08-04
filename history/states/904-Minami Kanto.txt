@@ -1,0 +1,35 @@
+
+state={
+	id=904
+	name="STATE_904" # Minami-Kanto
+	manpower = 4915000
+
+	state_category = large_city
+
+	resources={
+		steel=5
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 6
+			air_base = 6
+			industrial_complex = 3
+			arms_factory = 1
+			dockyard = 4
+			9998 = {
+				naval_base = 6
+
+			}
+
+		}
+		victory_points = {
+			9998 20
+		}
+}
+provinces={
+	1097 4184 4188 9998
+}
+}

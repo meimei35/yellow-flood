@@ -11,8 +11,10 @@ state={
 	}
 
 	history={
-		add_core_of = SCO
 		owner = ENG
+		victory_points = {
+			11136 2
+		}
 		buildings = {
 			infrastructure = 6
 			dockyard = 2

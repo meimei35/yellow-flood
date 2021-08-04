@@ -2,24 +2,24 @@
 state={
 	id=747
 	name="STATE_747"
+	manpower = 3079341
+	state_category = rural
+
 
 	history={
 		owner = YUN
 		add_core_of = YUN
 		victory_points = {
-			7965 3 
+			7965 1
 		}
-		buildings = {
-			infrastructure = 3
 
+		buildings = {
+			infrastructure = 2
 		}
 
 	}
 
 	provinces={
-		4559 4996 5009 7965 7976 10413 10863 12789 12898 
+		4996 4559 4937 7965	 7976 8126 10863 12789 12898
 	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

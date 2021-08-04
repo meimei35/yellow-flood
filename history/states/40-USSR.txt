@@ -4,23 +4,28 @@ state={
 	name="STATE_40"
 
 	history={
-		owner = MUS
+		owner = RUS
+		add_core_of = RUS
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 
 		}
-		add_core_of = MUS
-		victory_points = {
-			1794 1 
+
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+
+			}
+
 		}
 
 	}
 
 	provinces={
-		1297 1369 1794 1797 4661 4665 4734 4803 7708 10537 10546 12515 12613 
+		1297 1794 1797 4803 10537 10546 11410 12515 12594 12613
 	}
-	manpower=2107451
+	manpower=1992451
 	buildings_max_level_factor=1.000
 	state_category=large_town
 }

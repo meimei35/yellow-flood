@@ -7,7 +7,7 @@ state=
 	
 	history=
 	{
-		owner = SIR
+		owner = JAP
 		buildings = {
 			infrastructure = 1
 			1280 = {

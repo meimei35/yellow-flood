@@ -1,0 +1,28 @@
+state=
+{
+	id=795
+	name="STATE_795"
+	manpower = 3135505
+	state_category = city
+
+	resources = {
+		steel = 24
+	}
+
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 5
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			4619 5
+		}
+	}
+
+	provinces = {
+		1036 4619 4631
+	}
+}

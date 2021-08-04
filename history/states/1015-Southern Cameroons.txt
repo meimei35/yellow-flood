@@ -1,0 +1,25 @@
+
+state={
+	id=1015
+	name="STATE_1015"
+	manpower = 4000
+	
+	state_category = rural
+	resources={
+		rubber=1
+	}
+	history={
+		owner = NGA
+		add_core_of = NGA
+		buildings = {
+			infrastructure = 1
+			arms_factory = 0
+			industrial_complex = 0
+		}
+
+	}
+
+	provinces={
+		 7978
+	}
+}

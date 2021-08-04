@@ -1,0 +1,24 @@
+
+state={
+	id=1064
+	name="STATE_1064" # Morava
+	manpower = 374000
+
+	state_category = town
+
+	resources={
+		steel=3 # was: 4
+	}
+
+	history={
+		owner = BUL
+		buildings = {
+			infrastructure = 4
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		11857 11868
+	}
+}

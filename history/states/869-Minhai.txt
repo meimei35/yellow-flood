@@ -1,0 +1,21 @@
+state = {
+	id = 869
+	name = "STATE_869"
+	manpower = 4534240
+	state_category = town
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			7027 5
+		}
+	}
+	provinces = {
+		1094 1166 4169 7027 10069
+	}
+}

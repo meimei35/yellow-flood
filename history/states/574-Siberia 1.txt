@@ -1,26 +1,26 @@
 
 state={
 	id=574
-	name="STATE_574"
+	name="STATE_574" # Yakutsk
+	manpower = 337866
+
+	state_category = rural
 
 	history={
-		owner = GUK
+		owner = KCK
+		add_core_of = KCK
 		victory_points = {
-			10641 1 
+			10641 3
 		}
 		buildings = {
 			infrastructure = 2
 			air_base = 1
-
 		}
-		add_core_of = GUK
 
 	}
 
 	provinces={
-		1795 1852 1878 4726 4798 4821 7746 7765 7817 10589 10641 10701 10714 12611 
+		1666 1795 1878 4675 4726 4762 4798 4821 4855 7765 7817 7889 10641 10701 10714 12565 12611 12623
+		4810 10572 1805 4881 10598
 	}
-	manpower=407866
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

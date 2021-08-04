@@ -2,26 +2,25 @@
 state={
 	id=199
 	name="STATE_199"
+	manpower = 1424022
+	
+	state_category = town
 
 	history={
+		owner = UKR
 		victory_points = {
-			3457 3 
+			6429 3
 		}
-		owner = MUS
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 3
-
 		}
-		add_core_of = MUS
-
+		
+		add_core_of = UKR
 	}
 
 	provinces={
-		476 3430 6429 6455 
+		462 3430 3457 3511 6429 6509 
 	}
-	manpower=1424022
-	buildings_max_level_factor=1.000
-	state_category=town
 }

@@ -1,0 +1,25 @@
+state = { #Gannan
+	id = 896
+	name = "STATE_896"
+	manpower = 1521000
+	state_category = town
+	resources={
+		tungsten=20
+		steel=2
+	}
+
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			9942 1
+		}
+	}
+
+	provinces = {
+		7004 9942 4156 4183 10057
+	}
+}

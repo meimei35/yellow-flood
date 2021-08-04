@@ -1,26 +1,26 @@
 
 state={
 	id=572
-	name="STATE_572"
+	name="STATE_572" # Chelyabinsk
+	manpower = 1638104
+	
+	state_category = town
 
 	history={
-		owner = MUS
+		owner = RUS
 		victory_points = {
-			9292 5 
+			9292 1
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
+			arms_factory = 1
 
 		}
-		add_core_of = MUS
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		1233 1327 4242 7285 9292 10170 10213 12157 12287 12584 
+		1233 1292 1327 4242 7285 9292 10170 10213 12157 12287 12584 
 	}
-	manpower=2074932
-	buildings_max_level_factor=1.000
-	state_category=town
 }

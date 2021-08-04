@@ -1,0 +1,25 @@
+state = {
+	id = 983
+	name = "Haifong"
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		victory_points = {
+			4119 3
+		}
+		buildings = {
+			infrastructure = 5
+			4119 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+		4119
+	}
+	manpower = 3128000
+	buildings_max_level_factor = 1
+	state_category = rural
+}

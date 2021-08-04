@@ -1,25 +1,30 @@
 
 state={
 	id=560
-	name="STATE_560"
+	name="STATE_560" # Nikolayevsk
+	manpower = 737663
+
+	state_category = rural
 	resources={
-		steel=18.000
+		steel=18 # was: 24
 	}
 
 	history={
 		owner = KOR
-		buildings = {
-			infrastructure = 3
-
-		}
 		add_core_of = KOR
-
+		buildings = {
+			12559 = {
+				naval_base = 2
+			}
+			infrastructure = 3
+			dockyard = 1
+		}
+		victory_points = {
+			12559 2
+		}
 	}
 
 	provinces={
-		3664 4290 4844 7748 9659 10571 12559 12638 
+		1724 1772 1842 3664 4290 4844 7748 7871 9659 10571 10577 12559 12569 12638 675 4701 12192 12263 12591 10590 1807
 	}
-	manpower=37663
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

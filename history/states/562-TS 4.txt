@@ -1,22 +1,21 @@
 
 state={
 	id=562
-	name="STATE_562"
+	name="STATE_562" # Okhotsk
+	manpower = 86961
+	state_category = pastoral
 
 	history={
-		owner = GUK
+		owner = KCK
+		add_core_of = KCK
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = GUK
-
+		set_demilitarized_zone = yes
 	}
 
 	provinces={
-		1714 4810 10572 11607 12518 12551 12623 
+		1714 1865 10540 11607 12518 12551 12683
+		1823
 	}
-	manpower=46961
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

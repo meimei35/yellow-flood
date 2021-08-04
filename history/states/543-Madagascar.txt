@@ -2,26 +2,31 @@
 state={
 	id=543
 	name="STATE_543"
-	manpower = 3694611
+	manpower = 1394611
+		resources={
+		chromium= 60
+		oil= 2
+		steel= 2
+	}
 	
 	state_category = rural
 	
 	history={
 		owner = KOR
+		add_core_of = MAG
 		victory_points = {
-			5128 1
+			5128 15
+		}
+		victory_points = {
+			13392 5
 		}
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 1
-			5222 = {
-				naval_base = 1
-			}
 		}
-
 	}
 
 	provinces={
-		2200 5128 5185 5222 8180 8188 8246 10993 11015 12956 
+		13385 5128 13390 13391 13392 13393 13394
 	}
 }

@@ -1,0 +1,30 @@
+state = {
+	id = 1034
+	name="Guantanamo"
+	manpower = 1600000
+	resources={
+		steel=3 # was: 4
+	}
+	
+	state_category = town
+
+	history= {
+		owner = UPK
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			1550 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = UPK
+		victory_points = {
+			7590 1
+		}
+
+	}
+	provinces={
+		1550 4476 7546 7590 12347
+	}
+}

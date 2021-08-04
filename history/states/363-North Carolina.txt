@@ -2,6 +2,9 @@
 state={
 	id=363
 	name="STATE_363"
+	manpower = 3170274
+	
+	state_category = city
 
 	history={
 		owner = UPK
@@ -11,9 +14,7 @@ state={
 			air_base = 3
 			1132 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = UPK
 		victory_points = {
@@ -23,9 +24,6 @@ state={
 	}
 
 	provinces={
-		788 1019 1077 1132 1163 1506 3925 4168 6943 7045 7083 7558 9876 9931 10051 10081 10412 10439 10468 11738 11783 11841 11927 12054 12445 
+		1019 1077 1132 1163 4168 6943 7045 7083 7138 7643 9876 9967 10051 10081 10096 10468 10495 11783 12054 12445 
 	}
-	manpower=3170274
-	buildings_max_level_factor=1.000
-	state_category=city
 }

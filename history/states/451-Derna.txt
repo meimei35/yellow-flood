@@ -2,9 +2,13 @@
 state={
 	id=451
 	name="STATE_451"
+	manpower = 45628
+	
+	state_category = wasteland
 
 	history={
-		owner = PRO
+		owner = ITA
+		
 		victory_points = {
 			1130 5 
 		}
@@ -13,18 +17,12 @@ state={
 			air_base = 4
 			1130 = {
 				naval_base = 6
-
 			}
-
 		}
-		add_core_of = PRO
-
+		add_core_of = LBA
 	}
 
 	provinces={
-		1130 1204 4136 4151 7082 9992 10120 
+		1130 1204 4136 4151 7082 9992 10120 12094 
 	}
-	manpower=45628
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

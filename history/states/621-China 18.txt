@@ -1,23 +1,20 @@
-
 state={
 	id=621
-	name="STATE_621"
+	name="STATE_621" # Suiyuan
+	manpower = 1583700
+
+	state_category = pastoral
 
 	history={
-		owner = RME
-		add_core_of = RME
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
-
 		}
-
 	}
 
 	provinces={
-		1853 2087 4525 8055 10629 10724 12609 12880 
+		2087 4525 7048 7158 7631 10424 10629 12331 12403 12609 12880
 	}
-	manpower=783700
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

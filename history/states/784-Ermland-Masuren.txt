@@ -1,24 +1,33 @@
 state={
 	id=784
-	name="STATE_784"
-	manpower = 517081
-	
+	name="Sydlandet"
+	manpower = 80500
+
 	state_category = rural
-	
+
 	history={
-		owner = LIT
-		victory_points = {
-			3320 3
-		}
+		owner = SCU
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 1
 			air_base = 5
+			
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+			}
+			6176 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
 		}
-		add_core_of = LIT
+		add_core_of = SCU
 	}
 
 	provinces={
-		3320 9274 9295 11342
+		9196 11176 6072 100
+		9096 6151 9036 6184
+		3094 11029 9174 3059
+		9296 11367 6176 53 137 3049 3129 11101 
 	}
 }

@@ -1,0 +1,20 @@
+state={
+	id = 1069
+	name = "STATE_1069"
+	manpower = 304603
+	
+	state_category = rural
+	
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			air_base = 1
+			infrastructure = 7
+		}
+	}
+
+	provinces={
+		872 897 3899 6865 3898 11779 9824 6927 854
+	}
+}

@@ -2,31 +2,36 @@
 state={
 	id=66
 	name="STATE_66"
+	manpower = 3052726
 	resources={
-		steel=50.000
-		aluminium=16.000
+		steel=50 # was: 110
+		aluminium=16 # was: 38
 	}
 
+	state_category = large_city
+
 	history={
-		owner = PRE
+		owner = GER
 		victory_points = {
-			9570 10 
+			9570 10
 		}
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 1
 			air_base = 6
-
 		}
-		add_core_of = PRE
+		add_core_of = GER
 
-
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+				arms_factory = 3
+				industrial_complex = 3
+			}
+		}
 	}
 
 	provinces={
-		445 552 3485 3545 6534 9570 11414 
+		552 3283 3438  3510 3545 6462 6534 6595 9470 9570 11517 3485 6512 
 	}
-	manpower=3052726
-	buildings_max_level_factor=1.000
-	state_category=large_city
 }

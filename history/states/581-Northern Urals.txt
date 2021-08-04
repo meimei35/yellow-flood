@@ -2,25 +2,26 @@
 state={
 	id=581
 	name="STATE_581"
+	manpower = 27831
+	
+	state_category = wasteland
+	impassable = yes
+	
 	resources={
-		chromium=40.000
-		aluminium=27.000
+		chromium=40 # was: 44
+		aluminium=27 # was: 30
 	}
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = MUS
-
+		add_core_of = RUS
 	}
 
 	provinces={
-		1744 3169 4669 4774 7824 8461 10551 10677 10723 11098 12393 12502 13076 
+		10551 10677 11098 12393 12502 13076 
 	}
-	manpower=48831
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

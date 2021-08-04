@@ -6,8 +6,7 @@ state=
 	manpower=75153
 	history=
 	{
-		owner = KOR
-		#add_core_of = GUM
+		owner = UPK
 		buildings = {
 			infrastructure = 5
 			12140 = {

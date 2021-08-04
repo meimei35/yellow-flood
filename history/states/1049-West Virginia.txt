@@ -1,0 +1,22 @@
+state={
+	id=1049
+	name="STATE_1049"
+	manpower = 1900400
+	state_category = pastoral
+	resources={
+		steel=1
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 5
+		}
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		4627 7588 7466 7646 3941 9923 801 6850 3975 10441 6971
+	}
+}

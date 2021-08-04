@@ -1,0 +1,20 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+		oil=1
+	}
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+	}
+
+	provinces={
+		7790 8086 5016 8042 10885 12864
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

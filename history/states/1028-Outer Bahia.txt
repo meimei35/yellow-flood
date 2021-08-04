@@ -1,0 +1,27 @@
+state=
+{
+	id=1028
+	name="STATE_1028"
+	manpower = 2543932
+			resources={
+		rubber = 15
+	}
+	
+	state_category = large_town
+	history=
+	{
+		owner = BRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			arms_factory = 1
+		}
+		victory_points = {
+			10392 1 
+		}
+	add_core_of = BRA
+	}
+	provinces={
+		10392 5194 8177 10926 8242 8184 4617
+		}
+}

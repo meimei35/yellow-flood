@@ -1,0 +1,20 @@
+
+state={
+	id=958
+	name="STATE_958"
+	manpower = 35053
+
+	state_category = town
+	history={
+		owner = LUX
+		buildings = {
+			infrastructure = 6
+		}
+		add_core_of = GER
+		add_core_of = LUX
+	}
+
+	provinces={
+		9559
+	}
+}

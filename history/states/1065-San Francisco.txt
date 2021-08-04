@@ -1,0 +1,31 @@
+state={
+	id=1065
+	name="STATE_1065"
+	manpower = 634536
+	
+	state_category = metropolis
+	
+	resources={
+		oil=30
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 10
+			dockyard = 2
+			air_base = 1
+			9671 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = UPK
+		victory_points = {
+			9671 25
+		}
+	}
+
+	provinces={
+	 9671 3678 3677 
+	}
+}

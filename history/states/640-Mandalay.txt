@@ -1,0 +1,28 @@
+
+state={
+	id=640
+	name="STATE_640"
+
+	history={
+		owner = BRM
+		add_core_of = BRM
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+
+		}
+		victory_points = {
+			1492 1
+		}
+
+
+	}
+
+	provinces={
+		1492 4585 10486 10386 12335 12404 12492 4588 12464 8063 1082 7469
+
+	}
+	manpower=2096400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

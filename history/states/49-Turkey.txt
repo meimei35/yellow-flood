@@ -2,24 +2,19 @@
 state={
 	id=49
 	name="STATE_49" # Ankara
-	manpower = 810284
+	manpower = 770758
 	resources={
 		chromium=11 # was: 16
-		steel = 28
+		steel = 6
 	}
 	
 	state_category = town
 
 	history={
 		owner = TUR
+		
 		victory_points = {
-			11747 15
-		}
-		victory_points = {
-			804 5 
-		}
-		victory_points = {
-			3951 1
+			11747 10 
 		}
 		buildings = {
 			infrastructure = 4

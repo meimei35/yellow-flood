@@ -1,0 +1,24 @@
+state=
+{
+	id=856
+	name="STATE_856"
+	manpower = 34630
+
+	state_category = rural
+
+	history = {
+		owner = SCU
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = SCU
+
+		victory_points = {
+			197 1
+		}
+	}
+
+	provinces={
+		52 6082 13105 6186 11056 3061 9183 11138 9073
+	}
+}

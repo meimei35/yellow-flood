@@ -9,24 +9,22 @@ state={
 	history={
 		owner = AFG
 		buildings = {
-			infrastructure = 1
-			industrial_complex = 1
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
 
 		}
 		victory_points = {
-			12248 1 
-		}
-		victory_points = {
-			4893 1 
+			10737 5
 		}
 		add_core_of = AFG
 
 	}
 
 	provinces={
-		4893 7448 7584 7916 7984 10476 10852 10896 12248 12877 
+		1995 2078 5064 5082 7916 8053 8090 10737 10789 10826 12769 12788 12831
 	}
-	manpower=1637140
+	manpower=4637140
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
 }

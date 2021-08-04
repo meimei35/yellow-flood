@@ -2,12 +2,15 @@
 state={
 	id=527
 	name="STATE_527"
+	resources={
+		tungsten=2.000
+	}
 
 	history={
 		owner = KOR
 		buildings = {
 			infrastructure = 3
-			industrial_complex = 2
+			industrial_complex = 1
 
 		}
 		add_core_of = KOR
@@ -15,9 +18,9 @@ state={
 	}
 
 	provinces={
-		898 959 3803 3860 6822 6922 6944 11878 
+		912 978 3912 6963 9790 9795 9918 11775 11828 11835 11896 
 	}
-	manpower=1693550
+	manpower=1774200
 	buildings_max_level_factor=1.000
-	state_category=rural
+	state_category=town
 }

@@ -1,0 +1,16 @@
+state = {
+id = 877
+name = "STATE_877"
+	manpower = 1130000
+	state_category = rural
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	provinces = {
+		1018 4023 10004 11926 4177
+	}
+}

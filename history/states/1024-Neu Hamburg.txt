@@ -1,0 +1,26 @@
+state=
+{
+	id=1024
+	name="STATE_1024"
+	manpower = 1329626
+			resources={
+		steel=5
+	}
+	
+	state_category = rural
+	history=
+	{
+		owner = TON
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			4589 3 
+		}
+	add_core_of = TON
+	}
+	provinces={
+		4575 1598 4589 4604 7638 4436 1585
+		}
+}

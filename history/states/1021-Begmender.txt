@@ -1,0 +1,32 @@
+state=
+{
+	id=1021
+	name="STATE_1021"
+	manpower = 1500000
+	resources={
+		steel=24
+	}
+	
+	state_category = large_town
+
+	history = {
+		owner = BET
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 3
+		}
+		add_core_of = ETH
+		add_core_of = BET
+		add_core_of = ET1
+		add_core_of = ET2
+		victory_points = {
+			1984 1
+		}
+	}
+
+	provinces = {
+		1984 2040 2072 4954 5097 7944
+		13137
+	}
+}

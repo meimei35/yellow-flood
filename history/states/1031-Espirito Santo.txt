@@ -1,0 +1,27 @@
+state={
+	id=1031
+	name="STATE_1031"
+	manpower = 4233900
+	
+	state_category = large_town
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			10999 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			10999 1 
+		}
+	}
+
+	provinces={
+	 8190 12334 8226 12996 2153 10999 8196 11002 12909 12903 4570 
+	}
+}

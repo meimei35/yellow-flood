@@ -2,24 +2,22 @@
 state={
 	id=462
 	name="STATE_462"
+	manpower = 678000
+	
+	state_category = wasteland
 
 	history={
 		owner = SPR
-		add_core_of = SPR
 		victory_points = {
-			4108 1 
+			7069 1 
 		}
 		buildings = {
-			infrastructure = 1
-
+			infrastructure = 2
 		}
-
+		add_core_of = MOR
 	}
 
 	provinces={
-		1958 1989 4022 4108 5046 7203 7908 8046 8088 10107 10731 
+		1989 4022 4108 5046 13350 10107 
 	}
-	manpower=1865552
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

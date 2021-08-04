@@ -1,0 +1,23 @@
+state={
+	id=233
+	name="STATE_233"
+	resources={
+		chromium=35 # was: 46.000
+	}
+
+	history={
+		owner = RUS
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = RUS
+	}
+
+	provinces={
+		666 685 3667 6674 9632 9649 11609 11614
+		3682 1050 843
+	}
+	manpower=663970
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

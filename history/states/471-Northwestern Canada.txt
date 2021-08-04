@@ -1,28 +1,20 @@
 
 state={
 	id=471
-	name="STATE_471"
+	name="STATE_471" # Northwestern Canada
+	manpower = 27681
+	
+	state_category = wasteland
 
 	history={
 		owner = KAI
 		buildings = {
-			infrastructure = 4
-			industrial_complex = 2
-			arms_factory = 1
-			1799 = {
-				naval_base = 3
-
-			}
-
+			infrastructure = 1
 		}
 		add_core_of = KAI
-
 	}
 
 	provinces={
-		917 1411 1799 1872 3606 4678 5403 7869 7891 12508 12571 
+		917 1411 1799 1872 3606 4678 7869 7891 12508 12571
 	}
-	manpower=67681
-	buildings_max_level_factor=1.000
-	state_category=town
 }

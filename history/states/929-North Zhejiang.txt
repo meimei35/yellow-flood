@@ -1,0 +1,24 @@
+state = { #Qiantang
+	id = 929
+	name = "STATE_929"
+	manpower = 9625000
+	state_category = town
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			7191 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			7191 10
+		}
+	}
+	provinces = {
+		4042 7191 10014 10101 11991
+	}
+}

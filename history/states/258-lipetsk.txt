@@ -7,17 +7,15 @@ state={
 	state_category = town
 
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
 			infrastructure = 5
 		}
-		add_core_of = MUS
-		victory_points = {
-			6398 1
-		}
+		add_core_of = RUS
 	}
 
 	provinces={
-		356 3199 3291 3318 3346 6230 6317 6341 6369 6398 9339 9394 
+		356 3291 3318 3346 
+		11214 384 11337 328 11283 302
 	}
 }

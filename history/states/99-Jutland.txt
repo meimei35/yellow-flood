@@ -1,12 +1,15 @@
-
-state={
+state= {
 	id=99
 	name="STATE_99"
+	manpower = 1672235
 	resources={
-		aluminium=6.000
+		aluminium=10
 	}
+	
+	state_category = town
 
-	history={
+	history=
+	{
 		owner = SCU
 		victory_points = {
 			6364 3 
@@ -17,22 +20,15 @@ state={
 			air_base = 2
 			394 = {
 				naval_base = 3
-
 			}
 			6364 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = SCU
-
 	}
-
-	provinces={
-		316 394 399 3206 3277 3341 6235 6364 
+	provinces=
+	{
+		316 394 3206 3341 6235 6364 3277 399
 	}
-	manpower=1672235
-	buildings_max_level_factor=1.000
-	state_category=town
 }

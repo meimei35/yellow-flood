@@ -1,0 +1,27 @@
+state={
+	id=945
+	name="STATE_945" 
+	manpower = 798292
+	
+	state_category = rural
+
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		victory_points = {
+			4696 1 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			arms_factory = 1
+					13267 = {
+				naval_base = 1
+			}
+	}
+}
+	provinces={
+		13268 4696 13267 13269 13270 1833 4584 13271
+	}
+}

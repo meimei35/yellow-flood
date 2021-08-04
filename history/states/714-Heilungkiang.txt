@@ -1,22 +1,20 @@
-
 state={
 	id=714
 	name="STATE_714"
+	manpower = 1131008
+
+	state_category = pastoral
 
 	history={
 		owner = KOR
 		add_core_of = KOR
 		buildings = {
 			infrastructure = 4
-
 		}
 
 	}
 
 	provinces={
-		1545 1588 1645 1693 1732 1847 4506 4561 4592 4633 4649 4876 7526 7582 7613 7767 7832 7873 7897 10368 10379 10698 12485 12548 12618 
+		1588 1693 1847 4592 7613 7767 7832 7848 7897 10675 10698 12548 12618 10541 12537 4809 7873 1732 1545 10368
 	}
-	manpower=3694191
-	buildings_max_level_factor=1.000
-	state_category=pastoral
 }

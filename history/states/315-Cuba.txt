@@ -1,36 +1,30 @@
-
-state={
+state= {
 	id=315
-	name="STATE_315"
+	name="Havana"
+	manpower = 2007919
 	resources={
-		steel=3.000
-		chromium=90.000
+		chromium=90 # was: 160
 	}
+	
+	state_category = town
 
-	history={
-		owner = KUB
+	history= {
+		owner = UPK
 		buildings = {
-			infrastructure = 4
-			arms_factory = 1
-			industrial_complex = 3
+			infrastructure = 3
+			industrial_complex = 2
 			air_base = 1
 			7622 = {
 				naval_base = 3
-
 			}
-
 		}
-		add_core_of = KUB
+		add_core_of = UPK
 		victory_points = {
 			7622 5 
 		}
 
 	}
-
 	provinces={
-		4600 7451 7622 10374 10498 
+		4600 7451 7622 10374 10498
 	}
-	manpower=2407919
-	buildings_max_level_factor=1.000
-	state_category=town
 }

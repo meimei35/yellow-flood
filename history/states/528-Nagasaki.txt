@@ -1,22 +1,23 @@
 
 state={
 	id=528
-	name="STATE_528" # Kyushu
-	manpower = 9069000
+	name="STATE_528" # Hokubu Kyushu
+	manpower = 5262863
 	state_category = large_city
 	resources={
-		chromium=52 # was: 88
+		steel=40
+		chromium=15
 	}
 
 	history={
 		owner = JAP
 		add_core_of = JAP
 		buildings = {
-			infrastructure = 7
-			air_base = 3
+			infrastructure = 6
+			air_base = 2
 			dockyard = 4
-			arms_factory = 2
-			industrial_complex = 2
+			arms_factory = 3
+			industrial_complex = 1
 			9950 = {
 				naval_base = 6
 
@@ -24,24 +25,16 @@ state={
 
 		}
 		victory_points = {
-			1025 10 
+			1025 10
 		}
 		victory_points = {
-			4102 15 
+			9950 20
 		}
-		victory_points = {
-			9950 30
-		}
-		1939.1.1 = {
-			buildings = {
-				dockyard = 4
-				industrial_complex = 3
-			}
-		}
+
 
 	}
 
 	provinces={
-		1020 1025 1158 1183 4027 4102 4164 4198 7110 7178 9950 10011 10020 10092 11925 11949 12006 12032 
+		4027 10020 10092 1025 7110 4164 1158 9950 11925
 	}
 }

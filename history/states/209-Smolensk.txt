@@ -2,23 +2,23 @@
 state={
 	id=209
 	name="STATE_209" # Pskov
-	manpower = 639587
-	
+	manpower = 514852
+
 	state_category = town
 
 	history={
-		owner = MUS
+		owner = RUS
 		victory_points = {
 			11202 3
 		}
 		buildings = {
-			infrastructure = 6
+			infrastructure = 5
 			air_base = 4
 		}
-		add_core_of = MUS
+		add_core_of = RUS
 	}
 
 	provinces={
-		95 415 3053 3310 6324 9120 9319 9408 11097 11202 11304 11392 
+		415 3310 6324 11202 11392 3333 6242 9254  
 	}
 }

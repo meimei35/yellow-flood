@@ -1,0 +1,20 @@
+state={
+	id=1044
+	name="STATE_1044"
+
+	history={
+		owner = UPK
+		victory_points = {
+			6897 1
+		}
+		buildings = {
+			infrastructure = 4
+		}
+	}
+	provinces={
+		10573 7821 6897 1972 10645 7818 7764 7684 7999 12552 9792
+	}
+	manpower=84321
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

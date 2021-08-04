@@ -1,0 +1,37 @@
+state={
+	id=833
+	name="STATE_833"
+	manpower = 3000000
+
+	state_category = town
+
+	resources={
+		rubber=70
+		oil=6
+		aluminium=10
+	}
+
+
+	history=
+	{
+		owner = VIN
+		victory_points = {
+			4652 1
+		}
+		add_core_of = VIN
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			4652 = {
+				naval_base = 3
+			}
+			1648 = {
+				naval_base = 1
+			}
+
+		}
+	}
+	provinces={
+		 7658 12488 10509 1648 8360 4652 10522 1428 7673 4446 12302 1460 7327 7463 1277 10354 12181 10209 12168 12343 10382 12126
+	}
+}

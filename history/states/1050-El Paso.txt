@@ -1,0 +1,31 @@
+state={
+	id=1050
+	name="STATE_1050"
+	manpower = 52100
+	
+	
+	state_category = rural
+	
+	resources={
+		oil=60 # was: 580
+		aluminium=10 # was: 96
+	}
+
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+		}
+		add_core_of = UPK
+		victory_points = {
+			12782 1 
+		}
+
+	}
+
+	provinces={
+		10894 5038 1954 10740
+	}
+}

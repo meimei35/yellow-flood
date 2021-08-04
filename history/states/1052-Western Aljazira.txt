@@ -1,0 +1,19 @@
+state={
+	id=1052
+	name="STATE_1052"
+	manpower = 41025
+	
+	state_category = wasteland
+
+	history={
+		owner = SYR
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SYR
+	}
+
+	provinces={
+		2013 3942 7513 10383 12316 12442
+	}
+}

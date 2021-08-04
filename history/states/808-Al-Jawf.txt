@@ -1,0 +1,18 @@
+state={
+	id=808
+	name="STATE_808" #Al Jawf
+	state_category = wasteland
+	provinces={
+		4562 11976 4603 1544 4440 8101 10815 4974 12879 10744 4951 1631
+		12413 12839
+	}
+	history={
+		owner = SAU
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SAU
+
+	}
+	manpower=23174
+}

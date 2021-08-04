@@ -1,7 +1,38 @@
 From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
-6361;6120;sea;2333;-1;-1;-1;-1;;Bornholm-Scania Bridge
-1399;13266;sea;5488;-1;-1;-1;-1;;Kuril-Kamchatka Strait
-4985;5074;sea;2776;-1;-1;-1;-1;;Red Sea Bridge
+2919;2666;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;The Hormuz Strait West
+2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;The Hormuz Strait East
+2800;2776;;-1;-1;-1;-1;-1;BAB_EL_MADEB;Bab el-Mandeb Strait
+
+6130;6208;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9178;6055;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains | Bear was here 2019/09/22
+101;6055;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+190;58;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9126;58;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+11058;6214;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9175;6214;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+173;6152;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9095;6111;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9095;9208;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9069;3098;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+6173;11173;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+115;11173;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+3111;11118;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+6114;9227;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+102;6204;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+3180;6204;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+3048;6111;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+11113;111;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+3183;111;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9175;11026;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+6130;3145;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+9170;3059;impassable;-1;-1;-1;-1;-1;;Scandinavia Mountains
+
+6680;3660;impassable;-1;-1;-1;-1;-1;;The Alps
+9620;9618;impassable;-1;-1;-1;-1;-1;;The Alps
+11604;9618;impassable;-1;-1;-1;-1;-1;;The Alps
+636;6635;impassable;-1;-1;-1;-1;-1;;The Alps
+3612;9587;impassable;-1;-1;-1;-1;-1;;The Alps
+
 12251;10321;sea;8313;-1;-1;-1;-1;;Andaman
 7413;1419;sea;5294;-1;-1;-1;-1;;Moluccas
 10141;1419;sea;5267;-1;-1;-1;-1;;Moluccas
@@ -142,6 +173,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1996;5018;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;8041;impassable;-1;-1;-1;-1;-1;;Himalayas
 1996;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
+4318;5102;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;8029;impassable;-1;-1;-1;-1;-1;;Himalayas
 1898;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
 3989;1961;impassable;-1;-1;-1;-1;-1;;Himalayas
@@ -176,5 +208,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 4391;4828;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;1703;impassable;-1;-1;-1;-1;-1;;pamir mountains
 4391;12526;impassable;-1;-1;-1;-1;-1;;pamir mountains
-3314;6336;sea;2752;2885;1578;2890;1581;;Afsluitdijk
+
 -1;-1;;-1;-1;-1;-1;-1;-1

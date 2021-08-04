@@ -6,17 +6,19 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = CHK
+		owner = BRA
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = CHK
-
+		add_core_of = BRA
+		victory_points = {
+			12939 1 
+		}
 	}
 
 	provinces={
-		2142 2147 2204 8175 11010 12939 
+	 2147 2204 8175 12939 
 	}
 	manpower=120000
 	buildings_max_level_factor=1.000

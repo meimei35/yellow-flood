@@ -1,0 +1,24 @@
+state={
+	id=1066
+	name="STATE_1066"
+	manpower = 26239
+	
+	state_category = city
+	resources={
+	}
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 10
+		}
+		add_core_of = UPK
+		victory_points = {
+			13396 5
+		}
+	}
+
+	provinces={
+	 13396 
+	}
+}

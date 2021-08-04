@@ -1,0 +1,27 @@
+state= {
+	id=927
+	name="STATE_927"
+	manpower = 1508630
+	state_category = city
+	history=
+	{
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+			dockyard = 1
+			4196 = {
+				naval_base = 3
+				coastal_bunker = 1
+				bunker = 1
+			}
+		}
+		victory_points = {
+			4196 5
+		}
+	}
+	provinces={
+		4196
+	}
+}

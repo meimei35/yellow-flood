@@ -1,22 +1,24 @@
 
 state={
 	id=654
-	name="STATE_654"
+	name="STATE_654" #Gorno-Altaysk
 
 	history={
-		owner = MUS
+		owner = MON
+		add_core_of = MON
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = MUS
-
+		victory_points = {
+			1779 1
+		}
 	}
 
 	provinces={
-		1702 1749 1779 1864 4781 4800 7680 7819 7822 7890 10531 10713 11410 12427 12509 12528 12594 
+		1702 1779 4800 7680 7822 10531 12528
 	}
-	manpower=153510
+	manpower=403510
 	buildings_max_level_factor=1.000
 	state_category=pastoral
 }

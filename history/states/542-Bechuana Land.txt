@@ -2,27 +2,24 @@
 state={
 	id=542
 	name="STATE_542"
+	manpower = 234000
+	
+	state_category = wasteland
+	
 	resources={
-		chromium=90.000
+		chromium=90 # was: 168
 	}
 
 	history={
-		owner = SMO
+		owner = ENG
 		buildings = {
 			infrastructure = 1
-
 		}
-		add_core_of = SMO
-		victory_points = {
-			8214 1 
-		}
+		add_core_of = BOT
 
 	}
 
 	provinces={
-		1580 8214 12940 12963 
+		1580 8214 10525 12940 12963 13299 13300 13301 13302 13303 13304 13305 13306 13307 13308 13309 13310 13311 13312 13313 13314 13315 13316 13317 13318 13319
 	}
-	manpower=234000
-	buildings_max_level_factor=1.000
-	state_category=wasteland
 }

@@ -1,0 +1,23 @@
+state={
+	id=1000
+	name="STATE_1000"
+
+	state_category = rural
+
+	history={
+		owner = KIV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = KIV
+		add_core_of = CFS
+		add_core_of = PCN
+		add_core_of = NBE
+
+	}
+
+	provinces={
+		12907 7161 10766 8048 1950
+	}
+	manpower=2230778
+}

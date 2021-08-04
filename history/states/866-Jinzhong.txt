@@ -1,0 +1,25 @@
+state = { #Central Shanxi
+	id = 866
+	name = "STATE_866"
+	manpower = 3518000
+	state_category = city
+	resources={
+		steel=6
+	}
+	history = {
+		owner = SIR
+
+		add_core_of = SIR
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+		}
+		victory_points = {
+			4174 10
+		}
+	}
+	provinces = {
+		4174
+	}
+}

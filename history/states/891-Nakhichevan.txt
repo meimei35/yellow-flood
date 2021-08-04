@@ -1,0 +1,23 @@
+
+state={
+	id=891
+	name="STATE_891"
+	manpower = 141981
+
+	state_category = pastoral
+
+	history={
+		owner = ARM
+		add_core_of = ARM
+		add_core_of = AZR
+		add_core_of = RUS
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		6997
+	}
+}

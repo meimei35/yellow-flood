@@ -1,36 +1,25 @@
-
-state={
+state= {
 	id=183
 	name="STATE_183"
+	manpower = 347959
+	
+	state_category = rural
 	resources={
-		chromium=3.000
+		chromium=3 # was: 4
 	}
 
 	history={
-		owner = TUR
-		add_core_of = TUR
-		victory_points = {
-			11984 5 
-		}
-		victory_points = {
-			7193 3 
-		}
+		owner = JAP
 		buildings = {
 			infrastructure = 4
 			air_base = 1
-			7193 = {
+			11984 = {
 				naval_base = 2
-
 			}
-
 		}
-
+		victory_points = {
+			11984 1
+		}
 	}
-
-	provinces={
-		7193 11984 
-	}
-	manpower=347959
-	buildings_max_level_factor=1.000
-	state_category=rural
+	provinces= { 7193 11984 }
 }

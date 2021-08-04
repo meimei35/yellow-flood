@@ -4,7 +4,7 @@ state={
 	name="STATE_544"
 
 	history={
-		owner = SIR
+		owner = POR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,12 +21,12 @@ state={
 		victory_points = {
 			8245 1 
 		}
-		add_core_of = BAE
+		add_core_of = MZB
 
 	}
 
 	provinces={
-		2123 2159 2202 2217 10972 
+		2120 2123 2159 2180 2193 2202 2217 5155 5164 5177 5212 8245 10972 12935 12950 12971 
 	}
 	manpower=4125000
 	buildings_max_level_factor=1.000

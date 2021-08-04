@@ -7,8 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = KOR
-		add_core_of = RAJ
+		owner = ORI
 		buildings = {
 			infrastructure = 5
 			10149 = {

@@ -1,0 +1,21 @@
+
+state={
+	id=993
+	name="STATE_993" 
+	manpower = 12000
+
+	state_category = rural
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = AFG
+		add_core_of = DIN
+	}
+
+	provinces={
+		5075 8013 12761
+	}
+}

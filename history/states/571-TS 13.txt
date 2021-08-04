@@ -1,26 +1,24 @@
 
 state={
 	id=571
-	name="STATE_571"
+	name="STATE_571" # Omsk
+	manpower = 1629649
 
+	state_category = town
 	history={
-		owner = MUS
+		owner = RUS
 		buildings = {
-			infrastructure = 4
+			infrastructure = 3
 			arms_factory = 1
-
 		}
 		victory_points = {
-			10696 3 
+			10696 3
 		}
-		add_core_of = MUS
-
+		add_core_of = RUS
+		#add_core_of = KAZ
 	}
 
 	provinces={
-		1709 1800 4700 4780 7800 10568 10600 12652 
+		1294 1309 1391 1418 1662 1694 1709 1775 1800 4780 4850 7741 7800 7874 10568 10696 12185 12521 12546 12619 
 	}
-	manpower=1317157
-	buildings_max_level_factor=1.000
-	state_category=town
 }

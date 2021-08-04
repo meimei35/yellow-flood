@@ -3,23 +3,30 @@ state={
 	id=742
 	name="STATE_742"
 
+	resources={
+		tungsten = 6
+		chromium = 2
+	}
+
 	history={
-		owner = MUS
+		owner = AFG
 		victory_points = {
-			1384 1 
+			1384 3
 		}
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = MUS
+		add_core_of = AFG
+
 
 	}
 
 	provinces={
-		1483 2058 4467 4542 4923 5062 7224 8027 10417 12250 12370 12430 12581 12805 
+		4542 7224 8027 10417 12218 12250 12805
+		1384
 	}
-	manpower=230000
+	manpower=682970
 	buildings_max_level_factor=1.000
 	state_category=wasteland
 }

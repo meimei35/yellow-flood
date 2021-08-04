@@ -2,12 +2,12 @@
 state={
 	id=29
 	name="STATE_29"
-	manpower = 2976400
-	
+	manpower = 4556400
+
 	state_category = large_city
 	resources={
-		steel=42 # was: 112
-		aluminium=8 # was: 22
+		steel=62 # was: 112
+		aluminium=12 # was: 22
 	}
 
 	history={
@@ -23,7 +23,8 @@ state={
 		}
 		buildings = {
 			infrastructure = 8
-			industrial_complex = 3
+			industrial_complex = 4
+			arms_factory = 2
 			air_base = 10
 			575 = {
 				naval_base = 6
@@ -38,6 +39,6 @@ state={
 	}
 
 	provinces={
-		575 3476 3536 6504 9500 11483 11548 11606 
+		575 3476 3536 6504 9500 11483 11606 
 	}
 }

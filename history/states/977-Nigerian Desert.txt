@@ -1,0 +1,21 @@
+
+state={
+	id=977
+	name="Nigerian desert"
+	manpower = 95305
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = TUA
+		add_core_of = TUA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1956 4913 7939 8128 10917 2068
+	}
+}

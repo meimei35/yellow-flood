@@ -1,0 +1,25 @@
+state={
+	id=803
+	name="STATE_803"
+	state_category = city
+	provinces={
+		1526 1652 2157 2191 5175 7453 8130 8200 8228 8243 10949 10969 10983 10997 11011 12948 12962 12976 12990
+	}
+history={
+		owner = VIN
+		victory_points = {
+			1652 5
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 1
+			1652 = {
+			naval_base = 2
+			}
+		}
+		add_core_of = VIN
+
+	}
+	manpower=347221
+	buildings_max_level_factor=1.000
+}

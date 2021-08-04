@@ -2,12 +2,17 @@
 state={
 	id=763
 	name="STATE_763"
+	manpower = 2140234
+	state_category = city
 
 	history={
-		owner = PRE
+		owner = PRS
+		controller = PRS
+
 		victory_points = {
-			6332 10 
+			6332 15
 		}
+
 		buildings = {
 			infrastructure = 6
 			industrial_complex = 2
@@ -21,23 +26,13 @@ state={
 
 			}
 			air_base = 6
-
 		}
-		add_core_of = PRE
-		1939.1.1 = {
-			buildings = {
-				anti_air_building = 5
-
-			}
-
-		}
+		add_core_of = PRS
+		add_core_of = GER
 
 	}
 
 	provinces={
-		281 348 395 3384 6332 11265 
+		281 348 395 3384 6332 11265
 	}
-	manpower=2140234
-	buildings_max_level_factor=1.000
-	state_category=city
 }

@@ -1,0 +1,24 @@
+state= {
+	id=892
+	name="STATE_892" # Hunan
+	manpower = 8281467
+	resources={
+		tungsten=16
+	}
+	state_category = town
+	history= {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 3
+		}
+
+		victory_points = {
+			7159 1
+		}
+
+	}
+	provinces={
+		1448 4125 7159 9982 11918 12350 12378
+	}
+}

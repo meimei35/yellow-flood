@@ -1,0 +1,21 @@
+
+state={
+	id=933
+	name="STATE_933"
+	manpower = 253130
+
+	state_category = town
+
+	history={
+		owner = LIT
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+		}
+		add_core_of = LIT
+	}
+
+	provinces={
+		6407 3272 3254 11312 6281
+	}
+}

@@ -1,0 +1,22 @@
+state = {
+	id = 880 # Lang Son
+	name = "STATE_880"
+
+	history = {
+		owner = VIN
+		add_core_of = VIN
+		victory_points = {
+			9948 5 # Lang Son
+		}
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	provinces = {
+		1073 1157 7015 7093 7518 9948 12008 12048 12065 1469 4121 4656
+	}
+	manpower = 3128000
+	buildings_max_level_factor = 1
+	state_category = rural
+}

@@ -1,0 +1,29 @@
+state=
+{
+	id=1019
+	name="STATE_1019"
+	manpower = 1500000
+	resources={
+		chromium=15
+		steel=7
+	}
+	
+	state_category = town
+
+	history=
+	{
+		owner = ET1
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 1
+		}
+		add_core_of = ETH
+		add_core_of = ET1
+		add_core_of = ET2
+	}
+
+	provinces=
+	{
+8036 8062 10775  	}
+}

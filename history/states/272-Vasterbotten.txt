@@ -1,0 +1,31 @@
+
+state={
+	id=272
+	name="STATE_272"
+	manpower = 110000
+	resources={
+		
+	}
+	
+	state_category = pastoral
+
+	history={
+		owner = SCU
+		add_core_of = SCU
+		victory_points = {
+			6132 2 
+		}
+		buildings = {
+			infrastructure = 6
+			air_base = 4
+			6132 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		182 3113 118 11067 6132 9093 9220 11201 3100 3173 6200 109 9143 6161
+		3062 11185 6067
+	}
+}

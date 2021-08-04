@@ -2,6 +2,9 @@
 state={
 	id=465
 	name="STATE_465"
+	manpower = 475020
+
+	state_category = rural
 
 	history={
 		owner = UPK
@@ -10,18 +13,18 @@ state={
 			industrial_complex = 2
 			4285 = {
 				naval_base = 2
-
 			}
-
+		}
+		victory_points = {
+			634 5
+		}
+		victory_points = {
+			1424 3
 		}
 		add_core_of = UPK
-
 	}
 
 	provinces={
-		634 1282 1338 1424 1619 4285 4287 4342 4432 10247 12221 12289 
+		634 1424 4285 4342 4362 4432 7379 12289
 	}
-	manpower=475020
-	buildings_max_level_factor=1.000
-	state_category=rural
 }

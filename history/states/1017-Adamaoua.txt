@@ -1,0 +1,27 @@
+
+state={
+	id=1017
+	name="STATE_1017" # Adamaoua
+	manpower = 5782
+	
+	state_category = rural
+
+	history={
+		owner = NGA
+		#add_core_of = CMR
+
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			air_base = 1
+			6039 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		 6039 7963 9137 
+	}
+}

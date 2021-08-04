@@ -1,0 +1,26 @@
+state={
+	id=806
+	name="STATE_806"
+
+	state_category = rural
+
+	history={
+		owner = UPK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			3208 = {
+				naval_base = 1
+			}
+
+		}
+
+		add_core_of = UPK
+
+	}
+
+	provinces={
+		12147 7364 3208 10176 490 6740 4666 1657 13196 13164 13162 13181 13166 13184 13186
+	}
+	manpower=17700
+}

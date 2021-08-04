@@ -1,0 +1,31 @@
+
+state={
+	id=1067
+	name="STATE_1067"
+	manpower = 1300000
+		resources={
+		chromium= 60
+		oil= 8
+		steel= 4
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = KOR
+		add_core_of = MAG
+		victory_points = {
+			5222 1
+		}
+		buildings = {
+			infrastructure = 3
+			5222 = {
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces={
+		5222 8188 13387 5185 11015 13386 8180
+	}
+}

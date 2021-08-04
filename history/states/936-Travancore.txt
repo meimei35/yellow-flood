@@ -1,0 +1,32 @@
+state={
+	id=936
+	name="STATE_936"
+	provinces={
+		1238 1321 7288 7402 7447 10130 10274 12275 
+	}
+	manpower=6070018
+	buildings_max_level_factor=4.000
+
+		state_category = rural
+
+		resources={
+		rubber=22
+
+			}
+
+	history={
+	  owner = ORI
+	  add_core_of = ORI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			1238 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			1321 1
+		}
+
+}

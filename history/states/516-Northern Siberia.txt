@@ -3,20 +3,23 @@ state={
 	id=516
 	name="STATE_516"
 
+	state_category = wasteland
+	impassable = yes
+
 	history={
-		owner = GUK
+		owner = RUS
 		buildings = {
 			infrastructure = 1
 
 		}
-		add_core_of = GUK
+		add_core_of = RUS
 
 	}
 
 	provinces={
-		2900 2923 2972 3184 3336 4692 4859 10607 11122 11261 11328 13060 13064 13297 13298 
+		96 2900 2923 2972 3336 4692 4733 4812 4859 9224 10564 10607 10635 11122 11261 11328 12643 12687 13064 13065 
 	}
-	manpower=43948
+	manpower=32948
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=wasteland
 }

@@ -2,15 +2,18 @@
 state={
 	id=384
 	name="STATE_384"
+	manpower = 1377962
+	
+	state_category = large_town
 
 	history={
 		owner = UPK
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 1
-
 		}
 		add_core_of = UPK
+		
 		victory_points = {
 			12586 1 
 		}
@@ -18,9 +21,6 @@ state={
 	}
 
 	provinces={
-		1683 1875 3613 3855 4749 4794 7745 7771 7840 7852 12516 12586 
+		1683 3613 3708 3855 4749 4760 4830 7840 7852 10606 10676 12516 12586 
 	}
-	manpower=1377962
-	buildings_max_level_factor=1.000
-	state_category=large_town
 }

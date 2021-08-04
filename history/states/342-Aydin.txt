@@ -4,14 +4,14 @@ state={
 	name="STATE_342" # Antalya
 	manpower = 362689
 	resources={
-		chromium=35 # was: 46
+		chromium=46
 	}
 	state_category = rural
 
 	history={
 		owner = TUR
 		victory_points = {
-			1005 1 
+			1005 3
 		}
 		buildings = {
 			infrastructure = 3

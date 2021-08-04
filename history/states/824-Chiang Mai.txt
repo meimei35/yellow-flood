@@ -1,0 +1,31 @@
+
+state={
+	id=824
+	name="STATE_824"
+	resources={
+		tungsten=2.000
+	}
+
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+
+		victory_points = {
+			7353 1
+		}
+		add_core_of = VIN
+
+	}
+
+	provinces={
+		1253 1488 1990 4496 7312 7353 7492 7531 7544 7559 7572 7675 8045 10371 10398 10411 12345
+	}
+	manpower=3280000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

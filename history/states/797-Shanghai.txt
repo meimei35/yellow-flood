@@ -1,0 +1,32 @@
+
+state={
+	id=797
+	name="STATE_797" # Shanghai
+	manpower = 2300946
+
+	state_category = metropolis
+
+	history={
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 9
+			industrial_complex = 1
+			dockyard = 1
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 2
+			}
+		}
+		victory_points = {
+			7014 25
+		}
+
+
+	}
+
+	provinces = {
+		7014 12076
+	}
+}

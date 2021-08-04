@@ -1,0 +1,29 @@
+
+state={
+	id=947
+	name="STATE_947" 
+	manpower = 341631
+
+	state_category = town
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 1
+			12589 = {
+				naval_base = 4
+			}
+		}
+		victory_points = {
+			12589 10 
+		}
+		add_core_of = SAF
+	}
+
+	provinces={
+		12589
+	}
+}

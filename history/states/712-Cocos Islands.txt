@@ -6,8 +6,7 @@ state={
 	
 	history=
 	{
-		owner = RIN
-		add_core_of = RIN
+		owner = ENG
 		buildings = {
 			infrastructure = 3
 			13002 = {

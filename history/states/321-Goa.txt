@@ -7,8 +7,7 @@ state={
 	state_category = enclave
 
 	history={
-		owner = SIR
-		add_core_of = RAJ
+		owner = KOR
 		victory_points = {
 			1273 1 
 		}

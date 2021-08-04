@@ -1,0 +1,16 @@
+state = {
+	id = 863
+	name = "STATE_863"
+	manpower = 5565500
+	state_category = town
+	history = {
+		owner = MIN
+		add_core_of = MIN
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	provinces = {
+		1096 1168 7058 10058
+	}
+}

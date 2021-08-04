@@ -12,19 +12,19 @@ state={
 	}
 
 	history={
-		owner = MUS
+		owner = RUS
 		victory_points = {
 			9355 10
 		}
 		buildings = {
 			infrastructure = 5
-			industrial_complex = 1
 			air_base = 4
 		}
-		add_core_of = MUS
+		add_core_of = RUS
 	}
 
 	provinces={
-		302 328 384 6355 9328 9355 9384 9411 11214 11283 11310 11337 11368 
+		6355 9328 9355 9384 9411 11310 11368
+		3226 6305 3335 6411 6386 3306 6330 288 3364 398 3390 
 	}
 }

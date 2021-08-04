@@ -1,0 +1,24 @@
+state={
+	id=881
+	name="STATE_881"
+	manpower=1349453
+
+	state_category = rural
+
+	history={
+		owner = KOR
+		add_claim_by = KOR
+		victory_points = {
+			7663 5
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 4
+		}
+	}
+
+	provinces={
+		4503 4633 7523 7591 7652 7663 9782 9913 11744 11864 12412
+	}
+	buildings_max_level_factor=1.000
+}

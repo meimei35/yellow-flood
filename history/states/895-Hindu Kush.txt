@@ -1,0 +1,20 @@
+
+state={
+	id=895
+	name="STATE_895" # Quetta
+	manpower = 223421
+
+	state_category = wasteland
+
+	history={
+		owner = DIN
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = DIN
+	}
+
+	provinces={
+		1107 4990 7847 7903 10813
+	}
+}

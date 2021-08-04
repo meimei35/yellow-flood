@@ -1,0 +1,25 @@
+
+state={
+	id=980
+	name="Pulo Condore Island"
+	resources={
+		
+	}
+
+	history={
+		owner = VIN
+		buildings = {
+			infrastructure = 4
+			13353 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = VIN
+	}
+
+	provinces={
+		13353
+	}
+	manpower=12375
+	state_category=small_island
+}

@@ -1,15 +1,14 @@
-
 state={
 	id=231
 	name="STATE_231"
 
 	history={
-		owner = MUS
+		owner = RUS
 		victory_points = {
-			1599 5 
+			1599 5
 		}
 		victory_points = {
-			3653 3 
+			3653 3
 		}
 		buildings = {
 			infrastructure = 3
@@ -22,13 +21,20 @@ state={
 			}
 
 		}
-		add_core_of = MUS
-		add_core_of = GEO
+		
+		add_core_of = RUS
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 3
+
+			}
+
+		}
 
 	}
 
 	provinces={
-		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 6763 9626 9702 11599 11617 12309 
+		654 672 772 1530 1599 3653 3656 3658 4534 4605 6436 6669 6671 6763 9626 9702 11599 12309 13337
 	}
 	manpower=2949413
 	buildings_max_level_factor=1.000
