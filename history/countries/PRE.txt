@@ -11,9 +11,9 @@ set_popularities = {
 }
 #LEADERS
 create_country_leader = {
-	name = "Kurt von Schleicher"
+	name = "Ernst Röhm"
 	desc = ""
-	picture = "sternberh.dds"
+	picture = "big_fat_gayboy.tga"
 	expire = "1999.1.1"
 	ideology = ultranational_socialism_subtype
 }
