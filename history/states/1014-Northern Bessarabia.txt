@@ -8,7 +8,7 @@ state=
 
 	history=
 	{
-		owner = MOL
+		owner = UKR
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1

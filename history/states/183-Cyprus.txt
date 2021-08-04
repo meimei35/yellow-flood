@@ -9,7 +9,7 @@ state= {
 	}
 
 	history={
-		owner = JAP
+		owner = GRE
 		buildings = {
 			infrastructure = 4
 			air_base = 1
@@ -17,6 +17,7 @@ state= {
 				naval_base = 2
 			}
 		}
+		add_core = JAP
 		victory_points = {
 			11984 1
 		}
