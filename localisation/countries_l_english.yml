@@ -48,7 +48,7 @@
  JAP:0 "Nihon Empire"
  KOR:0 "Samhan Empire" 
  RME:0 "Chinese Worker's Army"
- MIN:0 "Jyut Hon Republic"
+ MIN:0 "Ming Empire"
  SIR:0 "Jin Imperial Government"
  MNG:0 "Su Han"
  YUN:0 "Yunnan"
@@ -64,10 +64,9 @@
  ###############
  # Middle East #
  ###############
- TUR:0 "Rimskaya imperiya"
- AEG:0 "Kingdom of Egypt"
- PER:0 "Persian Empire"
- ASS:0 "Arabia"
+ TUR:0 "Latin Empire"
+ EGY:0 "Yegipetskaya Imperiya"
+ PER:0 "Persian Empire" 
  ##########
  # Europe #
  ##########
