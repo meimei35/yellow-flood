@@ -8,7 +8,7 @@ state={
 		oil=10
 	}
 	history={
-		owner = KUR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 		}
@@ -18,7 +18,7 @@ state={
 		victory_points = {
 			3916 1
 		}
-		add_core_of = KUR
+		add_core_of = TUR
 	}
 
 	provinces={

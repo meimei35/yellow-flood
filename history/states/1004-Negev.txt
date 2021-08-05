@@ -7,15 +7,13 @@ state={
 	state_category = rural
 
 	history={
-		owner = SYR
+		owner = TUR
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 0
 			air_base = 2
 		}
-		add_core_of = PAL
-		add_core_of = ISR
-		add_core_of = SYR
+		add_core_of = TUR
 	}
 
 	provinces = {

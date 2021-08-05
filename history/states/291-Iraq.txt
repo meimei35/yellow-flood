@@ -11,7 +11,7 @@ state={
 	}
 
 	history={
-		owner = IRQ
+		owner = TUR
 		victory_points = {
 			2097 15
 		}
@@ -33,7 +33,7 @@ state={
 				naval_base = 1
 			}
 		}
-		add_core_of = IRQ
+		add_core_of = TUR
 	}
 
 	provinces={
