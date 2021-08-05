@@ -7,7 +7,7 @@ state={
 	state_category = city
 
 	history={
-		owner = ENG
+		owner = BRI
 		victory_points = {
 			3552 20
 		}
@@ -35,7 +35,7 @@ state={
 			}
 		}
 		add_core_of = FRA
-		add_core_of = BRT
+		add_core_of = BRI
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5
