@@ -6,14 +6,14 @@ state={
 	state_category = pastoral
 
 	history={
-		owner = RUS
+		owner = SCU
 		buildings = {
 			infrastructure = 3
 			9140 = {
 				naval_base = 1
 			}
 		}
-		add_core_of = RUS
+		add_core_of = SCU
 
 	}
 

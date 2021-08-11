@@ -6,7 +6,7 @@ state={
 	state_category = city
 
 	history={
-		owner = RUS
+		owner = SCU
 		victory_points = {
 			9340 5
 		}
@@ -19,7 +19,7 @@ state={
 			}
 		}
 		add_core_of = LAT
-		add_core_of = WRU
+		add_core_of = SCU
 	}
 
 	provinces={

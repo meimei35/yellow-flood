@@ -7,17 +7,17 @@ state={
 	state_category = town
 
 	history = {
-		owner = YUG
+		owner = ALB
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
 		}
 		add_core_of = YUG
-		add_core_of = MNT
+		add_core_of = ALB
 		add_core_of = SER
 	}
 
 	provinces={
-		6940 9849 3922
+		6940 9849 6913 9874
 	}
 }

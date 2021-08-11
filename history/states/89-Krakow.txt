@@ -6,7 +6,7 @@ state={
 	state_category = town
 	
 	history={
-		owner = UKR
+		owner = POL
 		buildings = {
 			infrastructure = 5
 			air_base = 3
